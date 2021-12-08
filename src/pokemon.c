@@ -7821,18 +7821,16 @@ void SetWildMonHeldItem(void)
                 || GetMonAbility(&gPlayerParty[0]) == ABILITY_SUPER_LUCK))
         {
             chanceNoItem = 20;
-            chanceNotRare = 80;
+            chanceCommon = 80;
         }
 
         for (i = 0; i < count; i++)
         {
             if (GetMonData(&gEnemyParty[i], MON_DATA_HELD_ITEM, NULL) != ITEM_NONE)
                 continue; // prevent ovewriting previously set item
-            
+
             rnd = Random() % 100;
             species = GetMonData(&gEnemyParty[i], MON_DATA_SPECIES, 0);
-            if (gMapHeader.mapLayoutId == LAYOUT_ALTERING_CAVE)
-            {
                 s32 alteringCaveId = GetWildMonTableIdInAlteringCave(species);
                 if (alteringCaveId != 0)
                 {
