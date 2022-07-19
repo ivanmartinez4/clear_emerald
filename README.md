@@ -26,3 +26,10 @@ Yes! Contributions are welcome via Pull Requests and they will be reviewed by ma
 A Discord-based ROM hacking community that has many members who hack using the disassembly and decompilation projects for Pokémon. Quite a few contributors to the original feature branches by DizzyEgg were members of ROM Hacking Hideout. You can call it RHH for short!
 
 [Click here to join the RHH Discord Server!](https://discord.gg/6CzjAG6GZk)
+
+LIST OF CREDITS:
+
+-Pret's team for pokeemerald.
+-Rh-hideout's team for pokeemerald-expansion.
+-Aarant for follower's system, DNS system and icons.
+
