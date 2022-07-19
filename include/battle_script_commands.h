@@ -14,6 +14,7 @@ struct StatFractions
 };
 
 s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbility);
+s32 GetTypeEffectiveness(struct Pokemon *mon, u8 moveType);
 s8 GetInverseCritChance(u8 battlerAtk, u8 battlerDef, u32 move);
 u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u32 defAbility, u32 atkHoldEffect, u32 defHoldEffect);
 u8 GetBattlerTurnOrderNum(u8 battlerId);

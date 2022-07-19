@@ -2824,7 +2824,19 @@ void SetMoveEffect(bool32 primary, u32 certain)
         case STATUS1_TOXIC_POISON:
             if (battlerAbility == ABILITY_IMMUNITY && (primary == TRUE || certain == MOVE_EFFECT_CERTAIN))
             {
+                gLastUsedAbility = ABILITY_IMMUNITY;
                 RecordAbilityBattle(gEffectBattler, ABILITY_IMMUNITY);
+
+                BattleScriptPush(gBattlescriptCurrInstr + 1);
+                gBattlescriptCurrInstr = BattleScript_PSNPrevention;
+
+                if (gHitMarker & HITMARKER_IGNORE_SAFEGUARD)
+                {
+                    gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_ABILITY_PREVENTS_ABILITY_STATUS;
+                    gHitMarker &= ~HITMARKER_IGNORE_SAFEGUARD;
+                }
+                else
+                {
                     gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_ABILITY_PREVENTS_MOVE_STATUS;
                 }
                 RESET_RETURN
@@ -2975,9 +2987,9 @@ void SetMoveEffect(bool32 primary, u32 certain)
             case MOVE_EFFECT_PAYDAY:
                 if (GET_BATTLER_SIDE(gBattlerAttacker) == B_SIDE_PLAYER)
                 {
-                    u16 payday = gPaydayMoney;
+                    u16 PayDay= gPaydayMoney;
                     gPaydayMoney += (gBattleMons[gBattlerAttacker].level * 5);
-                    if (payday > gPaydayMoney)
+                    if (PayDay> gPaydayMoney)
                         gPaydayMoney = 0xFFFF;
                 }
                 BattleScriptPush(gBattlescriptCurrInstr + 1);
@@ -5056,6 +5068,13 @@ static void Cmd_moveend(void)
                 && GetBattlerSide(gBattlerAttacker) != GetBattlerSide(gBattlerTarget)
                 && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT) && TARGET_TURN_DAMAGED
                 && gBattleMoves[gCurrentMove].power && CompareStat(gBattlerTarget, STAT_ATK, MAX_STAT_STAGE, CMP_LESS_THAN))
+            {
+                gBattleMons[gBattlerTarget].statStages[STAT_ATK]++;
+                BattleScriptPushCursor();
+                gBattlescriptCurrInstr = BattleScript_RageIsBuilding;
+                effect = TRUE;
+            }
+            gBattleScripting.moveendState++;
             break;
         case MOVEEND_DEFROST: // defrosting check
             if (gBattleMons[gBattlerTarget].status1 & STATUS1_FREEZE
@@ -9689,7 +9708,7 @@ static void Cmd_setprotectlike(void)
     gBattlescriptCurrInstr++;
 }
 
-static void Cmd_faintifabilitynotdamp(void)
+static void Cmd_tryexplosion(void)
 {
     if (gBattleControllerExecFlags)
         return;
@@ -9780,6 +9799,12 @@ static void Cmd_trymirrormove(void)
             move = gBattleStruct->lastTakenMoveFrom[gBattlerAttacker][i];
             if (move != 0 && move != 0xFFFF)
             {
+                movesArray[validMovesCount] = move;
+                validMovesCount++;
+            }
+        }
+    }
+
     move = gBattleStruct->lastTakenMove[gBattlerAttacker];
     if (move != 0 && move != 0xFFFF)
     {
@@ -9792,7 +9817,7 @@ static void Cmd_trymirrormove(void)
     {
         gHitMarker &= ~HITMARKER_ATTACKSTRING_PRINTED;
         i = Random() % validMovesCount;
-        gCurrentMove = validMoves[i];
+        gCurrentMove = movesArray[i];
         gBattlerTarget = GetMoveTarget(gCurrentMove, NO_TARGET_OVERRIDE);
         gBattlescriptCurrInstr = gBattleScriptsForMoveEffects[gBattleMoves[gCurrentMove].effect];
     }
@@ -12920,7 +12945,7 @@ static void Cmd_assistattackselect(void)
     s32 chooseableMovesNo = 0;
     struct Pokemon* party;
     s32 monId, moveId;
-    u16* validMoves = gBattleStruct->assistPossibleMoves;
+    u16* movesArray = gBattleStruct->assistPossibleMoves;
 
     if (GET_BATTLER_SIDE(gBattlerAttacker) != B_SIDE_PLAYER)
         party = gEnemyParty;
@@ -12944,14 +12969,14 @@ static void Cmd_assistattackselect(void)
             if (sForbiddenMoves[move] & FORBIDDEN_ASSIST)
                 continue;
 
-            validMoves[chooseableMovesNo] = move;
+            movesArray[chooseableMovesNo] = move;
             chooseableMovesNo++;
         }
     }
     if (chooseableMovesNo)
     {
         gHitMarker &= ~HITMARKER_ATTACKSTRING_PRINTED;
-        gCalledMove = validMoves[((Random() & 0xFF) * chooseableMovesNo) >> 8];
+        gCalledMove = movesArray[((Random() & 0xFF) * chooseableMovesNo) >> 8];
         gBattlerTarget = GetMoveTarget(gCalledMove, NO_TARGET_OVERRIDE);
         gBattlescriptCurrInstr += 5;
     }
@@ -14301,4 +14326,60 @@ static bool32 CriticalCapture(u32 odds)
     #else
         return FALSE;
     #endif
+}
+
+s32 GetTypeEffectiveness(struct Pokemon *mon, u8 moveType) {
+    u16 species = GetMonData(mon, MON_DATA_SPECIES);
+    u8 type1 = gBaseStats[species].type1;
+    u8 type2 = gBaseStats[species].type2;
+    s32 i = 0;
+    u8 multiplier;
+    s32 flags = 0;
+    if (GetMonAbility(mon) == ABILITY_LEVITATE && moveType == TYPE_GROUND)
+        return MOVE_RESULT_NOT_VERY_EFFECTIVE;
+    while (TYPE_EFFECT_ATK_TYPE(i) != TYPE_ENDTABLE) {
+        if (TYPE_EFFECT_ATK_TYPE(i) == TYPE_FORESIGHT) {
+            i += 3;
+            continue;
+        }
+        else if (TYPE_EFFECT_ATK_TYPE(i) == moveType) {
+            // check type1
+            if (TYPE_EFFECT_DEF_TYPE(i) == type1)
+                multiplier = TYPE_EFFECT_MULTIPLIER(i);
+            else if (TYPE_EFFECT_DEF_TYPE(i) == type2 && type1 != type2)
+                multiplier = TYPE_EFFECT_MULTIPLIER(i);
+            else {
+                i += 3;
+                continue;
+            }
+            switch (multiplier)
+            {
+            case TYPE_MUL_NO_EFFECT:
+                flags |= MOVE_RESULT_DOESNT_AFFECT_FOE;
+                flags &= ~MOVE_RESULT_NOT_VERY_EFFECTIVE;
+                flags &= ~MOVE_RESULT_SUPER_EFFECTIVE;
+                break;
+            case TYPE_MUL_NOT_EFFECTIVE:
+                if (!(flags & MOVE_RESULT_NO_EFFECT))
+                {
+                    if (flags & MOVE_RESULT_SUPER_EFFECTIVE)
+                        flags &= ~MOVE_RESULT_SUPER_EFFECTIVE;
+                    else
+                        flags |= MOVE_RESULT_NOT_VERY_EFFECTIVE;
+                }
+                break;
+            case TYPE_MUL_SUPER_EFFECTIVE:
+                if (!(flags & MOVE_RESULT_NO_EFFECT))
+                {
+                    if (flags & MOVE_RESULT_NOT_VERY_EFFECTIVE)
+                        flags &= ~MOVE_RESULT_NOT_VERY_EFFECTIVE;
+                    else
+                        flags |= MOVE_RESULT_SUPER_EFFECTIVE;
+                }
+                break;
+            }
+        }
+        i += 3;
+    }
+    return flags;
 }

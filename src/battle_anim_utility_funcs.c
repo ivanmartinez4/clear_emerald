@@ -62,7 +62,7 @@ void AnimTask_BlendBattleAnimPalExclude(u8 taskId)
     u8 animBattlers[2];
 
     animBattlers[1] = 0xFF;
-    selectedPalettes = UnpackSelectedBattlePalettes(F_PAL_BG);
+    selectedPalettes = UnpackSelectedBattlePalettes(1);
     switch (gBattleAnimArgs[0])
     {
     case 2:
