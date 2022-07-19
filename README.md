@@ -27,9 +27,11 @@ A Discord-based ROM hacking community that has many members who hack using the d
 
 [Click here to join the RHH Discord Server!](https://discord.gg/6CzjAG6GZk)
 
-LIST OF CREDITS:
+## LIST OF CREDITS:
 
 -Pret's team for pokeemerald.
+
 -Rh-hideout's team for pokeemerald-expansion.
+
 -Aarant for follower's system, DNS system and icons.
 
