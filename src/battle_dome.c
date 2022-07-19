@@ -83,7 +83,6 @@ static void CalcDomeMonStats(u16, int, int, u8, u8, int *);
 static void CreateDomeOpponentMons(u16);
 static int SelectOpponentMons_Good(u16, bool8);
 static int SelectOpponentMons_Bad(u16, bool8);
-static int GetTypeEffectivenessPoints(int move, int species, int arg2);
 static int SelectOpponentMonsFromParty(int *, bool8);
 static void Task_ShowTourneyInfoCard(u8);
 static void Task_HandleInfoCardInput(u8);
@@ -2600,6 +2599,121 @@ static void CreateDomeOpponentMons(u16 tournamentTrainerId)
 // In the good mode movesets are preferred which are more effective against the
 // player, and in the bad mode the opposite is true. If all 3 pokemon tie, the
 // other mode will be tried. If they tie again, the pokemon selection is random.
+
+#define TYPE_x0     0
+#define TYPE_x0_25  5
+#define TYPE_x0_50  10
+#define TYPE_x1     20
+#define TYPE_x2     40
+#define TYPE_x4     80
+
+static int GetTypeEffectivenessPoints(int move, int targetSpecies, int arg2)
+{
+    int defType1, defType2, defAbility, moveType;
+    int i = 0;
+    int typePower = TYPE_x1;
+
+    if (move == MOVE_NONE || move == 0xFFFF || gBattleMoves[move].power == 0)
+        return 0;
+
+    defType1 = gBaseStats[targetSpecies].type1;
+    defType2 = gBaseStats[targetSpecies].type2;
+    defAbility = gBaseStats[targetSpecies].abilities[0];
+    moveType = gBattleMoves[move].type;
+
+    if (defAbility == ABILITY_LEVITATE && moveType == TYPE_GROUND)
+    {
+        if (arg2 == 1)
+            typePower = 8;
+    }
+    else
+    {
+        u32 typeEffectiveness1 = UQ_4_12_TO_INT(GetTypeModifier(moveType, defType1) * 2) * 5;
+        u32 typeEffectiveness2 = UQ_4_12_TO_INT(GetTypeModifier(moveType, defType2) * 2) * 5;
+
+        typePower = (typeEffectiveness1 * typePower) / 10;
+        if (defType2 != defType1)
+            typePower = (typeEffectiveness2 * typePower) / 10;
+
+        if (defAbility == ABILITY_WONDER_GUARD && typeEffectiveness1 != 20 && typeEffectiveness2 != 20)
+            typePower = 0;
+    }
+
+    switch (arg2)
+    {
+    case 0:
+        switch (typePower)
+        {
+        case TYPE_x0_50:
+        case TYPE_x0_25:
+        case TYPE_x0:
+        default:
+            typePower = 0;
+            break;
+        case TYPE_x1:
+            typePower = 2;
+            break;
+        case TYPE_x2:
+            typePower = 4;
+            break;
+        case TYPE_x4:
+            typePower = 8;
+            break;
+        }
+        break;
+    case 1:
+        switch (typePower)
+        {
+        default:
+        case TYPE_x1:
+            typePower = 0;
+            break;
+        case TYPE_x0_25:
+            typePower = 4;
+            break;
+        case TYPE_x0:
+            typePower = 8;
+            break;
+        case TYPE_x0_50:
+            typePower = 2;
+            break;
+        case TYPE_x2:
+            typePower = -2;
+            break;
+        case TYPE_x4:
+            typePower = -4;
+            break;
+        }
+        break;
+    case 2:
+        switch (typePower)
+        {
+        case TYPE_x0:
+            typePower = -16;
+            break;
+        case TYPE_x0_25:
+            typePower = -8;
+            break;
+        case TYPE_x0_50:
+        default:
+            typePower = 0;
+            break;
+        case TYPE_x1:
+            typePower = 4;
+            break;
+        case TYPE_x2:
+            typePower = 12;
+            break;
+        case TYPE_x4:
+            typePower = 20;
+            break;
+        }
+        break;
+    }
+
+    return typePower;
+}
+
 int GetDomeTrainerSelectedMons(u16 tournamentTrainerId)
 {
     int selectedMonBits;
@@ -2732,120 +2846,6 @@ static int SelectOpponentMonsFromParty(int *partyMovePoints, bool8 allowRandom)
     }
 
     return selectedMonBits;
-}
-
-#define TYPE_x0     0
-#define TYPE_x0_25  5
-#define TYPE_x0_50  10
-#define TYPE_x1     20
-#define TYPE_x2     40
-#define TYPE_x4     80
-
-static int GetTypeEffectivenessPoints(int move, int targetSpecies, int arg2)
-{
-    int defType1, defType2, defAbility, moveType;
-    int i = 0;
-    int typePower = TYPE_x1;
-
-    if (move == MOVE_NONE || move == 0xFFFF || gBattleMoves[move].power == 0)
-        return 0;
-
-    defType1 = gBaseStats[targetSpecies].type1;
-    defType2 = gBaseStats[targetSpecies].type2;
-    defAbility = gBaseStats[targetSpecies].abilities[0];
-    moveType = gBattleMoves[move].type;
-
-    if (defAbility == ABILITY_LEVITATE && moveType == TYPE_GROUND)
-    {
-        if (arg2 == 1)
-            typePower = 8;
-    }
-    else
-    {
-        u32 typeEffectiveness1 = UQ_4_12_TO_INT(GetTypeModifier(moveType, defType1) * 2) * 5;
-        u32 typeEffectiveness2 = UQ_4_12_TO_INT(GetTypeModifier(moveType, defType2) * 2) * 5;
-
-        typePower = (typeEffectiveness1 * typePower) / 10;
-        if (defType2 != defType1)
-            typePower = (typeEffectiveness2 * typePower) / 10;
-
-        if (defAbility == ABILITY_WONDER_GUARD && typeEffectiveness1 != 20 && typeEffectiveness2 != 20)
-            typePower = 0;
-    }
-
-    switch (arg2)
-    {
-    case 0:
-        switch (typePower)
-        {
-        case TYPE_x0_50:
-        case TYPE_x0_25:
-        case TYPE_x0:
-        default:
-            typePower = 0;
-            break;
-        case TYPE_x1:
-            typePower = 2;
-            break;
-        case TYPE_x2:
-            typePower = 4;
-            break;
-        case TYPE_x4:
-            typePower = 8;
-            break;
-        }
-        break;
-    case 1:
-        switch (typePower)
-        {
-        default:
-        case TYPE_x1:
-            typePower = 0;
-            break;
-        case TYPE_x0_25:
-            typePower = 4;
-            break;
-        case TYPE_x0:
-            typePower = 8;
-            break;
-        case TYPE_x0_50:
-            typePower = 2;
-            break;
-        case TYPE_x2:
-            typePower = -2;
-            break;
-        case TYPE_x4:
-            typePower = -4;
-            break;
-        }
-        break;
-    case 2:
-        switch (typePower)
-        {
-        case TYPE_x0:
-            typePower = -16;
-            break;
-        case TYPE_x0_25:
-            typePower = -8;
-            break;
-        case TYPE_x0_50:
-        default:
-            typePower = 0;
-            break;
-        case TYPE_x1:
-            typePower = 4;
-            break;
-        case TYPE_x2:
-            typePower = 12;
-            break;
-        case TYPE_x4:
-            typePower = 20;
-            break;
-        }
-        break;
-    }
-
-    return typePower;
 }
 
 // Duplicate of GetFrontierTrainerFixedIvs
