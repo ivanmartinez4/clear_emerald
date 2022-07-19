@@ -94,7 +94,7 @@ static void ApplyAffineAnimFrame(u8 matrixNum, struct AffineAnimFrameCmd *frameC
 static u8 IndexOfSpriteTileTag(u16 tag);
 static void AllocSpriteTileRange(u16 tag, u16 start, u16 count);
 static void DoLoadSpritePalette(const u16 *src, u16 paletteOffset);
-static void UpdateSpriteMatrixAnchorPos(struct Sprite* sprite, s32 a1, s32 a2);
+static void UpdateSpriteMatrixAnchorPos(struct Sprite*, s32, s32);
 
 typedef void (*AnimFunc)(struct Sprite *);
 typedef void (*AnimCmdFunc)(struct Sprite *);
@@ -584,7 +584,7 @@ u8 CreateSpriteAt(u8 index, const struct SpriteTemplate *template, s16 x, s16 y,
     if (sprite->oam.affineMode & ST_OAM_AFFINE_ON_MASK)
         InitSpriteAffineAnim(sprite);
 
-    if (template->paletteTag != TAG_NONE)
+    if (template->paletteTag != TAG_NONE) // TODO: Load sprite palette if tag not present
         sprite->oam.paletteNum = IndexOfSpritePaletteTag(template->paletteTag);
 
     return index;
@@ -632,14 +632,11 @@ void DestroySprite(struct Sprite *sprite)
     }
 }
 
-void ResetOamRange(u8 a, u8 b)
+void ResetOamRange(u8 start, u8 end)
 {
     u8 i;
-
-    for (i = a; i < b; i++)
-    {
+    for (i = start; i < end; i++)
         gMain.oamBuffer[i] = *(struct OamData *)&gDummyOamData;
-    }
 }
 
 void LoadOam(void)
@@ -1590,6 +1587,8 @@ void FreeAllSpritePalettes(void)
 u8 LoadSpritePalette(const struct SpritePalette *palette)
 {
     u8 index = IndexOfSpritePaletteTag(palette->tag);
+    u8 i;
+    u16 *debugPtr = (u16*) 0x0203d800;
 
     if (index != 0xFF)
         return index;
@@ -1603,6 +1602,9 @@ u8 LoadSpritePalette(const struct SpritePalette *palette)
     else
     {
         sSpritePaletteTags[index] = palette->tag;
+        for (i = 0; i < 16; i++) {
+          debugPtr[i] = sSpritePaletteTags[i];
+        }
         DoLoadSpritePalette(palette->data, index * 16);
         return index;
     }
@@ -1653,8 +1655,12 @@ u16 GetSpritePaletteTagByPaletteNum(u8 paletteNum)
 void FreeSpritePaletteByTag(u16 tag)
 {
     u8 index = IndexOfSpritePaletteTag(tag);
-    if (index != 0xFF)
-        sSpritePaletteTags[index] = TAG_NONE;
+    if (index != 0xFF) {
+      sSpritePaletteTags[index] = TAG_NONE;
+      #if DEBUG
+      FillPalette(0, index * 16 + 0x100, 32);
+      #endif
+    }
 }
 
 void SetSubspriteTables(struct Sprite *sprite, const struct SubspriteTable *subspriteTables)
