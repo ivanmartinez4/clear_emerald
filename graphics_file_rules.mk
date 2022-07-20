@@ -27,24 +27,24 @@ contest_types := cool beauty cute smart tough
 
 ### Cherrim ###
 
-$(CHERRIMGFXDIR)/front.4bpp: $(CHERRIMGFXDIR)/normal/front.4bpp \
-                              $(CHERRIMGFXDIR)/sunshine/front.4bpp
+$(CHERRIMGFXDIR)/front.4bpp: $(CHERRIMGFXDIR)/normal_front.4bpp \
+                              $(CHERRIMGFXDIR)/sunshine_front.4bpp
 	@cat $^ >$@
 
-$(CHERRIMGFXDIR)/back.4bpp: $(CHERRIMGFXDIR)/normal/back.4bpp \
-                              $(CHERRIMGFXDIR)/sunshine/back.4bpp
+$(CHERRIMGFXDIR)/back.4bpp: $(CHERRIMGFXDIR)/normal_back.4bpp \
+                              $(CHERRIMGFXDIR)/sunshine_back.4bpp
 	@cat $^ >$@
 
-$(CHERRIMGFXDIR)/anim_front.4bpp: $(CHERRIMGFXDIR)/normal/anim_front.4bpp \
-                              $(CHERRIMGFXDIR)/sunshine/anim_front.4bpp
+$(CHERRIMGFXDIR)/anim_front.4bpp: $(CHERRIMGFXDIR)/normal_anim_front.4bpp \
+                              $(CHERRIMGFXDIR)/sunshine_anim_front.4bpp
 	@cat $^ >$@
 
-$(CHERRIMGFXDIR)/normal.gbapal: $(CHERRIMGFXDIR)/normal/normal.gbapal \
-                              $(CHERRIMGFXDIR)/sunshine/normal.gbapal
+$(CHERRIMGFXDIR)/normal.gbapal: $(CHERRIMGFXDIR)/normal_normal.gbapal \
+                              $(CHERRIMGFXDIR)/sunshine_normal.gbapal
 	@cat $^ >$@
 
-$(CHERRIMGFXDIR)/shiny.gbapal: $(CHERRIMGFXDIR)/normal/shiny.gbapal \
-                              $(CHERRIMGFXDIR)/sunshine/shiny.gbapal
+$(CHERRIMGFXDIR)/shiny.gbapal: $(CHERRIMGFXDIR)/normal_shiny.gbapal \
+                              $(CHERRIMGFXDIR)/sunshine_shiny.gbapal
 	@cat $^ >$@
 
 $(CASTFORMGFXDIR)/front.4bpp: $(CASTFORMGFXDIR)/front_normal_form.4bpp \
