@@ -27,7 +27,19 @@ A Discord-based ROM hacking community that has many members who hack using the d
 
 [Click here to join the RHH Discord Server!](https://discord.gg/6CzjAG6GZk)
 
-## LIST OF CREDITS:
+## What is new?:
+
+-A brand new battle engine with modern standards.
+
+-Custom shinies.
+
+-DNS system.
+
+-Pokémon's good-looking icons.
+
+-Following Pokémon.
+
+## Credits:
 
 -Pret's team for pokeemerald.
 
