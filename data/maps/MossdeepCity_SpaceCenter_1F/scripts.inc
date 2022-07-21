@@ -37,6 +37,11 @@ MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardDown::
 	setobjectxyperm LOCALID_STAIR_GRUNT, 13, 3
 	end
 
+@ Functionally unused. See comment on MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsEast
+MossdeepCity_SpaceCenter_1F_EventScript_MoveStairGuardRight::
+	setobjectxyperm LOCALID_STAIR_GRUNT, 14, 2
+	end
+
 MossdeepCity_SpaceCenter_1F_OnLoad:
 	goto_if_le VAR_MOSSDEEP_CITY_STATE, 2, MossdeepCity_SpaceCenter_1F_EventScript_SetMagmaNote
 	end
@@ -247,9 +252,25 @@ MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsWest::
 	release
 	end
 
+@ Functionally unused by mistake. The movement is handled anyway after the switch (see above)
+@ This also means VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE can never be 3
+MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsEast::
+	applymovement LOCALID_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsEast
+	waitmovement 0
+	setvar VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE, 3
+	release
+	end
+
 MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsWest:
 	lock_facing_direction
 	walk_left
+	unlock_facing_direction
+	step_end
+
+@ Functionally unused. See above
+MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsEast:
+	lock_facing_direction
+	walk_right
 	unlock_facing_direction
 	step_end
 

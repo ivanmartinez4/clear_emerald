@@ -2149,6 +2149,8 @@ static void DoQueuedActions(void)
                     PrintTradeMessage(TRADE_MSG_ONLY_MON1);
                     break;
                 case QUEUE_ONLY_MON2:
+                case QUEUE_UNUSED1:
+                case QUEUE_UNUSED2:
                     PrintTradeMessage(TRADE_MSG_ONLY_MON2);
                     break;
                 case QUEUE_MON_CANT_BE_TRADED:

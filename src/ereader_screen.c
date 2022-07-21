@@ -17,8 +17,15 @@
 struct EReaderTaskData
 {
     u16 timer;
+    u16 unused1;
+    u16 unused2;
+    u16 unused3;
     u8 state;
     u8 textState;
+    u8 unused4;
+    u8 unused5;
+    u8 unused6;
+    u8 unused7;
     u8 status;
     u8 *unusedBuffer;
 };
@@ -243,7 +250,14 @@ void CreateEReaderTask(void)
     data = (struct EReaderTaskData *)gTasks[taskId].data;
     data->state = 0;
     data->textState = 0;
+    data->unused4 = 0;
+    data->unused5 = 0;
+    data->unused6 = 0;
+    data->unused7 = 0;
     data->timer = 0;
+    data->unused1 = 0;
+    data->unused2 = 0;
+    data->unused3 = 0;
     data->status = 0;
     data->unusedBuffer = AllocZeroed(0x40);
 }

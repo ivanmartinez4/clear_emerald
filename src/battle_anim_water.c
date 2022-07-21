@@ -57,6 +57,9 @@ static void AnimAquaTail(struct Sprite *sprite);
 static void AnimKnockOffAquaTail(struct Sprite *sprite);
 static void AnimKnockOffAquaTailStep(struct Sprite *sprite);
 
+static const u8 sUnusedWater_Gfx[] = INCBIN_U8("graphics/battle_anims/unused/water_gfx.4bpp");
+static const u8 sUnusedWater[] = INCBIN_U8("graphics/battle_anims/unused/water.bin");
+
 static const union AnimCmd sAnim_RainDrop[] =
 {
     ANIMCMD_FRAME(0, 2),
@@ -1153,6 +1156,7 @@ static void AnimTask_SurfWaveScanlineEffect(u8 taskId)
         params.dmaDest = &REG_BLDALPHA;
         params.dmaControl = SCANLINE_EFFECT_DMACNT_16BIT;
         params.initState = 1;
+        params.unused9 = 0;
         ScanlineEffect_SetParams(params);
         task->data[0]++;
         break;

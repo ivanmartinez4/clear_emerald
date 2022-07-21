@@ -65,9 +65,11 @@
 #define QUEUE_STANDBY                     1
 #define QUEUE_ONLY_MON1                   2
 #define QUEUE_ONLY_MON2                   3
-#define QUEUE_MON_CANT_BE_TRADED          4
-#define QUEUE_EGG_CANT_BE_TRADED          5
-#define QUEUE_FRIENDS_MON_CANT_BE_TRADED  6
+#define QUEUE_UNUSED1                     4
+#define QUEUE_UNUSED2                     5
+#define QUEUE_MON_CANT_BE_TRADED          6
+#define QUEUE_EGG_CANT_BE_TRADED          7
+#define QUEUE_FRIENDS_MON_CANT_BE_TRADED  8
 
 #define QUEUE_DELAY_MSG   3
 #define QUEUE_DELAY_DATA  5
