@@ -106,7 +106,6 @@ struct ContestPokemon
     u8 sheen;
     u8 highestRank;
     bool8 gameCleared;
-    u8 unused[10];
     u32 personality;
     u32 otId;
 };
@@ -135,10 +134,6 @@ struct Contest
     u8 playerMoveChoice;
     u8 appealNumber;
     u8 unk[CONTESTANT_COUNT]; // never read
-    bool16 unused1:1;
-    bool16 unused2:1;
-    bool16 unused3:1;
-    bool16 unused4:1;
     bool16 waitForJudgeSpeechBubble:1;
     bool16 isShowingApplauseMeter:1;
     bool16 applauseMeterIsMoving:1;
@@ -147,16 +142,13 @@ struct Contest
     bool16 sliderHeartsAnimating:1; // When the slider heart is appearing/disappearing
     bool16 waitForLink:1;
     u8 mainTaskId;
-    u8 filler1[4];
     u8 judgeAttentionTaskId;
     u8 blendTaskId;
-    u8 filler2;
     u8 turnNumber;
     u8 currentContestant;
     u8 judgeSpeechBubbleSpriteId;
     s8 applauseLevel;
     u8 prevTurnOrder[CONTESTANT_COUNT];
-    u32 unusedRng;
     u16 moveHistory[CONTEST_NUM_APPEALS][CONTESTANT_COUNT];
     u8 excitementHistory[CONTEST_NUM_APPEALS][CONTESTANT_COUNT];
     u8 applauseMeterSpriteId;
@@ -173,7 +165,6 @@ struct ContestantStatus
     u16 prevMove;
     u8 moveCategory;
     u8 ranking:2;
-    u8 unused1:2;
     u8 moveRepeatCount:3;
     bool8 noMoreTurns:1;  // used a one-time move?
     bool8 nervous:1;
@@ -199,7 +190,6 @@ struct ContestantStatus
     u8 effectStringId;   // status action?
     u8 effectStringId2;
     bool8 repeatedMove:1;
-    bool8 unused2:1;
     bool8 repeatedPrevMove:1; // never read
     bool8 completedComboFlag:1;
     bool8 hasJudgesAttention:1;
@@ -230,7 +220,6 @@ struct ContestAIInfo
     /*0x04*/ u8 nextMoveIndex;
     /*0x05*/ u8 moveScores[MAX_MON_MOVES];
     /*0x09*/ u8 aiAction;
-    /*0x0A*/ u8 filler[6];
     /*0x10*/ u8 currentAIFlag;
     /*0x14*/ u32 aiFlags;
     /*0x18*/ s16 scriptResult;
@@ -275,11 +264,6 @@ struct ContestTV
     bool8 madeExcitingAppeal:1;
 };
 
-struct ContestUnused
-{
-    u8 filler[12];
-};
-
 struct ContestResources
 {
     struct Contest *contest;
@@ -290,7 +274,6 @@ struct ContestResources
     struct ContestGraphicsState *gfxState;
     struct ContestMoveAnimData *moveAnim;
     struct ContestTV *tv;
-    struct ContestUnused * unused;
     u8 * contestBgTilemaps[CONTESTANT_COUNT];
     void * boxBlinkTiles1;
     void * boxBlinkTiles2;

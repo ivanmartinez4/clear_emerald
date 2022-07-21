@@ -138,7 +138,6 @@ struct FrontierMapData
     struct Sprite *playerHeadSprite;
     struct Sprite *mapIndicatorSprite;
     u8 cursorPos;
-    u8 unused;
     u8 tilemapBuff0[BG_SCREEN_SIZE * 2];
     u8 tilemapBuff1[BG_SCREEN_SIZE * 2];
     u8 tilemapBuff2[BG_SCREEN_SIZE * 2];

@@ -137,15 +137,12 @@ struct BerryBlender
 {
     u8 mainState;
     u8 loadGfxState;
-    u8 unused0[66];
-    u16 unk0; // never read
     u8 scoreIconIds[NUM_SCORE_TYPES];
     u16 arrowPos;
     s16 speed;
     u16 maxRPM;
     u8 playerArrowSpriteIds[BLENDER_MAX_PLAYERS];
     u8 playerArrowSpriteIds2[BLENDER_MAX_PLAYERS];
-    u8 unused1[11];
     u8 gameEndState;
     u16 playerContinueResponses[BLENDER_MAX_PLAYERS];
     u16 canceledPlayerCmd;
@@ -154,15 +151,12 @@ struct BerryBlender
     u8 slowdownTimer;
     u16 chosenItemId[BLENDER_MAX_PLAYERS];
     u8 numPlayers;
-    u8 unused2[16];
     u16 arrowIdToPlayerId[BLENDER_MAX_PLAYERS];
     u16 playerIdToArrowId[BLENDER_MAX_PLAYERS];
     u8 yesNoAnswer;
     u8 stringVar[100];
     u32 gameFrameTime;
     s32 framesToWait;
-    u32 unk1; // never read
-    u8 unused3[4];
     u8 playerToThrowBerry;
     u16 progressBarValue;
     u16 maxProgressBarValue;
@@ -245,15 +239,7 @@ static const u16 sBlenderCenter_Pal[] = INCBIN_U16("graphics/berry_blender/cente
 static const u8 sBlenderCenter_Tilemap[] = INCBIN_U8("graphics/berry_blender/center_map.bin");
 static const u16 sBlenderOuter_Pal[] = INCBIN_U16("graphics/berry_blender/outer.gbapal");
 
-static const u16 sUnused_Pal[] = INCBIN_U16("graphics/berry_blender/unused.gbapal");
 static const u16 sEmpty_Pal[16 * 14] = {0};
-
-// unused text
-static const u8 sUnusedText_YesNo[] = _("YES\nNO");
-static const u8 sUnusedText_2[] = _("▶");
-static const u8 sUnusedText_Space[] = _(" ");
-static const u8 sUnusedText_Terminating[] = _("Terminating.");
-static const u8 sUnusedText_LinkPartnerNotFound[] = _("Link partner(s) not found.\nPlease try again.\p");
 
 static const u8 sText_BerryBlenderStart[] = _("Starting up the BERRY BLENDER.\pPlease select a BERRY from your BAG\nto put in the BERRY BLENDER.\p");
 static const u8 sText_NewParagraph[] = _("\p");
@@ -909,16 +895,6 @@ static const u8 sBlackPokeblockFlavorFlags[] = {
     (1 << FLAVOR_SOUR)   | (1 << FLAVOR_SWEET)  | (1 << FLAVOR_SPICY),
 };
 
-static const u8 sUnused[] =
-{
-    0xfe, 0x02, 0x02, 0xce, 0xd0, 0x37, 0x44, 0x07, 0x1f, 0x0c, 0x10,
-    0x00, 0xff, 0xfe, 0x91, 0x72, 0xce, 0xd0, 0x37, 0x44, 0x07, 0x1f,
-    0x0c, 0x10, 0x00, 0xff, 0x06, 0x27, 0x02, 0xff, 0x00, 0x0c, 0x48,
-    0x02, 0xff, 0x00, 0x01, 0x1f, 0x02, 0xff, 0x00, 0x16, 0x37, 0x02,
-    0xff, 0x00, 0x0d, 0x50, 0x4b, 0x02, 0xff, 0x06, 0x06, 0x06, 0x06,
-    0x05, 0x03, 0x03, 0x03, 0x02, 0x02, 0x03, 0x03, 0x03, 0x03, 0x02
-};
-
 static const struct WindowTemplate sBlenderRecordWindowTemplate =
 {
     .bg = 0,
@@ -1269,7 +1245,6 @@ static void StartBlender(void)
         sBerryBlender = AllocZeroed(sizeof(*sBerryBlender));
 
     sBerryBlender->mainState = 0;
-    sBerryBlender->unk1 = 0;
 
     for (i = 0; i < BLENDER_MAX_PLAYERS; i++)
         sBerryBlender->chosenItemId[i] = ITEM_NONE;
@@ -1506,7 +1481,6 @@ static void InitBlenderBgs(void)
     LoadMessageBoxGfx(0, 0x14, 0xF0);
     InitBerryBlenderWindows();
 
-    sBerryBlender->unk0 = 0;
     sBerryBlender->speed = 0;
     sBerryBlender->arrowPos = 0;
     sBerryBlender->maxRPM = 0;

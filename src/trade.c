@@ -105,7 +105,6 @@ EWRAM_DATA u8 gSelectedTradeMonPositions[2] = {0};
 static EWRAM_DATA struct {
     /*0x0000*/ u8 bg2hofs;
     /*0x0001*/ u8 bg3hofs;
-    /*0x0002*/ u8 filler_2[38];
     /*0x0028*/ u8 partySpriteIds[2][PARTY_SIZE];
     /*0x0034*/ u8 cursorSpriteId;
     /*0x0035*/ u8 cursorPosition;
@@ -116,10 +115,8 @@ static EWRAM_DATA struct {
     /*0x0051*/ bool8 isEgg[2][PARTY_SIZE];
     /*0x005D*/ u8 hpBarLevels[2][PARTY_SIZE];
     /*0x0069*/ u8 bufferPartyState;
-    /*0x006A*/ u8 filler_6A[5];
     /*0x006F*/ u8 tradeMenuFunc;
     /*0x0070*/ u8 neverRead_70;
-    /*0x0071*/ u8 filler_71;
     /*0x0072*/ u16 bottomTextTileStart;
     /*0x0074*/ u8 drawPartyState[2];
     /*0x0076*/ u8 selectedMonIdx[2];
@@ -127,13 +124,10 @@ static EWRAM_DATA struct {
     /*0x0079*/ u8 partnerLinkFlagChoseAction;
     /*0x007A*/ u8 playerLinkFlagStatus;
     /*0x007B*/ u8 partnerLinkFlagStatus;
-    /*0x007C*/ u8 filler_7C[2];
     /*0x007E*/ u8 partnerCursorPosition;
-    /*0x007F*/ u8 unused_7F;
     /*0x0080*/ u16 linkData[20];
     /*0x00A8*/ u8 timer;
     /*0x00A9*/ u8 giftRibbons[GIFT_RIBBONS_COUNT];
-    /*0x00B4*/ u8 filler_B4[0x81C];
     /*0x08D0*/ struct {
         bool8 queued;
         u16 queueDelay;
@@ -146,7 +140,6 @@ static EWRAM_DATA struct {
     /*0x00*/ struct Pokemon tempMon; // Used as a temp variable when swapping Pokémon
     /*0x64*/ u32 timer;
     /*0x68*/ u32 monPersonalities[2];
-    /*0x70*/ u8 filler_70[2];
     /*0x72*/ u8 playerLinkFlagFinishTrade;
     /*0x73*/ u8 partnerLinkFlagFinishTrade;
     /*0x74*/ u16 linkData[10];
@@ -160,7 +153,6 @@ static EWRAM_DATA struct {
     /*0x92*/ u8 cableEndSpriteId;
     /*0x93*/ u8 sendTradeFinishState;
     /*0x94*/ u16 state;
-    /*0x96*/ u8 filler_96[0xD2 - 0x96];
     /*0xD2*/ u8 releasePokeballSpriteId;
     /*0xD3*/ u8 bouncingPokeballSpriteId;
     /*0xD4*/ u16 texX;
@@ -180,7 +172,6 @@ static EWRAM_DATA struct {
     /*0xF0*/ u16 monSpecies[2];
     /*0xF4*/ u16 cachedMapMusic;
     /*0xF6*/ u8 textColors[3];
-    /*0xF9*/ u8 filler_F9;
     /*0xFA*/ bool8 isCableTrade;
     /*0xFB*/ u8 wirelessWinLeft;
     /*0xFC*/ u8 wirelessWinTop;
@@ -2149,8 +2140,6 @@ static void DoQueuedActions(void)
                     PrintTradeMessage(TRADE_MSG_ONLY_MON1);
                     break;
                 case QUEUE_ONLY_MON2:
-                case QUEUE_UNUSED1:
-                case QUEUE_UNUSED2:
                     PrintTradeMessage(TRADE_MSG_ONLY_MON2);
                     break;
                 case QUEUE_MON_CANT_BE_TRADED:
@@ -4830,7 +4819,7 @@ static void CheckPartnersMonForRibbons(void)
 {
     u8 i;
     u8 numRibbons = 0;
-    for (i = 0; i < (MON_DATA_UNUSED_RIBBONS - MON_DATA_CHAMPION_RIBBON); i ++)
+    for (i = 0; i < (MON_DATA_RIBBONS - MON_DATA_CHAMPION_RIBBON); i ++)
     {
         numRibbons += GetMonData(&gEnemyParty[gSelectedTradeMonPositions[TRADE_PARTNER] % PARTY_SIZE], MON_DATA_CHAMPION_RIBBON + i);
     }

@@ -32,7 +32,6 @@ struct ImageProcessingContext
     u8 effect;
     void *canvasPixels;
     u16 *canvasPalette;
-    u8 fillerC[0x4];
     void *dest;
     u16 quantizeEffect;
     u16 var_16;

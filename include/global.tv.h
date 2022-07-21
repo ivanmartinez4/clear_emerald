@@ -58,7 +58,6 @@ typedef union // size = 0x24
         /*0x05*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
         /*0x0D*/ u8 language;
         /*0x0E*/ u8 pokemonNameLanguage;
-        /*0x0F*/ u8 filler_0F[1];
         /*0x10*/ u8 nickname[PLAYER_NAME_LENGTH + 1];
         /*0x18*/ u16 words18[2];
         /*0x1C*/ u16 words[2];
@@ -272,7 +271,6 @@ typedef union // size = 0x24
         /*0x08*/ u16 battlePoints;
         /*0x0a*/ u16 mapLayoutId;
         /*0x0c*/ u8 language;
-        /*0x0d*/ u8 filler_0d[6];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } rivalTrainer;
 
@@ -280,11 +278,9 @@ typedef union // size = 0x24
     struct {
         /*0x00*/ u8 kind;
         /*0x01*/ bool8 active;
-        /*0x02*/ u8 filler_02[2];
         /*0x04*/ u16 words[2];
         /*0x08*/ u8 gender;
         /*0x09*/ u8 language;
-        /*0x0a*/ u8 filler_0a[9];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } trendWatcher;
 
@@ -296,7 +292,6 @@ typedef union // size = 0x24
         /*0x04*/ u8 location;
         /*0x05*/ u8 language;
         /*0x06*/ u16 mapLayoutId;
-        /*0x08*/ u8 filler_08[11];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } treasureInvestigators;
 
@@ -307,9 +302,7 @@ typedef union // size = 0x24
         /*0x02*/ u8 won;
         /*0x03*/ u8 whichGame;
         /*0x04*/ u16 nCoins;
-        /*0x06*/ u8 filler_06[2];
         /*0x08*/ u8 language;
-        /*0x09*/ u8 filler_09[10];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } findThatGamer;
 
@@ -325,7 +318,6 @@ typedef union // size = 0x24
         /*0x0a*/ u16 poke1Species;
         /*0x0c*/ u16 lastUsedMove;
         /*0x0e*/ u8 language;
-        /*0x0f*/ u8 filler_0f[4];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } breakingNews;
 
@@ -339,7 +331,6 @@ typedef union // size = 0x24
         /*0x08*/ u16 species;
         /*0x0a*/ u16 move;
         /*0x0c*/ u8 language;
-        /*0x0d*/ u8 filler_0d[6];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } secretBaseVisit;
 
@@ -350,7 +341,6 @@ typedef union // size = 0x24
         /*0x02*/ u16 item;
         /*0x04*/ u8 whichPrize;
         /*0x05*/ u8 language;
-        /*0x06*/ u8 filler_06[13];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } lottoWinner;
 
@@ -365,7 +355,6 @@ typedef union // size = 0x24
         /*0x0e*/ u16 betterMove;
         /*0x10*/ u8 nOtherMoves;
         /*0x11*/ u8 language;
-        /*0x12*/ u8 filler_12[1];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } battleSeminar;
 
@@ -373,10 +362,8 @@ typedef union // size = 0x24
     struct {
         /*0x00*/ u8 kind;
         /*0x01*/ bool8 active;
-        /*0x02*/ u8 filler_02[2];
         /*0x04*/ u16 words[2];
         /*0x08*/ u8 language;
-        /*0x09*/ u8 filler_09[10];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } trainerFanClub;
 
@@ -389,7 +376,6 @@ typedef union // size = 0x24
         /*0x04*/ u8 nickname[POKEMON_NAME_LENGTH + 1];
         /*0x0f*/ u8 language;
         /*0x10*/ u8 pokemonNameLanguage;
-        /*0x11*/ u8 filler_12[2];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } cuties;
 
@@ -404,7 +390,6 @@ typedef union // size = 0x24
         /*0x0a*/ u16 species4;
         /*0x0c*/ u8 language;
         /*0x0d*/ u8 facilityAndMode;
-        /*0x0e*/ u8 filler_0e[5];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } frontier;
 
@@ -415,7 +400,6 @@ typedef union // size = 0x24
         /*0x02*/ u16 count;
         /*0x04*/ u8 actionIdx;
         /*0x05*/ u8 language;
-        /*0x06*/ u8 filler_06[13];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } numberOne;
 
@@ -440,7 +424,6 @@ typedef union // size = 0x24
         /*0x02*/ u8 monsCaught;
         /*0x03*/ u8 pokeblocksUsed;
         /*0x04*/ u8 language;
-        /*0x05*/ u8 filler_05[14];
         /*0x13*/ u8 playerName[PLAYER_NAME_LENGTH + 1];
     } safariFanClub;
 
@@ -449,17 +432,12 @@ typedef union // size = 0x24
     struct {
         /*0x00*/ u8 kind;
         /*0x01*/ bool8 active;
-        /*0x02*/ u8 unused1;
-        /*0x03*/ u8 unused3;
         /*0x04*/ u16 moves[MAX_MON_MOVES];
         /*0x0C*/ u16 species;
-        /*0x0E*/ u16 unused2;
         /*0x10*/ u8 locationMapNum;
         /*0x11*/ u8 locationMapGroup;
-        /*0x12*/ u8 unused4;
         /*0x13*/ u8 probability;
         /*0x14*/ u8 level;
-        /*0x15*/ u8 unused5;
         /*0x16*/ u16 daysLeft;
         /*0x18*/ u8 language;
     } massOutbreak;

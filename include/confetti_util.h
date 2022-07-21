@@ -12,7 +12,6 @@ struct ConfettiUtil
     u16 palTag;
     u16 tileNum;
     u8 id;
-    u8 filler;
     u8 animNum;
     u8 active:1;
     u8 allowUpdates:1;

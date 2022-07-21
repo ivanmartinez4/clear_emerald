@@ -3,10 +3,8 @@ gLinkDebugSeed
 gLocalLinkPlayerBlock
 gLinkErrorOccurred
 gLinkDebugFlags
-gLinkFiller1
 gRemoteLinkPlayersNotReceived
 gBlockReceivedStatus
-gLinkFiller2
 gLinkHeldKeys
 gRecvCmds
 gLinkStatus
@@ -26,9 +24,6 @@ gLinkCallback
 gShouldAdvanceLinkState
 gLinkTestBlockChecksums
 gBlockRequestType
-gLinkFiller3
-gLinkFiller4
-gLinkFiller5
 gLastSendQueueCount
 gLink
 gLastRecvQueueCount

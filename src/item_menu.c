@@ -117,7 +117,6 @@ struct TempWallyBag {
     struct ItemSlot bagPocket_PokeBalls[BAG_POKEBALLS_COUNT];
     u16 cursorPosition[POCKETS_COUNT];
     u16 scrollPosition[POCKETS_COUNT];
-    u16 unused;
     u16 pocket;
 };
 

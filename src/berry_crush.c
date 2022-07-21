@@ -116,11 +116,9 @@ enum {
     STATE_PLAYING,
     STATE_FINISHED,
     STATE_TIMES_UP,
-    STATE_10, // Unused
     STATE_RESULTS_PRESSES,
     STATE_RESULTS_RANDOM,
     STATE_RESULTS_CRUSHING,
-    STATE_14, // Unused
     STATE_PLAY_AGAIN,
 };
 
@@ -273,7 +271,6 @@ struct BerryCrushGame_Gfx
     struct Sprite *sparkleSprites[11];
     struct Sprite *timerSprites[2];
     u8 resultsState;
-    u8 unused;
     u8 resultsWindowId;
     u8 nameWindowIds[MAX_RFU_PLAYERS];
     u16 bgBuffers[4][0x800];
@@ -288,7 +285,6 @@ struct BerryCrushGame
     u8 taskId;
     u8 textSpeed;
     u8 cmdState;
-    u8 unused; // Never read
     u8 nextCmd;
     u8 afterPalFadeCmd;
     u16 cmdTimer;
@@ -3450,7 +3446,6 @@ static void ResetGame(struct BerryCrushGame *game)
     u8 i = 0;
 
     IncrementGameStat(GAME_STAT_PLAYED_BERRY_CRUSH);
-    game->unused = 0;
     game->cmdTimer = 0;
     game->gameState = STATE_RESET;
     game->playAgainState = 0;

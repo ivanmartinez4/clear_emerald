@@ -1373,11 +1373,6 @@ u8 TryUpdateRusturfTunnelState(void)
     return FALSE;
 }
 
-void SetShoalItemFlag(u16 unused)
-{
-    FlagSet(FLAG_SYS_SHOAL_ITEM);
-}
-
 void PutZigzagoonInPlayerParty(void)
 {
     u16 monData;
@@ -3504,11 +3499,6 @@ bool8 AbnormalWeatherHasExpired(void)
         VarSet(VAR_ABNORMAL_WEATHER_STEP_COUNTER, steps);
         return FALSE;
     }
-}
-
-void Unused_SetWeatherSunny(void)
-{
-    SetCurrentAndNextWeather(WEATHER_SUNNY);
 }
 
 // All mart employees have a local id of 1, so function always returns 1

@@ -1395,7 +1395,6 @@ typedef struct {
 #define STO_MIPS_HIDDEN			0x2
 #define STO_MIPS_PROTECTED		0x3
 #define STO_MIPS_PLT			0x8
-#define STO_MIPS_SC_ALIGN_UNUSED	0xff
 
 
 #define STB_MIPS_SPLIT_COMMON		13
@@ -1405,7 +1404,6 @@ typedef struct {
 typedef union {
   struct {
       Elf32_Word gt_current_g_value;
-      Elf32_Word gt_unused;
   } gt_header;
   struct {
       Elf32_Word gt_g_value;

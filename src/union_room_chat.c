@@ -118,12 +118,9 @@ enum {
 
 struct UnionRoomChat
 {
-    u32 filler1;
     u16 funcId;
     u16 funcState;
-    u16 filler2;
     u16 exitDelayTimer;
-    u8 filler3;
     u8 linkPlayerCount;
     u8 handleInputTask;
     u8 receiveMessagesTask;
@@ -141,7 +138,6 @@ struct UnionRoomChat
     u8 receivedMessage[64];
     u8 hostName[64];
     u8 registeredTexts[UNION_ROOM_KB_ROW_COUNT][21];
-    u8 filler4[5];
     u8 sendMessageBuffer[40];
     u16 tryQuitAgainTimer;
 };
@@ -3097,9 +3093,6 @@ static void LoadKeyboardWindow(void)
 static void LoadTextEntryWindow(void)
 {
     int i;
-    u8 unused[2];
-    unused[0] = 0;
-    unused[1] = 0xFF;
 
     for (i = 0; i < MAX_MESSAGE_LENGTH; i++)
         BlitBitmapToWindow(1, sDisplay->unk2128, i * 8, 0, 8, 16);
@@ -3123,7 +3116,6 @@ static void InitScanlineEffect(void)
     params.dmaControl = SCANLINE_EFFECT_DMACNT_16BIT;
     params.dmaDest = &REG_BG1HOFS;
     params.initState = 1;
-    params.unused9 = 0;
     sDisplay->bg1hofs = 0;
     CpuFastFill(0, gScanlineEffectRegBuffers, sizeof(gScanlineEffectRegBuffers));
     ScanlineEffect_SetParams(params);

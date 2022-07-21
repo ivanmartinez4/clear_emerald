@@ -48,13 +48,8 @@ static const u32 sTextboxBorder_Gfx[] = INCBIN_U32("graphics/interface/mystery_g
 struct MysteryGiftTaskData
 {
     u16 var; // Multipurpose
-    u16 unused1;
-    u16 unused2;
-    u16 unused3;
     u8 state;
     u8 textState;
-    u8 unused4;
-    u8 unused5;
     bool8 isWonderNews;
     bool8 sourceIsFriend;
     u8 msgId;
@@ -345,13 +340,6 @@ static const struct ListMenuTemplate sListMenu_Receive = {
     .scrollMultiple = 0,
     .fontId = FONT_NORMAL,
     .cursorKind = 0
-};
-
-static const u8 *const sUnusedMenuTexts[] = {
-    gText_VarietyOfEventsImportedWireless,
-    gText_WonderCardsInPossession,
-    gText_ReadNewsThatArrived,
-    gText_ReturnToTitle
 };
 
 ALIGNED(2) static const u8 sTextColors_TopMenu[]      = { TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE,     TEXT_COLOR_DARK_GRAY };
@@ -1106,14 +1094,9 @@ static void CreateMysteryGiftTask(void)
     struct MysteryGiftTaskData * data = (void *)gTasks[taskId].data;
     data->state = MG_STATE_TO_MAIN_MENU;
     data->textState = 0;
-    data->unused4 = 0;
-    data->unused5 = 0;
     data->isWonderNews = 0;
     data->sourceIsFriend = 0;
     data->var = 0;
-    data->unused1 = 0;
-    data->unused2 = 0;
-    data->unused3 = 0;
     data->msgId = 0;
     data->clientMsg = AllocZeroed(CLIENT_MAX_MSG_SIZE);
 }

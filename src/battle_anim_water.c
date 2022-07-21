@@ -57,9 +57,6 @@ static void AnimAquaTail(struct Sprite *sprite);
 static void AnimKnockOffAquaTail(struct Sprite *sprite);
 static void AnimKnockOffAquaTailStep(struct Sprite *sprite);
 
-static const u8 sUnusedWater_Gfx[] = INCBIN_U8("graphics/battle_anims/unused/water_gfx.4bpp");
-static const u8 sUnusedWater[] = INCBIN_U8("graphics/battle_anims/unused/water.bin");
-
 static const union AnimCmd sAnim_RainDrop[] =
 {
     ANIMCMD_FRAME(0, 2),
@@ -1156,7 +1153,6 @@ static void AnimTask_SurfWaveScanlineEffect(u8 taskId)
         params.dmaDest = &REG_BLDALPHA;
         params.dmaControl = SCANLINE_EFFECT_DMACNT_16BIT;
         params.initState = 1;
-        params.unused9 = 0;
         ScanlineEffect_SetParams(params);
         task->data[0]++;
         break;
@@ -1737,7 +1733,6 @@ static void CreateWaterPulseRingBubbles(struct Sprite *sprite, int xDiff, int yD
     s16 combinedY;
     s16 i;
     s16 something;
-    s16 unusedVar = 1; //unusedVar is needed to match
     s16 randomSomethingY;
     s16 randomSomethingX;
     u8 spriteId;
@@ -1746,9 +1741,8 @@ static void CreateWaterPulseRingBubbles(struct Sprite *sprite, int xDiff, int yD
     combinedX = sprite->x + sprite->x2;
     combinedY = sprite->y + sprite->y2;
     if (yDiff < 0)
-        unusedVar *= -1; //Needed to match
-    randomSomethingY = yDiff + (Random2() % 10) - 5;
-    randomSomethingX = -xDiff + (Random2() % 10) - 5;
+        randomSomethingY = yDiff + (Random2() % 10) - 5;
+        randomSomethingX = -xDiff + (Random2() % 10) - 5;
 
     for (i = 0; i <= 0; i++)
     {

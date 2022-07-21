@@ -16,7 +16,6 @@ struct RSBattleTowerRecord
 struct BattleFrontierTrainer
 {
     u8 facilityClass;
-    u8 filler1[3];
     u8 trainerName[PLAYER_NAME_LENGTH + 1];
     u16 speechBefore[EASY_CHAT_BATTLE_WORDS_COUNT];
     u16 speechWin[EASY_CHAT_BATTLE_WORDS_COUNT];

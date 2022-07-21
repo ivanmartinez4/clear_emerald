@@ -146,7 +146,6 @@ struct NamingScreenTemplate
     u8 iconFunction;
     u8 addGenderIcon;
     u8 initialPage;
-    u8 unused;
     const u8 *title;
 };
 
@@ -194,7 +193,6 @@ extern const u8 gText_TellHimTheWords[];
 static const u8 sPCIconOff_Gfx[] = INCBIN_U8("graphics/naming_screen/pc_icon/off.4bpp");
 static const u8 sPCIconOn_Gfx[] = INCBIN_U8("graphics/naming_screen/pc_icon/on.4bpp");
 static const u16 sKeyboard_Pal[] = INCBIN_U16("graphics/naming_screen/keyboard.gbapal");
-static const u16 sUnused_Pal[] = INCBIN_U16("graphics/naming_screen/unused.gbapal");
 
 static const u8 *const sTransferredToPCMessages[] =
 {
@@ -2109,7 +2107,6 @@ static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
     .iconFunction = 1,
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
-    .unused = 35,
     .title = gText_YourName,
 };
 
@@ -2120,7 +2117,6 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
     .iconFunction = 2,
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
-    .unused = 19,
     .title = gText_BoxName,
 };
 
@@ -2131,7 +2127,6 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
     .iconFunction = 3,
     .addGenderIcon = TRUE,
     .initialPage = KBPAGE_LETTERS_UPPER,
-    .unused = 35,
     .title = gText_PkmnsNickname,
 };
 
@@ -2142,7 +2137,6 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
     .iconFunction = 4,
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
-    .unused = 11,
     .title = gText_TellHimTheWords,
 };
 

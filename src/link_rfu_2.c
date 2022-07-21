@@ -58,23 +58,17 @@ struct SioInfo
     u8 playerCount;
     u8 linkPlayerIdx[RFU_CHILD_MAX];
     struct LinkPlayer linkPlayers[MAX_RFU_PLAYERS];
-    u8 filler[92];
 };
 
 // Struct is mostly empty, presumably because usage of 
 // its fields was largely removed before release
 struct RfuDebug
 {
-    u8 unused0[6];
     u16 recvCount;
-    u8 unused1[6];
     vu8 unkFlag;
     u8 childJoinCount;
-    u8 unused2[84];
     u16 blockSendFailures;
-    u8 unused3[29];
     u8 blockSendTime;
-    u8 unused4[88];
 };
 
 u32 gRfuAPIBuffer[RFU_API_BUFF_SIZE_RAM / 4];

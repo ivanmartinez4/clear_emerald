@@ -311,7 +311,6 @@ static EWRAM_DATA struct Roulette
     bool8 ballUnstuck:1;
     bool8 ballRolling:1; // Never read
     u8 tableId:2;
-    u8 unused:5;
     bool8 isSpecialRate:1;
     u32 hitFlags;
     u8 hitSquares[BALLS_PER_ROUND];
@@ -349,11 +348,9 @@ static EWRAM_DATA struct Roulette
     f32 varA0;
     u8 playTaskId;
     u8 spinTaskId;
-    u8 filler_1[2];
     u16 taskWaitDelay;
     u16 taskWaitKey;
     TaskFunc nextTask;
-    u8 filler_2[4];
     TaskFunc prevTask;
     struct RouletteFlashUtil flashUtil;
     u16 tilemapBuffers[7][0x400];
@@ -2322,7 +2319,6 @@ static void UpdateWheelPosition(void)
     SetGpuReg(REG_OFFSET_BG2Y_H, (bg2y & 0x0fff0000) >> 16);
 }
 
-static const u8 sFiller[3] = {};
 static const u16 sShadow_Pal[] = INCBIN_U16("graphics/roulette/shadow.gbapal");
 static const u16 sBall_Pal[] = INCBIN_U16("graphics/roulette/ball.gbapal");
 static const u16 sBallCounter_Pal[] = INCBIN_U16("graphics/roulette/ball_counter.gbapal");
@@ -2335,10 +2331,6 @@ static const u16 sWynaut_Pal[] = INCBIN_U16("graphics/roulette/wynaut.gbapal");
 static const u16 sAzurill_Pal[] = INCBIN_U16("graphics/roulette/azurill.gbapal");
 static const u16 sSkitty_Pal[] = INCBIN_U16("graphics/roulette/skitty.gbapal");
 static const u16 sMakuhita_Pal[] = INCBIN_U16("graphics/roulette/makuhita.gbapal");
-static const u16 sUnused1_Pal[] = INCBIN_U16("graphics/roulette/unused_1.gbapal");
-static const u16 sUnused2_Pal[] = INCBIN_U16("graphics/roulette/unused_2.gbapal");
-static const u16 sUnused3_Pal[] = INCBIN_U16("graphics/roulette/unused_3.gbapal");
-static const u16 sUnused4_Pal[] = INCBIN_U16("graphics/roulette/unused_4.gbapal");
 static const u32 sBall_Gfx[] = INCBIN_U32("graphics/roulette/ball.4bpp.lz");
 static const u32 sBallCounter_Gfx[] = INCBIN_U32("graphics/roulette/ball_counter.4bpp.lz");
 static const u32 sShroomishTaillow_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
@@ -2390,27 +2382,6 @@ static const struct OamData sOam_WheelIcon =
     .shape = SPRITE_SHAPE(16x32),
     .size = SPRITE_SIZE(16x32),
     .priority = 2,
-};
-
-static const union AnimCmd sAffineAnim_Unused1[] =
-{
-    ANIMCMD_FRAME(0, 0),
-    ANIMCMD_END
-};
-
-static const union AnimCmd *const sAffineAnims_Unused1[] =
-{
-    sAffineAnim_Unused1
-};
-
-static const union AffineAnimCmd sAffineAnim_Unused2[] =
-{
-    AFFINEANIMCMD_END
-};
-
-static const union AffineAnimCmd *const sAffineAnims_Unused2[] =
-{
-    sAffineAnim_Unused2
 };
 
 static const struct CompressedSpriteSheet sSpriteSheet_WheelIcons =

@@ -203,7 +203,6 @@ static EWRAM_DATA union
     struct WirelessLink_Group *group;
     struct WirelessLink_URoom *uRoom;
 } sWirelessLinkMain = {};
-static EWRAM_DATA u32 sUnused = 0;
 EWRAM_DATA struct RfuGameCompatibilityData gRfuPartnerCompatibilityData = {};
 EWRAM_DATA u16 gUnionRoomOfferedSpecies = 0;
 EWRAM_DATA u8 gUnionRoomRequestedMonType = 0;
@@ -2149,10 +2148,6 @@ static void Task_CardOrNewsWithFriend(u8 taskId)
             id = ListMenu_ProcessInput(data->listTaskId);
             if (JOY_NEW(A_BUTTON) && id != -1)
             {
-                // this unused variable along with the assignment is needed to match
-                u32 unusedVar;
-                unusedVar  = data->playerList->players[id].rfu.data.activity;
-
                 if (data->playerList->players[id].groupScheduledAnim == UNION_ROOM_SPAWN_IN && !data->playerList->players[id].rfu.data.startedActivity)
                 {
                     data->leaderId = id;
@@ -2435,7 +2430,6 @@ void RunUnionRoom(void)
 
     uroom->state = UR_STATE_INIT;
     uroom->textState = 0;
-    uroom->unknown = 0;
     uroom->unreadPlayerId = 0;
 
     gSpecialVar_Result = 0;
@@ -3303,7 +3297,6 @@ void InitUnionRoom(void)
     sURoom = sWirelessLinkMain.uRoom;
     data->state = 0;
     data->textState = 0;
-    data->unknown = 0;
     data->unreadPlayerId = 0;
     sUnionRoomPlayerName[0] = EOS;
 }

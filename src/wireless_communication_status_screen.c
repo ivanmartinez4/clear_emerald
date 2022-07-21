@@ -41,7 +41,6 @@ struct WirelessCommunicationStatusScreen
     u32 activities[NUM_TASK_DATA];
     u8 taskId;
     u8 rfuTaskId;
-    u8 filler[10];
 };
 
 static struct WirelessCommunicationStatusScreen * sStatusScreen;
