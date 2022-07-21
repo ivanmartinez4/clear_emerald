@@ -135,10 +135,6 @@ struct Contest
     u8 playerMoveChoice;
     u8 appealNumber;
     u8 unk[CONTESTANT_COUNT]; // never read
-    bool16 unused1:1;
-    bool16 unused2:1;
-    bool16 unused3:1;
-    bool16 unused4:1;
     bool16 waitForJudgeSpeechBubble:1;
     bool16 isShowingApplauseMeter:1;
     bool16 applauseMeterIsMoving:1;
@@ -173,7 +169,6 @@ struct ContestantStatus
     u16 prevMove;
     u8 moveCategory;
     u8 ranking:2;
-    u8 unused1:2;
     u8 moveRepeatCount:3;
     bool8 noMoreTurns:1;  // used a one-time move?
     bool8 nervous:1;

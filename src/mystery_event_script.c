@@ -29,18 +29,18 @@ extern ScrCmdFunc gMysteryEventScriptCmdTableEnd[];
 
 EWRAM_DATA static struct ScriptContext sMysteryEventScriptContext = {0};
 
-static bool32 CheckCompatibility(u16 unk0, u32 unk1, u16 unk2, u32 version)
+static bool32 CheckCompatibility(u32 version)
 {
     // 0x1 in English FRLG, 0x2 in English RS, 0x4 in German RS
-    if (!(unk0 & 0x1))
+    if (!(0x1))
         return FALSE;
 
     // Same as above
-    if (!(unk1 & 0x1))
+    if (!(0x1))
         return FALSE;
 
     // 0x1 in FRLG, 0x4 in RS
-    if (!(unk2 & 0x4))
+    if (!(0x4))
         return FALSE;
 
     if (!(version & VERSION_MASK))
@@ -117,8 +117,7 @@ static bool32 IsRecordMixingGiftValid(void)
     struct RecordMixingGiftData *data = &gSaveBlock1Ptr->recordMixingGift.data;
     int checksum = CalcRecordMixingGiftChecksum();
 
-    if (data->unk0 == 0
-        || data->quantity == 0
+    if (data->quantity == 0
         || data->itemId == 0
         || checksum == 0
         || checksum != gSaveBlock1Ptr->recordMixingGift.checksum)
@@ -132,15 +131,14 @@ static void ClearRecordMixingGift(void)
     CpuFill16(0, &gSaveBlock1Ptr->recordMixingGift, sizeof(gSaveBlock1Ptr->recordMixingGift));
 }
 
-static void SetRecordMixingGift(u8 unk, u8 quantity, u16 itemId)
+static void SetRecordMixingGift(u8 quantity, u16 itemId)
 {
-    if (!unk || !quantity || !itemId)
+    if (!quantity || !itemId)
     {
         ClearRecordMixingGift();
     }
     else
     {
-        gSaveBlock1Ptr->recordMixingGift.data.unk0 = unk;
         gSaveBlock1Ptr->recordMixingGift.data.quantity = quantity;
         gSaveBlock1Ptr->recordMixingGift.data.itemId = itemId;
         gSaveBlock1Ptr->recordMixingGift.checksum = CalcRecordMixingGiftChecksum();
@@ -177,18 +175,12 @@ bool8 MEScrCmd_end(struct ScriptContext *ctx)
 
 bool8 MEScrCmd_checkcompat(struct ScriptContext *ctx)
 {
-    u16 unk0;
-    u32 unk1;
-    u16 unk2;
     u32 version;
 
     ctx->mOffset = ScriptReadWord(ctx);
-    unk0 = ScriptReadHalfword(ctx);
-    unk1 = ScriptReadWord(ctx);
-    unk2 = ScriptReadHalfword(ctx);
     version = ScriptReadWord(ctx);
 
-    if (CheckCompatibility(unk0, unk1, unk2, version) == TRUE)
+    if (CheckCompatibility(version) == TRUE)
         ctx->mValid = TRUE;
     else
         SetIncompatible();
@@ -301,10 +293,9 @@ bool8 MEScrCmd_addrareword(struct ScriptContext *ctx)
 
 bool8 MEScrCmd_setrecordmixinggift(struct ScriptContext *ctx)
 {
-    u8 unk = ScriptReadByte(ctx);
     u8 quantity = ScriptReadByte(ctx);
     u16 itemId = ScriptReadHalfword(ctx);
-    SetRecordMixingGift(unk, quantity, itemId);
+    SetRecordMixingGift(quantity, itemId);
     return FALSE;
 }
 
