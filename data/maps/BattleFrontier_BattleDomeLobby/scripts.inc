@@ -389,16 +389,6 @@ BattleFrontier_OutsideWest_EventScript_Man3::
 	msgbox BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier, MSGBOX_NPC
 	end
 
-@ Unused
-BattleFrontier_OutsideWest_EventScript_BattleDomeSign2::
-	msgbox BattleFrontier_OutsideWest_Text_BattleDomeSign2, MSGBOX_NPC
-	end
-
-@ Unused
-BattleFrontier_OutsideWest_EventScript_UnderConstructionSign::
-	msgbox BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction, MSGBOX_NPC
-	end
-
 BattleFrontier_BattleDomeLobby_EventScript_RulesBoard::
 	lockall
 	msgbox BattleFrontier_BattleDomeLobby_Text_RulesAreListed, MSGBOX_DEFAULT
@@ -440,20 +430,20 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
 	.string "Where the strategies of TRAINERS\n"
 	.string "are put to the test!\p"
 	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the SINGLE BATTLE\n"
+	.string "I am your guide to the Single Battle\n"
 	.string "Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
 	.string "Would you like to challenge\n"
-	.string "the SINGLE BATTLE Tournament?$"
+	.string "the Single Battle Tournament?$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
 	.string "We hope to see you again.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
-	.string "The SINGLE BATTLE Tournament\n"
+	.string "The Single Battle Tournament\n"
 	.string "is exactly as the name suggests--\l"
-	.string "a tournament of SINGLE BATTLES.\p"
+	.string "a tournament of Single BattleS.\p"
 	.string "All participating TRAINERS must\n"
 	.string "enter three Pokémon each.\p"
 	.string "In each battle, one of the three\n"
@@ -517,21 +507,10 @@ BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
 	.string "Congratulations for winning\n"
 	.string "your Battle Tournament!$"
 
-@ Unused
-BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
-	.string "Here is your prize for your Battle\n"
-	.string "Tournament victory.$"
-
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
 	.string "{PLAYER} received the prize\n"
 	.string "{STR_VAR_1}.$"
-
-@ Unused
-BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
-	.string "Oh, your BAG appears to be full.\p"
-	.string "Please make room in your BAG, then come\n"
-	.string "see me.$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
 	.string "Thank you for playing!$"
@@ -551,23 +530,23 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
 	.string "Where the strategies of TRAINERS\n"
 	.string "are put to the test!\p"
 	.string "Welcome to the BATTLE DOME!\p"
-	.string "I am your guide to the DOUBLE BATTLE\n"
+	.string "I am your guide to the Double Battle\n"
 	.string "Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
 	.string "Would you like to challenge\n"
-	.string "the DOUBLE BATTLE Tournament?$"
+	.string "the Double Battle Tournament?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
-	.string "The DOUBLE BATTLE Tournament\n"
+	.string "The Double Battle Tournament\n"
 	.string "is exactly as the name suggests--\l"
-	.string "a tournament of DOUBLE BATTLES.\p"
+	.string "a tournament of Double BattleS.\p"
 	.string "All participating TRAINERS must\n"
 	.string "enter three Pokémon each.\p"
 	.string "In each battle, one of the three\n"
 	.string "Pokémon must be held in reserve.\p"
 	.string "The remaining two Pokémon must take\n"
-	.string "part in a DOUBLE BATTLE.\p"
+	.string "part in a Double Battle.\p"
 	.string "Choose the two battling Pokémon after\n"
 	.string "examining the opponent's trio.\p"
 	.string "You win the tournament by defeating\n"
@@ -581,19 +560,19 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
 	.string "They're the results of the last\n"
-	.string "Level 50 SINGLE BATTLE Tournament.$"
+	.string "Level 50 Single Battle Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
 	.string "They're the results of the last\n"
-	.string "Level 50 DOUBLE BATTLE Tournament.$"
+	.string "Level 50 Double Battle Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
 	.string "They're the results of the last\n"
-	.string "Open Level SINGLE BATTLE Tournament.$"
+	.string "Open Level Single Battle Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
 	.string "They're the results of the last\n"
-	.string "Open Level DOUBLE BATTLE Tournament.$"
+	.string "Open Level Double Battle Tournament.$"
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
 	.string "Did you see it?\n"
@@ -640,7 +619,7 @@ BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
 	.string "Congratulations!\p"
-	.string "You defeated the DOME ACE and won\n"
+	.string "You defeated the Dome Ace and won\n"
 	.string "the Battle Tournament!$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
@@ -651,7 +630,7 @@ BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
 	.string "Would you like to record your\n"
 	.string "last BATTLE DOME match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "Frontier Pass?$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
 	.string "The Battle Tournament rules\n"

@@ -73,13 +73,6 @@ Route104_EventScript_RivalTrigger::
 	waitmovement 0
 	goto Route104_EventScript_RivalEncounter
 
-@ Unused, shares script with Rustboro encounter instead
-Route104_EventScript_PlayRivalMusic::
-	checkplayergender
-	goto_if_eq VAR_RESULT, MALE, Route104_EventScript_PlayMayMusic
-	goto_if_eq VAR_RESULT, FEMALE, Route104_EventScript_PlayBrendanMusic
-	return
-
 Route104_EventScript_PlayMayMusic::
 	playbgm MUS_ENCOUNTER_MAY, TRUE
 	return
@@ -1075,8 +1068,8 @@ Route104_Text_TrainerTipsDoubleBattles:
 	.string "In the HOENN region there are pairs\n"
 	.string "of TRAINERS who challenge others\l"
 	.string "for 2-on-2 Pokémon battles called\l"
-	.string "DOUBLE BATTLES.\p"
-	.string "In a DOUBLE BATTLE, the TRAINER must\n"
+	.string "Double BattleS.\p"
+	.string "In a Double Battle, the TRAINER must\n"
 	.string "send out two Pokémon, the one at the\l"
 	.string "left of the list and the top one.\l"
 	.string "Watch how Pokémon are lined up.$"

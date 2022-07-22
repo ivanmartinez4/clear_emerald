@@ -126,12 +126,6 @@ BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
 	.string "Howdy! Did you swing by to grill me\n"
 	.string "about the latest word? Oh, all right!$"
 
-@ Unused
-BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight::
-	.string "Well? Well? Well?\p"
-	.string "I'm sure my information's been\n"
-	.string "seriously useful to you, right?$"
-
 BattleFrontier_Lounge2_Text_FacilityIsHottest::
 	.string "Let's see now…\p"
 	.string "It sounds like the {STR_VAR_1}\n"
@@ -147,10 +141,10 @@ BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this mysterious TRAINER called\n"
-	.string "the SALON MAIDEN that runs the place.$"
+	.string "the Salon Maiden that runs the place.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
-	.string "Have you battled the SALON MAIDEN?\p"
+	.string "Have you battled the Salon Maiden?\p"
 	.string "When she's measuring up her opponent,\n"
 	.string "she apparently uses these Pokémon:\p"
 	.string "A PSYCHIC-type PSI Pokémon,\n"
@@ -158,7 +152,7 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
 	.string "and a NORMAL-type SLEEPING Pokémon.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
-	.string "Have you battled the SALON MAIDEN\n"
+	.string "Have you battled the Salon Maiden\n"
 	.string "when she's serious?\p"
 	.string "When she's battling flat out,\n"
 	.string "she apparently uses these Pokémon:\p"
@@ -171,10 +165,10 @@ BattleFrontier_Lounge2_Text_DomeAceIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this flamboyant TRAINER called\n"
-	.string "the DOME ACE that runs the place.$"
+	.string "the Dome Ace that runs the place.$"
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons::
-	.string "Have you battled the DOME ACE?\p"
+	.string "Have you battled the Dome Ace?\p"
 	.string "When he's treating the opponent\n"
 	.string "lightly, he uses these three Pokémon:\p"
 	.string "A DRAGON & FLYING DRAGON Pokémon,\n"
@@ -182,7 +176,7 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "and a FIRE & FLYING FLAME Pokémon.$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
-	.string "Have you battled the DOME ACE\n"
+	.string "Have you battled the Dome Ace\n"
 	.string "when he's serious?\p"
 	.string "When he's demonstrating his strategy,\n"
 	.string "he uses these three Pokémon:\p"
@@ -196,10 +190,10 @@ BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this freaky TRAINER called\n"
-	.string "the FACTORY HEAD that runs the place.$"
+	.string "the Factory Head that runs the place.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
-	.string "Have you battled the FACTORY HEAD\n"
+	.string "Have you battled the Factory Head\n"
 	.string "already?\p"
 	.string "Let me think… When he goes to battle,\n"
 	.string "he just gets three rental Pokémon.\p"
@@ -207,7 +201,7 @@ BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
 	.string "conditions as you.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
-	.string "Have you battled the FACTORY HEAD\n"
+	.string "Have you battled the Factory Head\n"
 	.string "when he's serious?\p"
 	.string "When he goes seriously to battle,\n"
 	.string "he still gets three rental Pokémon.\p"
@@ -219,10 +213,10 @@ BattleFrontier_Lounge2_Text_PikeQueenIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this scary TRAINER called\n"
-	.string "the PIKE QUEEN that runs the place.$"
+	.string "the Pike Queen that runs the place.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
-	.string "Have you battled the PIKE QUEEN\n"
+	.string "Have you battled the Pike Queen\n"
 	.string "before?\p"
 	.string "When she's in a good mood, they say\n"
 	.string "she uses these three Pokémon:\p"
@@ -231,7 +225,7 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 	.string "and a WATER-type TENDER Pokémon.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
-	.string "Have you battled the PIKE QUEEN\n"
+	.string "Have you battled the Pike Queen\n"
 	.string "when she's serious?\p"
 	.string "When she's seriously annoyed, they say\n"
 	.string "she uses these three Pokémon:\p"
@@ -245,10 +239,10 @@ BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this cute TRAINER called\n"
-	.string "the ARENA TYCOON that runs the place.$"
+	.string "the Arena Tycoon that runs the place.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
-	.string "Have you battled the ARENA TYCOON\n"
+	.string "Have you battled the Arena Tycoon\n"
 	.string "before?\p"
 	.string "When she's assessing the foe's ability,\n"
 	.string "she supposedly uses these Pokémon:\p"
@@ -257,7 +251,7 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "and a BUG & GHOST SHED Pokémon.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
-	.string "Have you battled the ARENA TYCOON\n"
+	.string "Have you battled the Arena Tycoon\n"
 	.string "when she's serious?\p"
 	.string "When she battles for keeps,\n"
 	.string "she supposedly uses these Pokémon:\p"
@@ -271,10 +265,10 @@ BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this sinister TRAINER called\n"
-	.string "the PALACE MAVEN that runs the place.$"
+	.string "the Palace Maven that runs the place.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
-	.string "Have you battled the PALACE MAVEN\n"
+	.string "Have you battled the Palace Maven\n"
 	.string "before?\p"
 	.string "When he's testing the opponent's\n"
 	.string "spirit, he's said to use these Pokémon:\p"
@@ -283,7 +277,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
 	.string "WATER- & ICE-type TRANSPORT Pokémon.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
-	.string "Have you battled the PALACE MAVEN\n"
+	.string "Have you battled the Palace Maven\n"
 	.string "when he's serious?\p"
 	.string "When he throws his entire might into\n"
 	.string "battle, he's said to use these Pokémon:\p"
@@ -296,10 +290,10 @@ BattleFrontier_Lounge2_Text_PyramidKingIsThere::
 	.string "One of those top TRAINERS that SCOTT\n"
 	.string "calls the FRONTIER BRAINS is there.\p"
 	.string "It's this fiery-hot TRAINER called\n"
-	.string "the PYRAMID KING that runs the place.$"
+	.string "the Pyramid King that runs the place.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
-	.string "Have you battled the PYRAMID KING\n"
+	.string "Have you battled the Pyramid King\n"
 	.string "before?\p"
 	.string "When he's checking the foe's power,\n"
 	.string "he apparently uses these Pokémon:\p"
@@ -308,7 +302,7 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
 	.string "and a STEEL-type IRON Pokémon.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
-	.string "Have you battled the PYRAMID KING\n"
+	.string "Have you battled the Pyramid King\n"
 	.string "when he's serious?\p"
 	.string "When he's pumped with hot power,\n"
 	.string "he apparently uses these Pokémon:\p"
@@ -319,24 +313,24 @@ BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
 	.string "Sure, there are several places where\n"
-	.string "you can enter DOUBLE BATTLES.\p"
-	.string "But the DOUBLE BATTLE ROOMS of\n"
+	.string "you can enter Double BattleS.\p"
+	.string "But the Double Battle ROOMS of\n"
 	.string "the BATTLE TOWER are, like, basic!\p"
 	.string "They're where you should learn about\n"
-	.string "how DOUBLE BATTLES are played here\l"
+	.string "how Double BattleS are played here\l"
 	.string "in the Battle Frontier.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
 	.string "Watch yourself in the battles here.\p"
 	.string "I hear there are TRAINERS that have\n"
 	.string "strategies they developed just for\l"
-	.string "DOUBLE BATTLES.$"
+	.string "Double BattleS.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
 	.string "Once you're confident and comfortable\n"
-	.string "with DOUBLE BATTLES here, you should\l"
+	.string "with Double BattleS here, you should\l"
 	.string "think about challenging other places\l"
-	.string "offering DOUBLE BATTLES.$"
+	.string "offering Double BattleS.$"
 
 BattleFrontier_Lounge2_Text_MultiBattleAdvice::
 	.string "All sorts of TRAINERS gather in\n"
@@ -347,7 +341,7 @@ BattleFrontier_Lounge2_Text_MultiBattleAdvice::
 
 BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice::
 	.string "If you're with a friend, head for the\n"
-	.string "LINK MULTI BATTLE ROOM.\p"
+	.string "LINK Multi Battle ROOM.\p"
 	.string "If you play with a strong friend,\n"
 	.string "you can expect to see tough foes!$"
 

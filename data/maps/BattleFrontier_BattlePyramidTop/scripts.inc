@@ -260,7 +260,7 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "Aah, yes, indeed this life is grand!\n"
 	.string "Grand, it is! Eh?\p"
 	.string "I'm BRANDON!\p"
-	.string "I'm the PYRAMID KING, which means\n"
+	.string "I'm the Pyramid King, which means\n"
 	.string "I'm in charge here.\p"
 	.string "Most people call me the chief!\p"
 	.string "You coming here means you have\n"
@@ -277,11 +277,11 @@ BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
 	.string "BRANDON: Hahahah! Grand it was!\n"
 	.string "Grand, yes, indeed!\p"
 	.string "Well done! You've earned recognition!\n"
-	.string "Your FRONTIER PASS, please!$"
+	.string "Your Frontier Pass, please!$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
 	.string "The Brave Symbol was embossed on\n"
-	.string "the FRONTIER PASS!$"
+	.string "the Frontier Pass!$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
 	.string "Young explorer!\n"

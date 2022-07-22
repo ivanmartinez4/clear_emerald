@@ -135,7 +135,7 @@ FortreeCity_Gym_EventScript_GymStatue::
 FortreeCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "FORTREE GYM LEADER WINONA is\n"
+	.string "FORTREE GYM Leader WINONA is\n"
 	.string "a master of FLYING-type Pokémon.\p"
 	.string "She's waiting at the back of this GYM,\n"
 	.string "behind the rotating doors.\p"
@@ -159,7 +159,7 @@ FortreeCity_Gym_Text_JaredPostBattle:
 	.string "A TRAINER has to be smart to keep\n"
 	.string "up with unexpected turns of events.\p"
 	.string "Do you have the smarts to get to\n"
-	.string "our LEADER?$"
+	.string "our Leader?$"
 
 FortreeCity_Gym_Text_EdwardoIntro:
 	.string "The lovers of BIRD Pokémon aspire\n"
@@ -188,7 +188,7 @@ FortreeCity_Gym_Text_FlintDefeat:
 
 FortreeCity_Gym_Text_FlintPostBattle:
 	.string "WINONA is cute and she's strong.\n"
-	.string "She's the ultimate LEADER!\p"
+	.string "She's the ultimate Leader!\p"
 	.string "Blush…$"
 
 FortreeCity_Gym_Text_AshleyIntro:
@@ -227,11 +227,11 @@ FortreeCity_Gym_Text_DariusDefeat:
 
 FortreeCity_Gym_Text_DariusPostBattle:
 	.string "Sure, you beat me all right.\n"
-	.string "But you'd better watch it! Our LEADER\l"
+	.string "But you'd better watch it! Our Leader\l"
 	.string "WINONA's Pokémon are all business.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
+	.string "I am WINONA. I am the Leader of\n"
 	.string "the FORTREE Pokémon GYM.\p"
 	.string "I have become one with BIRD Pokémon\n"
 	.string "and have soared the skies…\p"
@@ -267,7 +267,7 @@ FortreeCity_Gym_Text_ExplainAerialAce:
 	.string "… … … … … …$"
 
 FortreeCity_Gym_Text_RegisteredWinona:
-	.string "Registered GYM LEADER WINONA\n"
+	.string "Registered GYM Leader WINONA\n"
 	.string "in the PokéNav.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:

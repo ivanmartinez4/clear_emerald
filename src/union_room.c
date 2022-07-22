@@ -190,7 +190,6 @@ enum {
     PLIST_NONE,
     PLIST_NEW_PLAYER,
     PLIST_RECENT_UPDATE,
-    PLIST_UNUSED,
     PLIST_CONTACTED,
 };
 
@@ -3352,8 +3351,6 @@ static void Task_InitUnionRoom(u8 taskId)
                     }
                 }
             }
-            break;
-        case PLIST_UNUSED:
             break;
         }
         break;

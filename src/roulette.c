@@ -3247,13 +3247,6 @@ static const struct CompressedSpriteSheet sSpriteSheet_Shadow =
     .tag = GFXTAG_SHADOW
 };
 
-static const union AffineAnimCmd sAffineAnim_Unused3[] =
-{
-    AFFINEANIMCMD_FRAME(0x80, 0x80, 0, 0),
-    AFFINEANIMCMD_FRAME(2,    2,    0, 60),
-    AFFINEANIMCMD_END
-};
-
 static const union AffineAnimCmd sAffineAnim_TaillowShadow[] =
 {
     AFFINEANIMCMD_FRAME(0x100, 0x100, 0, 0),
@@ -3263,25 +3256,9 @@ static const union AffineAnimCmd sAffineAnim_TaillowShadow[] =
     AFFINEANIMCMD_END
 };
 
-static const union AffineAnimCmd *const sAffineAnims_Unused3[] =
-{
-    sAffineAnim_Unused3
-};
-
 static const union AffineAnimCmd *const sAffineAnims_TaillowShadow[] =
 {
     sAffineAnim_TaillowShadow
-};
-
-static const union AffineAnimCmd sAffineAnim_Unused4[] =
-{
-    AFFINEANIMCMD_FRAME(0x100, 0x100, 0, 0),
-    AFFINEANIMCMD_END
-};
-
-static const union AffineAnimCmd *const sAffineAnims_Unused4[] =
-{
-    sAffineAnim_Unused4
 };
 
 static const union AnimCmd sAnim_ShroomishBallShadow[] =
@@ -3524,16 +3501,6 @@ static void CreateGridSprites(void)
     {
         spriteId = sRoulette->spriteIds[i + SPR_COLOR_HEADERS] = CreateSprite(&sSpriteTemplates_ColorHeaders[i], 126, (i * 24) + 92, 30);
         gSprites[spriteId].animPaused = TRUE;
-    }
-}
-
-// Unused
-static void DestroyGridSprites(void)
-{
-    u8 i;
-    for (i = 0; i < NUM_ROULETTE_SLOTS; i++)
-    {
-        DestroySprite(&gSprites[sRoulette->spriteIds[i + SPR_GRID_ICONS]]);
     }
 }
 

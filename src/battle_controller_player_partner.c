@@ -1685,25 +1685,21 @@ static void PlayerPartnerHandleOneReturnValue_Duplicate(void)
 
 static void PlayerPartnerHandleClearUnkVar(void)
 {
-    gUnusedControllerStruct.unk = 0;
     PlayerPartnerBufferExecCompleted();
 }
 
 static void PlayerPartnerHandleSetUnkVar(void)
 {
-    gUnusedControllerStruct.unk = gBattleResources->bufferA[gActiveBattler][1];
     PlayerPartnerBufferExecCompleted();
 }
 
 static void PlayerPartnerHandleClearUnkFlag(void)
 {
-    gUnusedControllerStruct.flag = 0;
     PlayerPartnerBufferExecCompleted();
 }
 
 static void PlayerPartnerHandleToggleUnkFlag(void)
 {
-    gUnusedControllerStruct.flag ^= 1;
     PlayerPartnerBufferExecCompleted();
 }
 

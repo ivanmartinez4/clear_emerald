@@ -386,13 +386,13 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 	.string "Do you wish to take\n"
-	.string "the SINGLE BATTLE HALL challenge?$"
+	.string "the Single Battle HALL challenge?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "In the BATTLE PALACE, there are\n"
-	.string "several auditoriums for SINGLE BATTLES\l"
-	.string "that are named SINGLE BATTLE HALLS.\p"
-	.string "The SINGLE BATTLES are conducted in\n"
+	.string "several auditoriums for Single BattleS\l"
+	.string "that are named Single Battle HALLS.\p"
+	.string "The Single BattleS are conducted in\n"
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
 	.string "TRAINERS are permitted only to switch\n"
@@ -473,11 +473,6 @@ BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
 	.string "Your feat will be recorded.\n"
 	.string "I must ask you to briefly wait.$"
 
-@ Unused
-BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-    .string "For the feat of your 7-win streak,\n"
-    .string "we present you with Battle Point(s).$"
-
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "You seem to have no space for\n"
 	.string "our prize.\p"
@@ -497,11 +492,6 @@ BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
 	.string "your challenge the last time.\p"
 	.string "As a result, your challenge has been\n"
 	.string "disqualified. It is most unfortunate.$"
-
-@ Unused
-BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 	.string "For a hardy fellow like me,\n"
@@ -556,13 +546,13 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 	.string "Do you wish to take\n"
-	.string "the DOUBLE BATTLE HALL challenge?$"
+	.string "the Double Battle HALL challenge?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "In the BATTLE PALACE, there are\n"
-	.string "several auditoriums for DOUBLE BATTLES\l"
-	.string "that are named DOUBLE BATTLE HALLS.\p"
-	.string "The DOUBLE BATTLES are conducted in\n"
+	.string "several auditoriums for Double BattleS\l"
+	.string "that are named Double Battle HALLS.\p"
+	.string "The Double BattleS are conducted in\n"
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
 	.string "TRAINERS are permitted only to switch\n"
@@ -582,7 +572,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "you will be disqualified.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-	.string "To defeat the PALACE MAVEN\n"
+	.string "To defeat the Palace Maven\n"
 	.string "and seven TRAINERS in a row…$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
@@ -593,7 +583,7 @@ BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
 	.string "Would you like to record your latest\n"
 	.string "BATTLE PALACE match on your\l"
-	.string "FRONTIER PASS?$"
+	.string "Frontier Pass?$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
 	.string "The BATTLE HALL rules are listed.$"

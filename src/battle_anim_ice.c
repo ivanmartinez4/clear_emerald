@@ -82,12 +82,6 @@ static const union AnimCmd sAnim_SmallBubblePair[] =
     ANIMCMD_JUMP(0),
 };
 
-// Unused, contains just the top left corner of the large ice crystal
-static const union AnimCmd *const sAnims_IceCrystalLargeChunk[] =
-{
-    sAnim_IceCrystalLargeChunk,
-};
-
 const union AnimCmd *const gAnims_IceCrystalLarge[] =
 {
     sAnim_IceCrystalLarge,

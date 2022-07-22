@@ -1190,7 +1190,6 @@ static void Task_SetPyramidFloorPalette(u8 taskId)
     }
 }
 
-// Unused. Handled by BuildStartMenuActions
 static void BattlePyramidStartMenu(void)
 {
     ShowBattlePyramidStartMenu();
@@ -1477,7 +1476,6 @@ u8 GetTrainerEncounterMusicIdInBattlePyramid(u16 trainerId)
     return TRAINER_ENCOUNTER_MUSIC_MALE;
 }
 
-// Unused
 static void BattlePyramidRetireChallenge(void)
 {
     ScriptContext1_SetupScript(BattlePyramid_Retire);

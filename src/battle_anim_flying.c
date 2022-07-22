@@ -272,20 +272,6 @@ const struct SpriteTemplate gDiveBallSpriteTemplate =
     .callback = AnimDiveBall,
 };
 
-static const union AffineAnimCmd sAnim_Unused[] =
-{
-    AFFINEANIMCMD_FRAME(0x100, 0x0, 0, 0),
-    AFFINEANIMCMD_FRAME(0x0, 0x20, 0, 12),
-    AFFINEANIMCMD_FRAME(0x0, 0xFFE0, 0, 11),
-    AFFINEANIMCMD_END,
-};
-
-// Unused
-static const union AffineAnimCmd *const sAnims_Unused[] =
-{
-    sAnim_Unused,
-};
-
 const struct SpriteTemplate gDiveWaterSplashSpriteTemplate =
 {
     .tileTag = ANIM_TAG_SPLASH,
@@ -1155,22 +1141,6 @@ void AnimSkyAttackBird_Step(struct Sprite *sprite)
     if (sprite->x > 285 || sprite->x < -45
         || sprite->y > 157 || sprite->y < -45)
         DestroySpriteAndMatrix(sprite);
-}
-
-// Unused
-static void AnimTask_SetAttackerVisibility(u8 taskId)
-{
-    if (gBattleAnimArgs[0] == 0)
-    {
-        u8 spriteId = GetAnimBattlerSpriteId(ANIM_ATTACKER);
-        gSprites[spriteId].invisible = TRUE;
-    }
-    else
-    {
-        u8 spriteId = GetAnimBattlerSpriteId(ANIM_ATTACKER);
-        gSprites[spriteId].invisible = FALSE;
-    }
-    DestroyAnimVisualTask(taskId);
 }
 
 void AnimTask_LoadWindstormBackground(u8 taskId)

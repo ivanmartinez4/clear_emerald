@@ -77,7 +77,6 @@ struct WirelessLink_Group
     struct RfuIncomingPlayerList *incomingPlayerList;
     u8 state;
     u8 textState;
-    u8 delayTimerAfterOk; // Unused
     u8 listWindowId;
     u8 bButtonCancelWindowId;
     u8 playerNameAndIdWindowId;

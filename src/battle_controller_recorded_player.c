@@ -1562,25 +1562,21 @@ static void RecordedPlayerHandleOneReturnValue_Duplicate(void)
 
 static void RecordedPlayerHandleClearUnkVar(void)
 {
-    gUnusedControllerStruct.unk = 0;
     RecordedPlayerBufferExecCompleted();
 }
 
 static void RecordedPlayerHandleSetUnkVar(void)
 {
-    gUnusedControllerStruct.unk = gBattleResources->bufferA[gActiveBattler][1];
     RecordedPlayerBufferExecCompleted();
 }
 
 static void RecordedPlayerHandleClearUnkFlag(void)
 {
-    gUnusedControllerStruct.flag = 0;
     RecordedPlayerBufferExecCompleted();
 }
 
 static void RecordedPlayerHandleToggleUnkFlag(void)
 {
-    gUnusedControllerStruct.flag ^= 1;
     RecordedPlayerBufferExecCompleted();
 }
 

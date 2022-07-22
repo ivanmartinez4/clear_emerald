@@ -452,15 +452,6 @@
 	map \map
 	.endm
 
-	@ Warps the player to the specified map using a teleport effect. Effect is similar to warpspinenter but
-	@ this warp has a fade out first and doesn't maintain the original facing direction.
-	@ Warp commands can be given either the id of which warp location to go to on the destination map
-	@ or a pair of x/y coordinates to go to directly on the destination map.
-	.macro warpteleport map:req, a, b, c
-	.byte 0x3d
-	formatwarp \map, \a, \b, \c
-	.endm
-
 	@ Sets the warp destination to be used later.
 	@ Warp commands can be given either the id of which warp location to go to on the destination map
 	@ or a pair of x/y coordinates to go to directly on the destination map.
@@ -1607,8 +1598,8 @@
 	.2byte \worldmapflag
 	.endm
 
-	@ Warps the player to the specified map using a teleport effect. Effect is similar to warpteleport, but
-	@ this warp has no fade out and maintains the original facing direction.
+	@ Warps the player to the specified map using a teleport effect.
+	@ This warp has no fade out and maintains the original facing direction.
 	@ Warp commands can be given either the id of which warp location to go to on the destination map
 	@ or a pair of x/y coordinates to go to directly on the destination map.
 	.macro warpspinenter map:req, a, b, c

@@ -81,44 +81,6 @@ enum
      * |
      */
     GATE_SHAPE_T4,
-
-    /*
-     * An unused T-shape gate
-     * |
-     * |
-     * +----
-     * |
-     */
-    GATE_SHAPE_UNUSED_T1,
-
-    /*
-     * An unused T-shape gate
-     * |
-     * |
-     * +--
-     * |
-     * |
-     */
-    GATE_SHAPE_UNUSED_T2,
-
-    /*
-     * An unused T-shape gate
-     * |
-     * +----
-     * |
-     * |
-     */
-    GATE_SHAPE_UNUSED_T3,
-
-    /*
-     * An unused T-shape gate
-     * |
-     * |
-     * +----
-     * |
-     * |
-     */
-    GATE_SHAPE_UNUSED_T4,
 };
 
 enum

@@ -81,12 +81,6 @@ BattleFrontier_ReceptionGate_Movement_PlayerFaceScott:
 	walk_in_place_faster_right
 	step_end
 
-@ Unused
-BattleFrontier_ReceptionGate_Movement_WalkDown:
-	walk_down
-	walk_down
-	step_end
-
 BattleFrontier_ReceptionGate_Movement_ScottEnter:
 	walk_down
 	walk_down
@@ -308,18 +302,18 @@ BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 	.string "For a first-time visitor, we issue\n"
-	.string "the FRONTIER PASS.\p"
+	.string "the Frontier Pass.\p"
 	.string "It's for use at all the facilities\n"
 	.string "in the Battle Frontier.\p"
 	.string "Here you are!$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
 	.string "{PLAYER} obtained\n"
-	.string "the FRONTIER PASS.$"
+	.string "the Frontier Pass.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
 	.string "{PLAYER} placed the TRAINER CARD\n"
-	.string "in the FRONTIER PASS.$"
+	.string "in the Frontier Pass.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
 	.string "We hope you enjoy all that the BATTLE\n"
@@ -355,7 +349,7 @@ BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 	.string "to be the Battle Frontier's symbol.\p"
 	.string "There are four kinds of BATTLE ROOMS\n"
 	.string "in the tower for SINGLE, DOUBLE, MULTI,\l"
-	.string "and LINK MULTI BATTLES.$"
+	.string "and LINK Multi BattleS.$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "The BATTLE DOME is the large building\n"
@@ -370,7 +364,7 @@ BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "The BATTLE PALACE is the red building\n"
 	.string "on the right of the Battle Frontier.\p"
 	.string "There are two kinds of BATTLE HALLS\n"
-	.string "for SINGLE and DOUBLE BATTLES.$"
+	.string "for SINGLE and Double BattleS.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 	.string "The BATTLE ARENA is the dojo-like\n"
@@ -471,7 +465,7 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
 	.string "different items.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "I'm your guide to the FRONTIER PASS.$"
+	.string "I'm your guide to the Frontier Pass.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
 	.string "Which would you like to learn about?$"
@@ -490,7 +484,7 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "It is possible to record one battle\n"
-	.string "on your FRONTIER PASS.\p"
+	.string "on your Frontier Pass.\p"
 	.string "You may record a battle you had with\n"
 	.string "a friend or friends.\p"
 	.string "Or you may record a battle conducted\n"

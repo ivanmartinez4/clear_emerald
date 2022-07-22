@@ -319,7 +319,7 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 	.string "I may not look that impressive now,\n"
-	.string "but I once beat a GYM LEADER.\p"
+	.string "but I once beat a GYM Leader.\p"
 	.string "Who knows, maybe I should give it\n"
 	.string "another shot at glory.$"
 
@@ -401,7 +401,7 @@ BattleFrontier_OutsideEast_Text_CanDoAnythingWithYou:
 BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 	.string "Ooh, darling, you are so wonderful!\p"
 	.string "Ooh, I just can't wait anymore!\p"
-	.string "Let's go to a MULTI BATTLE ROOM\n"
+	.string "Let's go to a Multi Battle ROOM\n"
 	.string "right this instant!\p"
 	.string "If we get together in the BATTLE SALON,\n"
 	.string "the power of our love will overcome\l"

@@ -1637,17 +1637,6 @@ static void StartBgAnimation(bool8 isLink)
     CreateBgAnimTask(isLink);
 }
 
-// Unused
-static void PauseBgPaletteAnim(void)
-{
-    u8 taskId = FindTaskIdByFunc(Task_UpdateBgPalette);
-
-    if (taskId != TASK_NONE)
-        gTasks[taskId].tPaused = TRUE;
-
-    FillPalette(0, 0xA0, 0x20);
-}
-
 #undef tPaused
 
 static void StopBgAnimation(void)
