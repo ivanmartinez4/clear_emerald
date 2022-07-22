@@ -326,7 +326,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
-	.string "Where the intelligence of TRAINERS\n"
+	.string "Where the intelligence of trainers\n"
 	.string "is put to the test!\p"
 	.string "Welcome to the BATTLE FACTORY!\p"
 	.string "I am your guide to the Battle Swap\n"
@@ -391,7 +391,7 @@ BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
 	.string "from your challenge.$"
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
-	.string "Where the intelligence of TRAINERS\n"
+	.string "Where the intelligence of trainers\n"
 	.string "is put to the test!\p"
 	.string "Welcome to the BATTLE FACTORY!\p"
 	.string "I am your guide to the Battle Swap\n"
@@ -510,5 +510,5 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
 	.string "In the Open Level, the rental Pokémon\n"
-	.string "and the opposing TRAINERS' Pokémon\l"
+	.string "and the opposing trainers' Pokémon\l"
 	.string "are all Level 100.$"

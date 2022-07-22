@@ -870,8 +870,8 @@ gText_ComeBackWithSecretPower::
 
 gText_PokerusExplanation::
 	.string "Your Pokémon may be infected with\n"
-	.string "POKéRUS.\p"
-	.string "Little is known about the POKéRUS\n"
+	.string "Pokérus.\p"
+	.string "Little is known about thePokérus\n"
 	.string "except that they are microscopic life-\l"
 	.string "forms that attach to Pokémon.\p"
 	.string "While infected, Pokémon are said to\n"

@@ -957,7 +957,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
 	.string "MECHADOLL 2 QUIZ.\p"
 	.string "Which of these Pokémon did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "use in PetalburgFOREST?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
 	.string "CLICKETY-CLACK…\n"
@@ -971,13 +971,13 @@ Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
 	.string "MECHADOLL 3 QUIZ.\p"
-	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "Sell one Great Ball and buy\n"
+	.string "onepotion. How much money remains?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
 	.string "MECHADOLL 3 QUIZ.\p"
 	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "more than one SUPERpotion?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
 	.string "CLICKETY-CLACK…\n"

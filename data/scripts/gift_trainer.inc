@@ -42,7 +42,7 @@ sText_MysteryGiftVisitingTrainerArrived:
 	.string "SOOTOPOLIS CITY looking for you.\p"
 	.string "We hope you will enjoy\n"
 	.string "battling the visiting TRAINER.\p"
-	.string "You may invite other TRAINERS by\n"
+	.string "You may invite other trainers by\n"
 	.string "entering other passwords.\p"
 	.string "Try looking for other passwords\n"
 	.string "that may work.$"

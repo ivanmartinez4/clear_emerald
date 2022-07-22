@@ -201,7 +201,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "I understand that you're delivering\n"
 	.string "a package to SLATEPORT's SHIPYARD.\p"
 	.string "Well, on the way, could you stop off in\n"
-	.string "DEWFORD TOWN?\p"
+	.string "Dewford Town?\p"
 	.string "I was hoping that you'd deliver a\n"
 	.string "LETTER to STEVEN in DEWFORD.$"
 
@@ -293,7 +293,7 @@ RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
 	.string "DEVON's new products, the REPEAT BALL\n"
 	.string "and TIMER BALL, have become hugely\l"
-	.string "popular among TRAINERS.$"
+	.string "popular among trainers.$"
 
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
 	.string "It's a collection of rare rocks and\n"

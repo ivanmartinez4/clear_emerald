@@ -176,9 +176,9 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 	end
 
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
-	.string "Yo! How's it going, CHAMPION-\n"
+	.string "Yo! How's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
-	.string "SOOTOPOLIS's GYM Leader JUAN is\n"
+	.string "SOOTOPOLIS's Gym Leader JUAN is\n"
 	.string "a master of WATER-type Pokémon.\p"
 	.string "And, to get to JUAN, an icy floor\n"
 	.string "will hamper your progress…\p"
@@ -191,7 +191,7 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "Yow! You've beaten even JUAN, who\n"
 	.string "was supposedly the best in all HOENN!\p"
 	.string "Okay! Check out your TRAINER CARD.\p"
-	.string "If you've gotten all the BADGES, you're\n"
+	.string "If you've gotten all the Badges, you're\n"
 	.string "set for the Pokémon LEAGUE challenge!$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
@@ -201,9 +201,9 @@ SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "It was I who taught WALLACE everything\n"
 	.string "there is to know about Pokémon.\p"
 	.string "Once, I had given up my position as\n"
-	.string "the GYM Leader.\p"
+	.string "the Gym Leader.\p"
 	.string "In my place, I had entrusted WALLACE\n"
-	.string "with the GYM.\p"
+	.string "with the Gym.\p"
 	.string "However, a compelling reason arose for\n"
 	.string "me to make a comeback.\p"
 	.string "Ah, but enough chatter.\n"
@@ -254,12 +254,12 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 	.string "… … … … … …$"
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
-	.string "Registered GYM Leader JUAN\n"
+	.string "Registered Gym Leader JUAN\n"
 	.string "in the PokéNav.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
-	.string "The TRAINERS who have gathered all\n"
-	.string "the GYM BADGES of HOENN should make\l"
+	.string "The trainers who have gathered all\n"
+	.string "the Gym Badges of HOENN should make\l"
 	.string "way to the ultimate destination.\p"
 	.string "The Pokémon LEAGUE.\p"
 	.string "Travel to the easternmost reaches\n"
@@ -272,18 +272,18 @@ SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "obtain in HOENN.\p"
 	.string "If you wish to challenge the Pokémon\n"
 	.string "LEAGUE, you must obtain the last\l"
-	.string "BADGE from the GYM in FORTREE.$"
+	.string "BADGE from the Gym in FORTREE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
-	.string "SOOTOPOLIS CITY Pokémon GYM$"
+	.string "SOOTOPOLIS CITY Pokémon Gym$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-	.string "SOOTOPOLIS CITY Pokémon GYM\p"
-	.string "JUAN'S CERTIFIED TRAINERS:\n"
+	.string "SOOTOPOLIS CITY Pokémon Gym\p"
+	.string "JUAN'S CERTIFIED trainers:\n"
 	.string "{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:
-	.string "JUAN: Ah, this GYM had returned to its\n"
+	.string "JUAN: Ah, this Gym had returned to its\n"
 	.string "usual state of serenity…\p"
 	.string "But our young typhoon has returned\n"
 	.string "to put us to the test again!\p"
@@ -306,7 +306,7 @@ SootopolisCity_Gym_1F_Text_JuanPostRematch:
 	.string "of nobility!$"
 
 SootopolisCity_Gym_1F_Text_JuanRematchNeedTwoMons:
-	.string "JUAN: Ah, this GYM had returned to its\n"
+	.string "JUAN: Ah, this Gym had returned to its\n"
 	.string "usual state of serenity…\p"
 	.string "But our young typhoon has returned\n"
 	.string "to put us to the test again!\p"

@@ -100,7 +100,7 @@ Route121_SafariZoneEntrance_Text_WelcomeToSafariZone:
 	.string "And, you'll see them in their wild,\n"
 	.string "untamed state in natural habitats.\p"
 	.string "What's more, we've thrown open the\n"
-	.string "gates to Pokémon TRAINERS.\p"
+	.string "gates to Pokémon trainers.\p"
 	.string "You're encouraged to catch Pokémon\n"
 	.string "for keeps!\p"
 	.string "Come in and enjoy the SAFARI ZONE!$"

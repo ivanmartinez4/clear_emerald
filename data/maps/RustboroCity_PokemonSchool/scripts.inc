@@ -270,7 +270,7 @@ RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
 	.string "Pokémon can hold items, but they\n"
 	.string "don't know what to do with man-made\l"
-	.string "items like POTION and ANTIDOTE.$"
+	.string "items likepotion and ANTIDOTE.$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
 	.string "You know how some Pokémon moves can\n"
@@ -291,23 +291,23 @@ RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
 RustboroCity_PokemonSchool_Text_StudentsNotes:
 	.string "It's this student's notebook…\p"
 	.string "Pokémon are to be caught using\n"
-	.string "POKé BALLS.\p"
+	.string "Poké Balls.\p"
 	.string "Up to six Pokémon can accompany\n"
 	.string "a TRAINER.\p"
 	.string "A TRAINER is someone who catches\n"
 	.string "Pokémon, raises them, and battles\l"
 	.string "with them.\p"
 	.string "A TRAINER's mission is to defeat\n"
-	.string "the strong TRAINERS who await\l"
-	.string "challengers in Pokémon GYMS.$"
+	.string "the strong trainers who await\l"
+	.string "challengers in Pokémon GymS.$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "Hello? Didn't we meet before?\n"
-	.string "I think back in PETALBURG CITY.\p"
+	.string "I think back in PetalburgCITY.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
 	.string "I've been traveling everywhere in\n"
-	.string "search of outstanding TRAINERS.\p"
+	.string "search of outstanding trainers.\p"
 	.string "More specifically, I'm looking for\n"
 	.string "Pokémon battle experts.\p"
 	.string "So, what brings you to this SCHOOL?\n"
@@ -333,11 +333,11 @@ RustboroCity_PokemonSchool_Text_ScottStoneBadge:
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "Hello? Didn't we meet before?\n"
-	.string "I think back in PETALBURG CITY.\p"
+	.string "I think back in PetalburgCITY.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
 	.string "I've been traveling everywhere in\n"
-	.string "search of outstanding TRAINERS.\p"
+	.string "search of outstanding trainers.\p"
 	.string "More specifically, I'm looking for\n"
 	.string "Pokémon battle experts.\p"
 	.string "Oh, what's that?\n"

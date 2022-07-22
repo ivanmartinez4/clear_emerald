@@ -438,7 +438,7 @@ gText_ApprenticePleaseTeach10::
 	.string "… … …\n"
 	.string "Of course I'm lying!\p"
 	.string "Me, I'm {STR_VAR_1}. Despite the way\n"
-	.string "I look, I'm the Pokémon CHAMPION!\l"
+	.string "I look, I'm the Pokémon Champion!\l"
 	.string "…That's a lie, too!\p"
 	.string "This is no lie, though.\n"
 	.string "I'm not very good at battling.\p"

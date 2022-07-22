@@ -280,7 +280,7 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 	.string "Please! Allow me to examine how you\n"
 	.string "have raised your Pokémon.\p"
 	.string "It delights me no end to see Pokémon\n"
-	.string "raised by other TRAINERS.\p"
+	.string "raised by other trainers.\p"
 	.string "The happy expressions of Pokémon\n"
 	.string "raised with proper care…\p"
 	.string "The kindly eyes of the TRAINER that\n"
@@ -356,9 +356,9 @@ SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
 	.string "I love seeing Pokémon that love\n"
-	.string "their TRAINERS.\p"
+	.string "their trainers.\p"
 	.string "Pokémon are very sensitive to\n"
-	.string "the feelings of their TRAINERS.\p"
+	.string "the feelings of their trainers.\p"
 	.string "If you treat your Pokémon with love\n"
 	.string "and care, they'll love you back.\p"
 	.string "When your Pokémon grow to love you,\n"
@@ -371,7 +371,7 @@ SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
 	.string "Pokémon are very sensitive to\n"
-	.string "the feelings of their TRAINERS.\p"
+	.string "the feelings of their trainers.\p"
 	.string "If you treat your Pokémon with love\n"
 	.string "and care, they'll love you back.$"
 

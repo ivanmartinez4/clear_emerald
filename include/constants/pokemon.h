@@ -187,7 +187,7 @@
 #define MON_DATA_NATURE            89
 
 // Ribbon IDs used by TV and Pokénav
-#define CHAMPION_RIBBON       0
+#define Champion_RIBBON       0
 #define COOL_RIBBON_NORMAL    1
 #define COOL_RIBBON_SUPER     2
 #define COOL_RIBBON_HYPER     3

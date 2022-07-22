@@ -135,5 +135,5 @@ void SetUnlockedPokedexFlags(void)
 
 void SetChampionSaveWarp(void)
 {
-    gSaveBlock2Ptr->specialSaveWarpFlags |= CHAMPION_SAVEWARP;
+    gSaveBlock2Ptr->specialSaveWarpFlags |= Champion_SAVEWARP;
 }

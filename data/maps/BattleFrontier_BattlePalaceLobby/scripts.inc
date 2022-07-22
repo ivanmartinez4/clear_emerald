@@ -378,7 +378,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-	.string "Where the hearts of TRAINERS\n"
+	.string "Where the hearts of trainers\n"
 	.string "are put to the test.\p"
 	.string "I welcome you to the BATTLE PALACE.\p"
 	.string "I accept challenges to the SINGLE\n"
@@ -404,7 +404,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "You must put your trust in your\n"
 	.string "Pokémon and watch over them.\p"
 	.string "If you achieve the honor of beating\n"
-	.string "seven TRAINERS in succession,\l"
+	.string "seven trainers in succession,\l"
 	.string "we will present you with Battle Points.\p"
 	.string "If you want to interrupt your\n"
 	.string "challenge, you must save the game.\p"
@@ -538,7 +538,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
 	.string "But, nah, that can't be right.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-	.string "Where the hearts of TRAINERS\n"
+	.string "Where the hearts of trainers\n"
 	.string "are put to the test.\p"
 	.string "I welcome you to the BATTLE PALACE.\p"
 	.string "I accept challenges to the DOUBLE\n"
@@ -564,7 +564,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "You must put your trust in your\n"
 	.string "Pokémon and watch over them.\p"
 	.string "If you achieve the honor of beating\n"
-	.string "seven TRAINERS in succession,\l"
+	.string "seven trainers in succession,\l"
 	.string "we will present you with Battle Points.\p"
 	.string "If you want to interrupt your\n"
 	.string "challenge, please save the game.\p"
@@ -573,7 +573,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
 	.string "To defeat the Palace Maven\n"
-	.string "and seven TRAINERS in a row…$"
+	.string "and seven trainers in a row…$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 	.string "In honor of the bond you share with\n"

@@ -295,7 +295,7 @@ BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
 	.string "Did SCOTT bring you here, too?\n"
 	.string "What is it with that guy?\p"
 	.string "It sounds like he really does know\n"
-	.string "how to spot talented TRAINERS, but…\p"
+	.string "how to spot talented trainers, but…\p"
 	.string "I've never seen him battling in person\n"
 	.string "ever.$"
 
@@ -319,7 +319,7 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 	.string "I may not look that impressive now,\n"
-	.string "but I once beat a GYM Leader.\p"
+	.string "but I once beat a Gym Leader.\p"
 	.string "Who knows, maybe I should give it\n"
 	.string "another shot at glory.$"
 
@@ -411,7 +411,7 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
 	.string "The Battle Frontier isn't exclusively\n"
-	.string "for tough TRAINERS.\p"
+	.string "for tough trainers.\p"
 	.string "Many people with special abilities\n"
 	.string "have been invited, it seems.\p"
 	.string "That man SCOTT…\p"

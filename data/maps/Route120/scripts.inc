@@ -405,7 +405,7 @@ Route120_Text_StevenGiveDevonScope:
 
 Route120_Text_StevenGoodbye:
 	.string "Steven: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing Pokémon and TRAINERS\n"
+	.string "I enjoy seeing Pokémon and trainers\n"
 	.string "who strive together.\p"
 	.string "I think you're doing great.\p"
 	.string "Well, let's meet again somewhere.$"

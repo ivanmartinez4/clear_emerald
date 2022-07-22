@@ -1681,7 +1681,7 @@
 	.endm
 
 	@ Buffers the specified trainer's class name to the given string var.
-	@ If the trainer id is >= TRAINERS_COUNT it will be treated as TRAINER_NONE.
+	@ If the trainer id is >= trainers_COUNT it will be treated as TRAINER_NONE.
 	.macro buffertrainerclassname stringVarId:req, trainerId:req
 	.byte 0xdd
 	stringvar \stringVarId
@@ -1689,7 +1689,7 @@
 	.endm
 
 	@ Buffers the specified trainer's name to the given string var.
-	@ If the trainer id is >= TRAINERS_COUNT it will be treated as TRAINER_NONE.
+	@ If the trainer id is >= trainers_COUNT it will be treated as TRAINER_NONE.
 	.macro buffertrainername stringVarId:req, trainerId:req
 	.byte 0xde
 	stringvar \stringVarId

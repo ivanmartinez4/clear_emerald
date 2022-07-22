@@ -385,7 +385,7 @@ Route116_Text_GoonHightailedItOutOfTunnel:
 Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Oh! It's you!\p"
 	.string "You're that person who not only helped\n"
-	.string "me in PETALBURG WOODS, but also got\l"
+	.string "me in PetalburgWOODS, but also got\l"
 	.string "back my stolen package and then even\l"
 	.string "graciously delivered it to SLATEPORT!\p"
 	.string "CAPT. STERN informed us that the\n"
@@ -397,12 +397,12 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "For you, the most wonderful TRAINER,\n"
 	.string "I bear good news!\p"
 	.string "Recently, our company developed\n"
-	.string "a new kind of POKé BALL.\p"
+	.string "a new kind of Poké Ball.\p"
 	.string "As a token of our appreciation, this\n"
 	.string "is our gift to our wonderful TRAINER!$"
 
 Route116_Text_NewBallAvailableAtMart:
-	.string "Our new POKé BALL will be available\n"
+	.string "Our new Poké Ball will be available\n"
 	.string "at the Pokémon Mart in RUSTBORO.\p"
 	.string "Please do try it out!\n"
 	.string "Thank you and bye-bye!$"
@@ -414,7 +414,7 @@ Route116_Text_BagIsJamPacked:
 Route116_Text_TokenOfAppreciation:
 	.string "As a token of our appreciation for\n"
 	.string "your delivering our package, I have\l"
-	.string "a gift of a new kind of POKé BALL\l"
+	.string "a gift of a new kind of Poké Ball\l"
 	.string "for our most wonderful TRAINER!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
@@ -444,7 +444,7 @@ Route116_Text_NotWhatImLookingFor:
 
 Route116_Text_RouteSignRustboro:
 	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} RUSTBORO CITY$"
+	.string "{LEFT_ARROW} Rustboro City$"
 
 Route116_Text_RusturfTunnelSign:
 	.string "RUSTURF TUNNEL\n"

@@ -469,7 +469,7 @@ MauvilleCity_Text_UncleHesTooPeppy:
 
 MauvilleCity_Text_WallyWantToChallengeGym:
 	.string "Wally: Aww, UNCLE, please?\p"
-	.string "I want to challenge this GYM and see\n"
+	.string "I want to challenge this Gym and see\n"
 	.string "how much better I've become.\p"
 	.string "Please? May I, please?$"
 
@@ -478,7 +478,7 @@ MauvilleCity_Text_UncleYourePushingIt:
 	.string "Since you started living with Pokémon,\n"
 	.string "you have grown quite a lot stronger.\p"
 	.string "But don't you think you're pushing it\n"
-	.string "to suddenly challenge a GYM?$"
+	.string "to suddenly challenge a Gym?$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
 	.string "Wally: I'm not pushing it.\p"
@@ -572,7 +572,7 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "and beat him impressively.\p"
 	.string "Yeah! That's what a real Pokémon\n"
 	.string "battle is all about!\p"
-	.string "I idolize TRAINERS like that!\p"
+	.string "I idolize trainers like that!\p"
 	.string "… … … … … …\n"
 	.string "I'll be cheering for you!$"
 
@@ -638,7 +638,7 @@ MauvilleCity_Text_CitySign:
 	.string "“The bright and shiny city of fun!”$"
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY Pokémon GYM\n"
+	.string "MAUVILLE CITY Pokémon Gym\n"
 	.string "LEADER: WATTSON\l"
 	.string "“The cheerfully electrifying man!”$"
 

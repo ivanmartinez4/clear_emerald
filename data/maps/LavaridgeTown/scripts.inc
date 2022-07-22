@@ -279,7 +279,7 @@ LavaridgeTown_EventScript_HerbShopSign::
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "May: {PLAYER}{KUN}! Long time no see!\p"
 	.string "Oh? While I visited the hot springs,\n"
-	.string "you got the LAVARIDGE GYM BADGE.\p"
+	.string "you got the LAVARIDGE Gym BADGE.\p"
 	.string "You must have collected\n"
 	.string "good Pokémon…\l"
 	.string "No, I believe you raised some.\p"
@@ -291,18 +291,18 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "have no trouble getting through the\l"
 	.string "desert near ROUTE 111.\p"
 	.string "But, wow, {PLAYER}{KUN}…\n"
-	.string "Challenging GYMS…\p"
+	.string "Challenging GymS…\p"
 	.string "You're trying hard because you don't\n"
 	.string "want to lose to me, I bet!\p"
 	.string "{PLAYER}{KUN}, I think I should challenge\n"
-	.string "your dad in PETALBURG GYM.\p"
+	.string "your dad in PetalburgGym.\p"
 	.string "See you again!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 	.string "Brendan: {PLAYER}, hey, it's been a while.\n"
 	.string "How's it going?\p"
 	.string "Hmm…\n"
-	.string "That's a decent collection of BADGES.\p"
+	.string "That's a decent collection of Badges.\p"
 	.string "All right, then.\n"
 	.string "You may as well have this.$"
 
@@ -315,7 +315,7 @@ LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "You might look around for those.\p"
 	.string "As for me…\n"
 	.string "I'm considering challenging NORMAN,\l"
-	.string "the GYM Leader of PETALBURG.\p"
+	.string "the Gym Leader of PETALBURG.\p"
 	.string "Unlike you, {PLAYER}, your dad looks like\n"
 	.string "he really is tough.\p"
 	.string "See you around!$"
@@ -378,7 +378,7 @@ LavaridgeTown_Text_OhYouLikeHotSprings:
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
 	.string "I bathe in the hot springs every day.\p"
 	.string "I want to become a beautiful and strong\n"
-	.string "GYM Leader like FLANNERY.$"
+	.string "Gym Leader like FLANNERY.$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
 	.string "If people put Pokémon in hot springs,\n"
@@ -399,7 +399,7 @@ LavaridgeTown_Text_TownSign:
 	.string "An excellent place for relaxing!”$"
 
 LavaridgeTown_Text_GymSign:
-	.string "LAVARIDGE TOWN Pokémon GYM\n"
+	.string "LAVARIDGE TOWN Pokémon Gym\n"
 	.string "LEADER: FLANNERY\l"
 	.string "“One with a fiery passion that burns!”$"
 

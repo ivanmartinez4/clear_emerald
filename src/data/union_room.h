@@ -395,7 +395,7 @@ ALIGNED(4) static const u8 sText_TradingBoardInfo[] = _("This TRADING BOARD is u
                                                         "Pokémon in return for the trade.\p"
                                                         "We hope you will register Pokémon\n"
                                                         "and trade them with many, many\l"
-                                                        "other TRAINERS.\p"
+                                                        "other trainers.\p"
                                                         "Would you like to register one of\nyour Pokémon?");
 
 ALIGNED(4) static const u8 sText_ChooseRequestedMonType[] = _("Please choose the type of Pokémon\nthat you would like in the trade.\n");

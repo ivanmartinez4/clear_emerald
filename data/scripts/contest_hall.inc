@@ -1487,14 +1487,14 @@ ContestHall_Text_GettingStartedParticipantsAsFollows:
 	.string "MC: Hello! We're just getting started\n"
 	.string "with a {STR_VAR_3} Rank Pokémon\l"
 	.string "{STR_VAR_2}!\p"
-	.string "The participating TRAINERS and their\n"
+	.string "The participating trainers and their\n"
 	.string "Pokémon are as follows:$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "MC: Hello! We're just getting started\n"
 	.string "with a 4-player linked Pokémon\l"
 	.string "{STR_VAR_2}!\p"
-	.string "The participating TRAINERS and their\n"
+	.string "The participating trainers and their\n"
 	.string "Pokémon are as follows:$"
 
 ContestHall_Text_EntryXTrainersMon:
@@ -1709,7 +1709,7 @@ ContestHall_Text_GettingStartedWireless:
 	.string "{STR_VAR_2}!$"
 
 ContestHall_Text_ParticipantsAsFollows:
-	.string "The participating TRAINERS and their\n"
+	.string "The participating trainers and their\n"
 	.string "Pokémon are as follows:$"
 
 ContestHall_Text_WeveSeenContestants:

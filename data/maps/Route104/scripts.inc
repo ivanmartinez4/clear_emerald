@@ -1003,7 +1003,7 @@ Route104_Text_WhatsItLikeAtBottomOfSea:
 	.string "of the sea?$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-	.string "If you're going to throw a POKé BALL,\n"
+	.string "If you're going to throw a Poké Ball,\n"
 	.string "weaken the wild Pokémon first.\p"
 	.string "It will be easier to catch if it's been\n"
 	.string "poisoned, burned, or lulled to sleep.$"
@@ -1011,12 +1011,12 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 Route104_Text_OnlyThrowBallAtWildPokemon:
 	.string "You're a thief if you try to steal\n"
 	.string "someone else's Pokémon.\p"
-	.string "You should throw POKé BALLS only at\n"
+	.string "You should throw Poké Balls only at\n"
 	.string "wild Pokémon.$"
 
 Route104_Text_ImNotATrainer:
 	.string "Oh, no, I'm not a TRAINER.\p"
-	.string "But that's right, if TRAINERS lock eyes,\n"
+	.string "But that's right, if trainers lock eyes,\n"
 	.string "it's a challenge to battle.\p"
 	.string "If you don't want to battle, stay out\n"
 	.string "of their sight.$"
@@ -1054,11 +1054,11 @@ Route104_Text_MrBrineysCottage:
 
 Route104_Text_RouteSignPetalburg:
 	.string "ROUTE 1O4\n"
-	.string "{RIGHT_ARROW} PETALBURG CITY$"
+	.string "{RIGHT_ARROW} PetalburgCITY$"
 
 Route104_Text_RouteSignRustboro:
 	.string "ROUTE 1O4\n"
-	.string "{UP_ARROW} RUSTBORO CITY$"
+	.string "{UP_ARROW} Rustboro City$"
 
 Route104_Text_PrettyPetalFlowShop:
 	.string "PRETTY PETAL FLOWER SHOP$"
@@ -1066,7 +1066,7 @@ Route104_Text_PrettyPetalFlowShop:
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "TRAINER TIPS\p"
 	.string "In the HOENN region there are pairs\n"
-	.string "of TRAINERS who challenge others\l"
+	.string "of trainers who challenge others\l"
 	.string "for 2-on-2 Pokémon battles called\l"
 	.string "Double BattleS.\p"
 	.string "In a Double Battle, the TRAINER must\n"

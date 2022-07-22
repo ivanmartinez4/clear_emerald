@@ -55,7 +55,7 @@ VictoryRoad_B2F_Text_OwenDefeat:
 
 VictoryRoad_B2F_Text_OwenPostBattle:
 	.string "The rumors I heard, that tough little\n"
-	.string "kid is from PETALBURG CITY.$"
+	.string "kid is from PetalburgCITY.$"
 
 VictoryRoad_B2F_Text_CarolineIntro:
 	.string "You must be getting a little tired.$"
@@ -70,7 +70,7 @@ VictoryRoad_B2F_Text_CarolinePostBattle:
 
 VictoryRoad_B2F_Text_JulieIntro:
 	.string "You shouldn't get complacent just\n"
-	.string "because you have a lot of GYM BADGES.\p"
+	.string "because you have a lot of Gym Badges.\p"
 	.string "There's always going to be someone\n"
 	.string "who's better than you!$"
 
@@ -78,8 +78,8 @@ VictoryRoad_B2F_Text_JulieDefeat:
 	.string "You're better than me!$"
 
 VictoryRoad_B2F_Text_JuliePostBattle:
-	.string "Gaze on your collected BADGES and\n"
-	.string "remember the TRAINERS you've faced.$"
+	.string "Gaze on your collected Badges and\n"
+	.string "remember the trainers you've faced.$"
 
 VictoryRoad_B2F_Text_FelixIntro:
 	.string "I've come this far, but the tension's\n"

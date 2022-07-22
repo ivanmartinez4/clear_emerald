@@ -455,9 +455,9 @@ LilycoveCity_Text_MayGoingBackToLittleroot:
 
 LilycoveCity_Text_MayYouGoingToCollectBadges:
 	.string "{PLAYER}{KUN}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
+	.string "Collect all the Gym Badges and take\n"
 	.string "the Pokémon LEAGUE challenge?\p"
-	.string "Well, while you're collecting BADGES,\n"
+	.string "Well, while you're collecting Badges,\n"
 	.string "{PLAYER}{KUN}, I'm going to work on my\l"
 	.string "Pokédex. I'll complete it before you!\p"
 	.string "See you!$"
@@ -517,7 +517,7 @@ LilycoveCity_Text_BrendanGoingBackToLittleroot:
 
 LilycoveCity_Text_BrendanYouGoingToCollectBadges:
 	.string "{PLAYER}, what are you going to do?\p"
-	.string "Collect all the GYM BADGES and take\n"
+	.string "Collect all the Gym Badges and take\n"
 	.string "the Pokémon LEAGUE challenge?\p"
 	.string "Maybe I'll do that, too…\p"
 	.string "Well, anyway, hang in there!$"
@@ -673,7 +673,7 @@ LilycoveCity_Text_CitySign:
 
 LilycoveCity_Text_ContestHallSign:
 	.string "Pokémon CONTEST HALL\n"
-	.string "“The gathering place for TRAINERS!”$"
+	.string "“The gathering place for trainers!”$"
 
 LilycoveCity_Text_MotelSign:
 	.string "COVE LILY MOTEL\p"
@@ -704,7 +704,7 @@ LilycoveCity_Text_HarborSign:
 
 LilycoveCity_Text_TrainerFanClubSign:
 	.string "Pokémon TRAINER FAN CLUB\p"
-	.string "The names of TRAINERS are scribbled\n"
+	.string "The names of trainers are scribbled\n"
 	.string "all over the sign…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
