@@ -16,6 +16,10 @@ It is a romhack that uses pokeemerald-expansion for recreate the experience of H
 
 -Following Pokémon.
 
+-Balance stats with emphasis on weakest pokémon.
+
+-Decapitalization.
+
 ## Credits:
 
 -Pret's team for pokeemerald.
