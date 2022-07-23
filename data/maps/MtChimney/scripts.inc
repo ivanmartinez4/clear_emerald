@@ -333,7 +333,7 @@ MtChimney_EventScript_SawyerRematch::
 MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "The power contained in the METEORITE…\p"
 	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
+	.string "machine, Mt. Chimney's volcanic\l"
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
@@ -385,7 +385,7 @@ MtChimney_Text_TabithaIntro:
 	.string "So you've come all the way here!\p"
 	.string "But you're too late!\n"
 	.string "I've already delivered the METEORITE\l"
-	.string "from METEOR FALLS to the BOSS!$"
+	.string "from Meteor Falls to the BOSS!$"
 
 MtChimney_Text_TabithaDefeat:
 	.string "Hehehe…\p"
@@ -501,7 +501,7 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are MT. CHIMNEY's local\n"
+	.string "LAVA COOKIES are Mt. Chimney's local\n"
 	.string "specialty.\p"
 	.string "Try one. It's just ¥200.$"
 
@@ -582,20 +582,20 @@ MtChimney_Text_MelissaDefeat:
 	.string "Ooh, that was a scorching-hot match!$"
 
 MtChimney_Text_MelissaPostBattle:
-	.string "The heat of MT. CHIMNEY warms\n"
+	.string "The heat of Mt. Chimney warms\n"
 	.string "me up, baby!$"
 
 MtChimney_Text_SheilaIntro:
-	.string "I've finally made it to MT. CHIMNEY.\n"
+	.string "I've finally made it to Mt. Chimney.\n"
 	.string "I want to make my Pokémon battle!$"
 
 MtChimney_Text_SheilaDefeat:
 	.string "The way you battle…\n"
-	.string "It's like a MT. CHIMNEY eruption!$"
+	.string "It's like a Mt. Chimney eruption!$"
 
 MtChimney_Text_SheilaPostBattle:
 	.string "Like I said, I've finally made it to\n"
-	.string "MT. CHIMNEY. It would be a shame if\l"
+	.string "Mt. Chimney. It would be a shame if\l"
 	.string "I only do a little sightseeing…\p"
 	.string "I want to get in some battles and buy\n"
 	.string "COOKIES as souvenirs.$"

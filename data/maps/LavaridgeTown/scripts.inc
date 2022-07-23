@@ -279,7 +279,7 @@ LavaridgeTown_EventScript_HerbShopSign::
 LavaridgeTown_Text_MayNiceBadgesTakeThis:
 	.string "May: {PLAYER}{KUN}! Long time no see!\p"
 	.string "Oh? While I visited the hot springs,\n"
-	.string "you got the LAVARIDGE Gym BADGE.\p"
+	.string "you got the LAVARIDGE Gym Badge.\p"
 	.string "You must have collected\n"
 	.string "good Pokémon…\l"
 	.string "No, I believe you raised some.\p"
@@ -289,7 +289,7 @@ LavaridgeTown_Text_MayNiceBadgesTakeThis:
 LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "May: With those GO-GOGGLES, you'll\n"
 	.string "have no trouble getting through the\l"
-	.string "desert near ROUTE 111.\p"
+	.string "desert near Route 111.\p"
 	.string "But, wow, {PLAYER}{KUN}…\n"
 	.string "Challenging GymS…\p"
 	.string "You're trying hard because you don't\n"
@@ -309,7 +309,7 @@ LavaridgeTown_Text_BrendanNiceBadgesTakeThis:
 LavaridgeTown_Text_BrendanExplainGoGogglesChallengeDad:
 	.string "Brendan: Keep those with you if you're\n"
 	.string "planning on going into that desert near\l"
-	.string "ROUTE 111.\p"
+	.string "Route 111.\p"
 	.string "There should be some Pokémon that\n"
 	.string "are exclusively desert-dwellers.\l"
 	.string "You might look around for those.\p"
@@ -351,7 +351,7 @@ LavaridgeTown_Text_AsYouWishThen:
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "Every so often, an EGG will be found at\n"
-	.string "the Pokémon DAY CARE.\p"
+	.string "the Pokémon Daycare.\p"
 	.string "Or at least that's how the rumor goes.$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:

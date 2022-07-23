@@ -284,7 +284,7 @@ SSTidal_Text_HopeYouEnjoyVoyage:
 	.string "our ferry.$"
 
 SSTidal_Text_MadeLandInSlateport:
-	.string "We have made land in SLATEPORT CITY.\n"
+	.string "We have made land in Slateport City.\n"
 	.string "Thank you for sailing with us.$"
 
 SSTidal_Text_MadeLandInLilycove:
@@ -304,7 +304,7 @@ SSTidalCorridor_Text_WeveArrived:
 
 SSTidalCorridor_Text_VisitOtherCabins:
 	.string "Go visit other cabins.\n"
-	.string "TRAINERS bored of the boat trip will\l"
+	.string "Trainers bored of the boat trip will\l"
 	.string "be itching to battle.$"
 
 SSTidalCorridor_Text_EnjoyYourCruise:
@@ -315,9 +315,9 @@ SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
 	.string "the porthole.$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard:
-	.string "MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p"
+	.string "Mr. Briney: Welcome aboard, {PLAYER}{KUN}!\p"
 	.string "They made me honorary captain of\n"
-	.string "the S.S. TIDAL!\p"
+	.string "the S.S. Tidal!\p"
 	.string "You can call me CAPTAIN BRINEY now!\p"
 	.string "You know, I retired once before,\n"
 	.string "but when I saw this majestic ship…\p"

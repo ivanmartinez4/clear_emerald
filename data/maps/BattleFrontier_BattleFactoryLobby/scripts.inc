@@ -328,7 +328,7 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
 	.string "Where the intelligence of trainers\n"
 	.string "is put to the test!\p"
-	.string "Welcome to the BATTLE FACTORY!\p"
+	.string "Welcome to the Battle Factory!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Single Tournament.$"
 
@@ -393,7 +393,7 @@ BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
 	.string "Where the intelligence of trainers\n"
 	.string "is put to the test!\p"
-	.string "Welcome to the BATTLE FACTORY!\p"
+	.string "Welcome to the Battle Factory!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Double Tournament.$"
 
@@ -437,7 +437,7 @@ BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
 	.string "Would you like to record your last\n"
-	.string "BATTLE FACTORY match on your\l"
+	.string "Battle Factory match on your\l"
 	.string "Frontier Pass?$"
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
@@ -485,16 +485,16 @@ BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
 	.string "You may swap Pokémon only with\n"
-	.string "the TRAINER you have just defeated.\p"
+	.string "the Trainer you have just defeated.\p"
 	.string "You may swap for only those Pokémon\n"
-	.string "used by the beaten TRAINER.$"
+	.string "used by the beaten Trainer.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
 	.string "After every battle you win, you may\n"
 	.string "swap for one of your defeated\l"
 	.string "opponent's Pokémon.\p"
 	.string "You will not be able to swap Pokémon\n"
-	.string "with the seventh TRAINER in the event.$"
+	.string "with the seventh Trainer in the event.$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
 	.string "There are two key points to be aware\n"

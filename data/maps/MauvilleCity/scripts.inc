@@ -525,10 +525,10 @@ MauvilleCity_Text_WallyIllGoBackToVerdanturf:
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
 	.string "{PLAYER}, thank you.\n"
-	.string "Being a TRAINER is tough, isn't it?\p"
+	.string "Being a Trainer is tough, isn't it?\p"
 	.string "It's not enough just to have Pokémon\n"
 	.string "and make them battle. That isn't what\l"
-	.string "being a real TRAINER is about.$"
+	.string "being a real Trainer is about.$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
 	.string "UNCLE: WALLY, there's no need to be so\n"
@@ -540,7 +540,7 @@ MauvilleCity_Text_UncleNoNeedToBeDown:
 
 MauvilleCity_Text_UncleVisitUsSometime:
 	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
-	.string "that you must be the TRAINER who kept\l"
+	.string "that you must be the Trainer who kept\l"
 	.string "an eye out for WALLY when he caught\l"
 	.string "his Pokémon.\p"
 	.string "Why don't you visit us in VERDANTURF\n"
@@ -582,20 +582,20 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "That's a good thing, wahahahaha!\p"
 	.string "Fine! I've decided!\n"
 	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "MAUVILLE CITY has an underground\n"
-	.string "sector called NEW MAUVILLE.\p"
+	.string "Mauville City has an underground\n"
+	.string "sector called New Mauville.\p"
 	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
 	.string "switch off the GENERATOR.\p"
 	.string "The GENERATOR has been running a bit\n"
 	.string "haywire. It's getting unsafe.\p"
 	.string "Here, this is the KEY to get into\n"
-	.string "NEW MAUVILLE.$"
+	.string "New Mauville.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
 	.string "WATTSON: Don't you worry about it.\n"
 	.string "It won't be a challenge to you.\p"
-	.string "The entrance to NEW MAUVILLE is just\n"
-	.string "a short SURF away from ROUTE 110.\p"
+	.string "The entrance to New Mauville is just\n"
+	.string "a short SURF away from Route 110.\p"
 	.string "That's it, then, you have my trust!\n"
 	.string "Wahahahaha!$"
 
@@ -625,7 +625,7 @@ MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 	.string "people coming through.$"
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "Have you been to RYDEL'S CYCLES yet?\p"
+	.string "Have you been to RYDEL'sCYCLES yet?\p"
 	.string "RYDEL, the owner, is a very generous\n"
 	.string "man.$"
 
@@ -634,22 +634,22 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
 	.string "wild Pokémon could jump you.$"
 
 MauvilleCity_Text_CitySign:
-	.string "MAUVILLE CITY\n"
+	.string "Mauville City\n"
 	.string "“The bright and shiny city of fun!”$"
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY Pokémon Gym\n"
+	.string "Mauville City Pokémon Gym\n"
 	.string "LEADER: WATTSON\l"
 	.string "“The cheerfully electrifying man!”$"
 
 MauvilleCity_Text_BikeShopSign:
 	.string "“Ride in gravel and shake up your\n"
 	.string "soul!”\l"
-	.string "RYDEL'S CYCLES$"
+	.string "RYDEL'sCYCLES$"
 
 MauvilleCity_Text_GameCornerSign:
 	.string "“The play spot for all!”\n"
-	.string "MAUVILLE GAME CORNER$"
+	.string "Mauville Game Corner$"
 
 MauvilleCity_Text_ExplainTV:
 	.string "Hi, do you check out TV at all?\p"

@@ -380,7 +380,7 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
 	.string "Where the hearts of trainers\n"
 	.string "are put to the test.\p"
-	.string "I welcome you to the BATTLE PALACE.\p"
+	.string "I welcome you to the Battle Palace.\p"
 	.string "I accept challenges to the SINGLE\n"
 	.string "BATTLE HALLS.$"
 
@@ -389,15 +389,15 @@ BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 	.string "the Single Battle HALL challenge?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
-	.string "In the BATTLE PALACE, there are\n"
-	.string "several auditoriums for Single BattleS\l"
+	.string "In the Battle Palace, there are\n"
+	.string "several auditoriums for Single Battles\l"
 	.string "that are named Single Battle HALLS.\p"
-	.string "The Single BattleS are conducted in\n"
+	.string "The Single Battles are conducted in\n"
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
+	.string "Trainers are permitted only to switch\n"
 	.string "their Pokémon in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
+	.string "Trainers are otherwise forbidden to\n"
 	.string "command their Pokémon.\p"
 	.string "The Pokémon are to behave according\n"
 	.string "to their nature and battle on their own.\p"
@@ -430,7 +430,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
 	.string "Level 50 or lower.\p"
 	.string "They also must not be holding\n"
 	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "Eggs{STR_VAR_1} ineligible.\p"
 	.string "Come back when you have made\n"
 	.string "your preparations.$"
 
@@ -442,7 +442,7 @@ BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "different kinds of Pokémon.\p"
 	.string "They also must not be holding\n"
 	.string "the same kinds of items.\p"
-	.string "EGGS{STR_VAR_1} ineligible.\p"
+	.string "Eggs{STR_VAR_1} ineligible.\p"
 	.string "Come back when you have made\n"
 	.string "your preparations.$"
 
@@ -477,7 +477,7 @@ BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "You seem to have no space for\n"
 	.string "our prize.\p"
 	.string "You should return when you have\n"
-	.string "organized your BAG.$"
+	.string "organized your Bag.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WeHaveBeenWaiting:
 	.string "We have been waiting for you…$"
@@ -540,7 +540,7 @@ BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
 	.string "Where the hearts of trainers\n"
 	.string "are put to the test.\p"
-	.string "I welcome you to the BATTLE PALACE.\p"
+	.string "I welcome you to the Battle Palace.\p"
 	.string "I accept challenges to the DOUBLE\n"
 	.string "BATTLE HALLS.$"
 
@@ -549,15 +549,15 @@ BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 	.string "the Double Battle HALL challenge?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
-	.string "In the BATTLE PALACE, there are\n"
-	.string "several auditoriums for Double BattleS\l"
+	.string "In the Battle Palace, there are\n"
+	.string "several auditoriums for Double Battles\l"
 	.string "that are named Double Battle HALLS.\p"
-	.string "The Double BattleS are conducted in\n"
+	.string "The Double Battles are conducted in\n"
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
-	.string "TRAINERS are permitted only to switch\n"
+	.string "Trainers are permitted only to switch\n"
 	.string "their Pokémon in and out.\p"
-	.string "TRAINERS are otherwise forbidden to\n"
+	.string "Trainers are otherwise forbidden to\n"
 	.string "command their Pokémon.\p"
 	.string "The Pokémon are to behave according\n"
 	.string "to their nature and battle on their own.\p"
@@ -582,7 +582,7 @@ BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
 	.string "Would you like to record your latest\n"
-	.string "BATTLE PALACE match on your\l"
+	.string "Battle Palace match on your\l"
 	.string "Frontier Pass?$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:

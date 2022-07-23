@@ -88,7 +88,7 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeech:
 	.string "Because I have a new purpose in life.\n"
 	.string "Together with my RALTS, I'm going\l"
 	.string "to challenge Pokémon GymS and become\l"
-	.string "a great TRAINER.\p"
+	.string "a great Trainer.\p"
 	.string "Please watch me, {PLAYER}.\n"
 	.string "I'm going to be stronger than you.\p"
 	.string "When I do, I'm going to challenge you\n"
@@ -162,7 +162,7 @@ VerdanturfTown_WandasHouse_Text_IfAnythingHappenedToWally:
 	.string "parents in Petalburgin the eye…$"
 
 VerdanturfTown_WandasHouse_Text_WallyWasInEverGrande:
-	.string "WALLY was in EVER GRANDE?\p"
+	.string "WALLY was in Evergrande?\p"
 	.string "His parents in Petalburgwould be\n"
 	.string "astonished to hear that!$"
 

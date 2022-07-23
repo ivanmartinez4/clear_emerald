@@ -111,7 +111,7 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "sure give you winning advice.\p"
 	.string "That's settled, then! We'll aim for the\n"
 	.string "Pokémon ChampionSHIP together!\p"
-	.string "It's your job as a TRAINER to collect\n"
+	.string "It's your job as a Trainer to collect\n"
 	.string "Gym Badges, am I right?\p"
 	.string "But Gym Leaders aren't pushovers!\p"
 	.string "And that's where I come in!\n"
@@ -129,8 +129,8 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 	.string "Whoa! What a breathtaking victory!\n"
 	.string "My cheering must've worked!\p"
 	.string "Great!\n"
-	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
+	.string "Check your Trainer CARD.\p"
+	.string "The STONE Badge you got should be\n"
 	.string "properly recorded on it.\p"
 	.string "In other words…\p"
 	.string "You've climbed the first step on\n"
@@ -180,7 +180,7 @@ RustboroCity_Gym_Text_RoxanneIntro:
 	.string "Pokémon Gym Leader.\p"
 	.string "I became a Gym Leader so that I might\n"
 	.string "apply what I learned at the Pokémon\l"
-	.string "TRAINER'S SCHOOL in battle.\p"
+	.string "Trainer's School in battle.\p"
 	.string "Would you kindly demonstrate how you\n"
 	.string "battle, and with which Pokémon?$"
 
@@ -190,18 +190,18 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "It seems that I still have much more\n"
 	.string "to learn…\p"
 	.string "I understand.\p"
-	.string "The Pokémon LEAGUE's rules state\n"
+	.string "The Pokémon League's rules state\n"
 	.string "that trainers are to be given this\l"
 	.string "if they defeat a Gym Leader.\p"
 	.string "Please accept the official Pokémon\n"
-	.string "LEAGUE STONE BADGE.$"
+	.string "LEAGUE STONE Badge.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
-	.string "{PLAYER} received the STONE BADGE\n"
+	.string "{PLAYER} received the STONE Badge\n"
 	.string "from Roxanne.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
-	.string "The STONE BADGE heightens the ATTACK\n"
+	.string "The STONE Badge heightens the ATTACK\n"
 	.string "power of your Pokémon.\p"
 	.string "It also enables them to use the HM move\n"
 	.string "CUT outside of battle.\p"
@@ -228,7 +228,7 @@ RustboroCity_Gym_Text_GymStatue:
 
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "Rustboro City Pokémon Gym\p"
-	.string "ROXANNE'S CERTIFIED trainers:\n"
+	.string "ROXANNE'sCERTIFIED trainers:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
@@ -238,7 +238,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "This is Roxanne of Rustboro City.\p"
 	.string "I heard from Brawly that you're\n"
 	.string "moving up through the ranks of\l"
-	.string "TRAINERS at an incredible clip.\p"
+	.string "Trainers at an incredible clip.\p"
 	.string "Well, I'd rather not think that\n"
 	.string "I can't beat you.\p"
 	.string "I promise, I will shape up my Gym\n"

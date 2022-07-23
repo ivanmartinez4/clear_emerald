@@ -385,7 +385,7 @@ Route120_Text_StevenReadyForBattle:
 
 Route120_Text_StevenShowMeYourPower:
 	.string "Steven: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a TRAINER!$"
+	.string "power as a Trainer!$"
 
 Route120_Text_StevenUsedDevonScope:
 	.string "STEVEN used the DEVON SCOPE.\p"
@@ -397,7 +397,7 @@ Route120_Text_StevenGiveDevonScope:
 	.string "Steven: I see…\n"
 	.string "Your battle style is intriguing.\p"
 	.string "Your Pokémon have obviously grown\n"
-	.string "since I first met you in DEWFORD.\p"
+	.string "since I first met you in Dewford.\p"
 	.string "I'd like you to have this\n"
 	.string "DEVON SCOPE.\p"
 	.string "Who knows, there may be other\n"
@@ -424,9 +424,9 @@ Kecleon_Text_UseDevonScopeMonAttacked:
 	.string "The startled Pokémon attacked!$"
 
 Route120_Text_RouteSignFortree:
-	.string "ROUTE 120\n"
-	.string "{LEFT_ARROW} FORTREE CITY$"
+	.string "Route 120\n"
+	.string "{LEFT_ARROW} Fortree CityY$"
 
 Route120_Text_RouteSign121:
-	.string "{RIGHT_ARROW} ROUTE 121\n"
-	.string "{LEFT_ARROW} ROUTE 120$"
+	.string "{RIGHT_ARROW} Route 121\n"
+	.string "{LEFT_ARROW} Route 120$"

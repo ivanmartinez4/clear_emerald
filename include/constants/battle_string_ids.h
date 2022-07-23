@@ -223,7 +223,7 @@
 #define STRINGID_SUPEREFFECTIVE                       222
 #define STRINGID_GOTAWAYSAFELY                        223
 #define STRINGID_WILDPKMNFLED                         224
-#define STRINGID_NORUNNINGFROMTRAINERS                225
+#define STRINGID_NORUNNINGFROMTrainers                225
 #define STRINGID_CANTESCAPE                           226
 #define STRINGID_DONTLEAVEBIRCH                       227
 #define STRINGID_BUTNOTHINGHAPPENED                   228

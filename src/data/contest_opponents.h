@@ -1962,7 +1962,7 @@ const struct ContestPokemon gContestOpponents[] =
     },
     [CONTEST_OPPONENT_GRACIE] = {
         .species = SPECIES_EXEGGUTOR,
-        .nickname = _("EGGSOR"),
+        .nickname = _("Eggsor"),
         .trainerName = _("GRACIE"),
         .trainerGfxId = OBJ_EVENT_GFX_PICNICKER,
         .aiFlags = CONTEST_AI_SET_1,

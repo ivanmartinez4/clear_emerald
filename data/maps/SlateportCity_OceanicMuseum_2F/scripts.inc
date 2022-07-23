@@ -352,7 +352,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"
-	.string "It reminded me of the ABANDONED SHIP\n"
+	.string "It reminded me of the Abandoned Ship\n"
 	.string "near Dewford Town…$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
@@ -387,9 +387,9 @@ SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
 	.string "thousands of tons on a small area.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_HoennModel:
-	.string "“MODEL OF HOENN REGION”\p"
+	.string "“MODEL OF HoennREGION”\p"
 	.string "It's a miniature diorama of the\n"
-	.string "HOENN region.\p"
+	.string "Hoenn region.\p"
 	.string "Where is Littleroot Town on this?$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
@@ -404,9 +404,9 @@ SlateportCity_OceanicMuseum_2F_Text_SurfaceSeawaterDisplay:
 	.string "as currents driven by the winds.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SSTidalReplica:
-	.string "“THE FERRY S.S. TIDAL\p"
+	.string "“THE FERRY S.S. Tidal\p"
 	.string "“A scale replica of the ship under\n"
-	.string "construction at STERN'S SHIPYARD.”$"
+	.string "construction at STERN'sSHIPYARD.”$"
 
 SlateportCity_OceanicMuseum_2F_Text_SubmarineReplica:
 	.string "“SUBMARINE EXPLORER 1\p"

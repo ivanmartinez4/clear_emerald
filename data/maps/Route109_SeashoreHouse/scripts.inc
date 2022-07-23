@@ -85,19 +85,19 @@ Route109_SeashoreHouse_EventScript_Simon::
 	end
 
 Route109_SeashoreHouse_EventScript_CheckTrainersCompletion::
-	goto_if_not_defeated TRAINER_DWAYNE, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
-	goto_if_not_defeated TRAINER_JOHANNA, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
-	goto_if_not_defeated TRAINER_SIMON, Route109_SeashoreHouse_EventScript_TrainersNotCompleted
+	goto_if_not_defeated TRAINER_DWAYNE, Route109_SeashoreHouse_EventScript_TRAINERSNotCompleted
+	goto_if_not_defeated TRAINER_JOHANNA, Route109_SeashoreHouse_EventScript_TRAINERSNotCompleted
+	goto_if_not_defeated TRAINER_SIMON, Route109_SeashoreHouse_EventScript_TRAINERSNotCompleted
 	setflag FLAG_DEFEATED_SEASHORE_HOUSE
 	release
 	end
 
-Route109_SeashoreHouse_EventScript_TrainersNotCompleted::
+Route109_SeashoreHouse_EventScript_TRAINERSNotCompleted::
 	release
 	end
 
 Route109_SeashoreHouse_Text_SeashoreHouseIntro:
-	.string "I'm the owner of the SEASHORE HOUSE.\n"
+	.string "I'm the owner of the Seashore House.\n"
 	.string "But you can call me MR. SEA!\p"
 	.string "What I love above all is to see hot\n"
 	.string "Pokémon battles.\p"
@@ -107,7 +107,7 @@ Route109_SeashoreHouse_Text_SeashoreHouseIntro:
 
 Route109_SeashoreHouse_Text_ShowMeSomeHotMatches:
 	.string "Show me some hot matches!\p"
-	.string "I run this SEASHORE HOUSE just for\n"
+	.string "I run this Seashore House just for\n"
 	.string "that reason alone!$"
 
 Route109_SeashoreHouse_Text_TakeTheseSodaPopBottles:
@@ -140,8 +140,8 @@ Route109_SeashoreHouse_Text_ThatsTooBad:
 
 Route109_SeashoreHouse_Text_DwayneIntro:
 	.string "If you're looking for a battle in the\n"
-	.string "SEASHORE HOUSE, you'll find no\l"
-	.string "hotter TRAINER than me, matey!$"
+	.string "Seashore House, you'll find no\l"
+	.string "hotter Trainer than me, matey!$"
 
 Route109_SeashoreHouse_Text_DwayneDefeated:
 	.string "That was a hot battle!\n"
@@ -154,7 +154,7 @@ Route109_SeashoreHouse_Text_DwaynePostBattle:
 Route109_SeashoreHouse_Text_JohannaIntro:
 	.string "Boring battles aren't worth the effort.\p"
 	.string "Fiery hot battles are what toughen up\n"
-	.string "TRAINERS and Pokémon!$"
+	.string "Trainers and Pokémon!$"
 
 Route109_SeashoreHouse_Text_JohannaDefeated:
 	.string "That's hot!$"

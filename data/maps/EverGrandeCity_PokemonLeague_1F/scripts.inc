@@ -138,6 +138,6 @@ EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
 	.string "LEAGUE, you must return with them.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
+	.string "Trainer! Believe in yourself and your\n"
 	.string "Pokémon, and go forth!$"
 

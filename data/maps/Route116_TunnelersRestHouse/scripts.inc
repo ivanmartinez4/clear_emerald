@@ -28,7 +28,7 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 	end
 
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
-	.string "That RUSTURF TUNNEL there…\p"
+	.string "That Rusturf Tunnel there…\p"
 	.string "At first, we had a huge work crew boring\n"
 	.string "through rock with the latest machinery.\l"
 	.string "But, we had to stop.\p"
@@ -51,7 +51,7 @@ Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
 	.string "To get to VERDANTURF without using\n"
 	.string "this TUNNEL, you'd have to cross the\l"
-	.string "sea to DEWFORD, sail on to SLATEPORT,\l"
+	.string "sea to Dewford, sail on to SLATEPORT,\l"
 	.string "then travel through MAUVILLE.$"
 
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:

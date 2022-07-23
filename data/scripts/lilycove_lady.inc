@@ -599,7 +599,7 @@ LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
 	.string "Oh, you can't have it if you don't have\n"
 	.string "the space for it.\p"
 	.string "Please come see me when you get\n"
-	.string "your BAG organized…$"
+	.string "your Bag organized…$"
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady:
 	.string "I'm the QUIZ LADY!\n"
@@ -648,7 +648,7 @@ LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize:
 	.string "{STR_VAR_1}!$"
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
-	.string "Oh? Your BAG is filled up!\n"
+	.string "Oh? Your Bag is filled up!\n"
 	.string "Come see me when you have room.$"
 
 LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
@@ -700,7 +700,7 @@ LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger:
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
 	.string "I'm the CONTEST LADY!\n"
-	.string "I sure do love CONTESTS!$"
+	.string "I sure do love Contests!$"
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
 	.string "Thanks for your {POKEBLOCK} before!$"
@@ -755,7 +755,7 @@ LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks:
 LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests:
 	.string "Hmm…\p"
 	.string "I think we may be ready to enter\n"
-	.string "some CONTESTS.\p"
+	.string "some Contests.\p"
 	.string "If you see us in one somewhere,\n"
 	.string "I hope you'll cheer for us.$"
 

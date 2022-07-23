@@ -105,7 +105,7 @@ GraniteCave_StevensRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "LEAGUE one day. That's what I think.\p"
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"
-	.string "our PokéNavS.\p"
+	.string "our PokéNavs.\p"
 	.string "… … … … … …$"
 
 GraniteCave_StevensRoom_Text_RegisteredSteven:
@@ -116,6 +116,6 @@ GraniteCave_StevensRoom_Text_IveGotToHurryAlong:
 	.string "Now, I've got to hurry along.$"
 
 GraniteCave_StevensRoom_Text_OhBagIsFull:
-	.string "Oh, your BAG is full…\n"
+	.string "Oh, your Bag is full…\n"
 	.string "That's too bad, then.$"
 

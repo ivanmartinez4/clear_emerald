@@ -535,7 +535,7 @@ LilycoveCity_Harbor_Text_SailAnotherTime:
 	.string "Please sail with us another time!$"
 
 LilycoveCity_Harbor_Text_SlateportItIs:
-	.string "SLATEPORT CITY it is, then!$"
+	.string "Slateport City it is, then!$"
 
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
 	.string "Battle Frontier it is, then!$"
@@ -554,7 +554,7 @@ LilycoveCity_Harbor_Text_SailorFerryUnavailable:
 	.string "at the SHIPYARD in SLATEPORT.$"
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
-	.string "The ferry S.S. TIDAL is finally in\n"
+	.string "The ferry S.S. Tidal is finally in\n"
 	.string "operation.\p"
 	.string "The folks at the SHIPYARD in SLATEPORT\n"
 	.string "must've worked extra hard.\p"

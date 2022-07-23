@@ -343,7 +343,7 @@ LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
 	.string "My abilities scare even me…$"
 
 LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
-	.string "I've entered a bunch of CONTESTS,\n"
+	.string "I've entered a bunch of Contests,\n"
 	.string "so I'm seeing how things work.\p"
 	.string "If you're in a COOLNESS CONTEST,\n"
 	.string "cool moves go over as appeals.\p"
@@ -352,7 +352,7 @@ LilycoveCity_ContestHall_Text_EnteredBunchOfContests:
 
 LilycoveCity_ContestHall_Text_ManWhoWonEarlierHadPokeblocks:
 	.string "That young man who won earlier had\n"
-	.string "a whole bunch of different {POKEBLOCK}S.\p"
+	.string "a whole bunch of different {POKEBLOCK}s.\p"
 	.string "Can you win if you had that many\n"
 	.string "of those things?$"
 
@@ -378,7 +378,7 @@ LilycoveCity_ContestHall_Text_EnteredWrongContest:
 	.string "I entered this tough Pokémon in\n"
 	.string "the SMARTNESS CONTEST…\p"
 	.string "Come on, wow them with a smart-looking\n"
-	.string "ROCK SMASH.$"
+	.string "Rock Smash.$"
 
 LilycoveCity_ContestHall_Text_RaisedMonToBeSmart:
 	.string "I've spent many a year, and all my\n"
@@ -416,7 +416,7 @@ LilycoveCity_ContestHall_Text_PokemonSmarterThanTrainers:
 
 LilycoveCity_ContestHall_Text_StillLoveSmartnessContests:
 	.string "When all's said and done, I still love\n"
-	.string "SMARTNESS CONTESTS.\p"
+	.string "SMARTNESS Contests.\p"
 	.string "That intellectual green color…\n"
 	.string "It's so… So… Cool.$"
 
@@ -445,7 +445,7 @@ LilycoveCity_ContestHall_Text_OverdidGrooming:
 
 LilycoveCity_ContestHall_Text_JudgeWontSeeAuroraBeam:
 	.string "This AURORA BEAM is so dazzling,\n"
-	.string "the JUDGE won't be able to see it.\p"
+	.string "the Judgewon't be able to see it.\p"
 	.string "Uh, wait a second…\n"
 	.string "That'll be meaningless, then!$"
 

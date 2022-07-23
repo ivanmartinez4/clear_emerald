@@ -926,7 +926,7 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit:
 	step_end
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
-	.string "{PLAYER} has entered the BATTLE DOME!$"
+	.string "{PLAYER} has entered the Battle Dome!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
 	.string "{STR_VAR_1}\n"
@@ -956,12 +956,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	.string "What an unbelievable finish!\n"
 	.string "We have a double knockout!\p"
 	.string "In this event, the Battle Tournament\n"
-	.string "rules call for a REFEREE'S decision.\p"
+	.string "rules call for a Referee'sdecision.\p"
 	.string "Please wait while the judging\n"
 	.string "is under way.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-	.string "The REFEREES have reached\n"
+	.string "The Referees have reached\n"
 	.string "a decision!\p"
 	.string "The winner is…\n"
 	.string "Oh, my goodness!\l"
@@ -969,7 +969,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-	.string "The REFEREES have reached\n"
+	.string "The Referees have reached\n"
 	.string "a decision!\p"
 	.string "The winner is…\n"
 	.string "Oh, my goodness!\l"
@@ -985,7 +985,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
-	.string "Will this TRAINER race to\n"
+	.string "Will this Trainer race to\n"
 	.string "the championship?\p"
 	.string "$"
 
@@ -1000,7 +1000,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-	.string "The TRAINER is on fire for\n"
+	.string "The Trainer is on fire for\n"
 	.string "the first championship try!\p"
 	.string "$"
 
@@ -1042,7 +1042,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-	.string "Will this TRAINER do as expected\n"
+	.string "Will this Trainer do as expected\n"
 	.string "and advance to the finals?\p"
 	.string "$"
 
@@ -1055,10 +1055,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 	.string "Feel the glow of a true master!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "And now… The TRAINER standing in\n"
+	.string "And now… The Trainer standing in\n"
 	.string "{PLAYER}'s record-setting path…\p"
 	.string "Yes! The one and only!\n"
-	.string "The BATTLE DOME COMMISSIONER!\l"
+	.string "The Battle Dome COMMISSIONER!\l"
 	.string "Our very own Dome Ace!\l"
 	.string "Make way for TUCKER!$"
 
@@ -1074,7 +1074,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "I bet you're twitching all over from\n"
 	.string "the tension of getting to battle me!\p"
 	.string "But don't you worry about a thing!\p"
-	.string "I'm the no. 1 star of the BATTLE DOME!\n"
+	.string "I'm the no. 1 star of the Battle Dome!\n"
 	.string "I, TUCKER the Dome Ace, will bathe you\l"
 	.string "in my brilliant glow!$"
 
@@ -1158,7 +1158,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 	.string "Let the battle begin!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-	.string "The REFEREES have reached\n"
+	.string "The Referees have reached\n"
 	.string "a decision!\p"
 	.string "The winner is…\n"
 	.string "Oh, my goodness!\l"

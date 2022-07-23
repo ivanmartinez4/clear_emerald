@@ -317,7 +317,7 @@ MauvilleCity_Gym_Text_VivianDefeat:
 MauvilleCity_Gym_Text_VivianPostBattle:
 	.string "I've heard that MAUVILLE was founded\n"
 	.string "by WATTSON.\p"
-	.string "He was a TRAINER long before we\n"
+	.string "He was a Trainer long before we\n"
 	.string "became trainers.\l"
 	.string "He must know all sorts of things!$"
 
@@ -329,7 +329,7 @@ MauvilleCity_Gym_Text_AngeloDefeat:
 	.string "My eyes are frazzled…$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle:
-	.string "MAUVILLE Gym's WATTSON has a shiny\n"
+	.string "Mauville Gym's WATTSON has a shiny\n"
 	.string "forehead. It makes me happy!$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
@@ -343,21 +343,21 @@ MauvilleCity_Gym_Text_WattsonIntro:
 	.string "Wahahahah!\n"
 	.string "Now, that is amusing!\p"
 	.string "Then, I, WATTSON, the Leader of\n"
-	.string "MAUVILLE Gym, shall electrify you!$"
+	.string "Mauville Gym, shall electrify you!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Wahahahah!\n"
 	.string "Fine, I lost!\p"
 	.string "You ended up giving me a thrill!\n"
-	.string "Take this BADGE!$"
+	.string "Take this Badge!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
-	.string "{PLAYER} received the DYNAMO BADGE\n"
+	.string "{PLAYER} received the DYNAMO Badge\n"
 	.string "from WATTSON.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
-	.string "With the DYNAMO BADGE, Pokémon can\n"
-	.string "use ROCK SMASH out of battle.\p"
+	.string "With the DYNAMO Badge, Pokémon can\n"
+	.string "use Rock Smash out of battle.\p"
 	.string "And, it will make your Pokémon a little\n"
 	.string "bit faster, too.\p"
 	.string "Hmm…\n"
@@ -375,18 +375,18 @@ MauvilleCity_Gym_Text_RegisteredWattson:
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
 	.string "I swell with optimism, seeing a promising\n"
-	.string "young TRAINER like you!$"
+	.string "young Trainer like you!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Wahahahah!\n"
 	.string "Go forth and endeavor, youngster!$"
 
 MauvilleCity_Gym_Text_GymStatue:
-	.string "MAUVILLE CITY Pokémon Gym$"
+	.string "Mauville City Pokémon Gym$"
 
 MauvilleCity_Gym_Text_GymStatueCertified:
-	.string "MAUVILLE CITY Pokémon Gym\p"
-	.string "WATTSON'S CERTIFIED trainers:\n"
+	.string "Mauville City Pokémon Gym\p"
+	.string "WATTSON'sCERTIFIED trainers:\n"
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch:

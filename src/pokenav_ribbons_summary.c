@@ -117,7 +117,7 @@ struct
     bool8 isGiftRibbon;
 } static  const sRibbonData[] =
 {
-    {1, 1, Champion_RIBBON,      FALSE},
+    {1, 1, CHAMPION_RIBBON,      FALSE},
     {3, 4, COOL_RIBBON_NORMAL,   FALSE},
     {3, 4, BEAUTY_RIBBON_NORMAL, FALSE},
     {3, 4, CUTE_RIBBON_NORMAL,   FALSE},

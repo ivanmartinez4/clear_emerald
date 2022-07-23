@@ -911,7 +911,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
 	.string "MECHADOLL 1 QUIZ.\p"
 	.string "One of these Pokémon is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "on Route 110. Which one is it?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
 	.string "MECHADOLL 1 QUIZ.\p"
@@ -941,7 +941,7 @@ Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
 	.string "CLICKETY-CLACK…\n"
 	.string "MECHADOLL 2 AM I!\p"
-	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
+	.string "MECHADOLL 1'sQUIZ DIFFICULTY LEVEL\n"
 	.string "IS SET TOO LOW.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
@@ -986,7 +986,7 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
 	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In SEASHORE HOUSE, were there more men\n"
+	.string "In Seashore House, were there more men\n"
 	.string "or women?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
@@ -996,26 +996,26 @@ Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
 	.string "MECHADOLL 4 QUIZ.\p"
-	.string "In the TRAINER'S SCHOOL, how many\n"
+	.string "In the Trainer's School, how many\n"
 	.string "girl students were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
 	.string "CLICKETY-CLACK…\n"
 	.string "MECHADOLL 5 AM I!\p"
-	.string "THE MASTER'S BEST AND PROUDEST\n"
+	.string "THE MASTER'sBEST AND PROUDEST\n"
 	.string "ACHIEVEMENT AM I.$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In SLATEPORT's Pokémon FAN CLUB,\n"
+	.string "In SLATEPORT's Pokémon Fan Club,\n"
 	.string "how many Pokémon were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "In FORTREE CITY, how many\n"
+	.string "In Fortree CityY, how many\n"
 	.string "tree houses were there?$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
 	.string "MECHADOLL 5 QUIZ.\p"
-	.string "On the CYCLING ROAD, how many\n"
+	.string "On the Cycling Road, how many\n"
 	.string "TRIATHLETES were there?$"

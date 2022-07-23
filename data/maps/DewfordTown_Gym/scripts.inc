@@ -326,7 +326,7 @@ DewfordTown_Gym_Text_JocelynPostBattle:
 	.string "I'm not going to waste this loss.\n"
 	.string "I'll use it to motivate me to train!\p"
 	.string "One day I'll become a Gym Leader…\p"
-	.string "No, I'll become the Pokémon LEAGUE\n"
+	.string "No, I'll become the Pokémon League\n"
 	.string "CHAMPION!$"
 
 DewfordTown_Gym_Text_LauraIntro:
@@ -377,7 +377,7 @@ DewfordTown_Gym_Text_CristianDefeat:
 
 DewfordTown_Gym_Text_CristianPostBattle:
 	.string "You win!\n"
-	.string "Go after that BADGE!$"
+	.string "Go after that Badge!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "I'm Brawly!\n"
@@ -393,14 +393,14 @@ DewfordTown_Gym_Text_BrawlyDefeat:
 	.string "splash than I expected!\p"
 	.string "You swamped me!\p"
 	.string "Okay, you've got me.\n"
-	.string "Take this Gym BADGE!$"
+	.string "Take this Gym Badge!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
+	.string "{PLAYER} received the KNUCKLE Badge\n"
 	.string "from Brawly.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
-	.string "The KNUCKLE BADGE makes all Pokémon\n"
+	.string "The KNUCKLE Badge makes all Pokémon\n"
 	.string "up to Level 30, even those you get in\l"
 	.string "trades, obey without question.\p"
 	.string "And, you'll be able to use the HM move\n"
@@ -428,7 +428,7 @@ DewfordTown_Gym_Text_GymStatue:
 
 DewfordTown_Gym_Text_GymStatueCertified:
 	.string "Dewford Town Pokémon Gym\p"
-	.string "BRAWLY'S CERTIFIED trainers:\n"
+	.string "BRAWLY'sCERTIFIED trainers:\n"
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
@@ -446,7 +446,7 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 DewfordTown_Gym_Text_BrawlyPostRematch:
 	.string "BRAWLY: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string "It's just like the sea of Hoenn!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "BRAWLY: A wave may draw back, but it\n"

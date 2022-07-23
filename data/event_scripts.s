@@ -825,7 +825,7 @@ gText_MomOrDadMightLikeThisProgram::
 	.string "Better get going!$"
 
 gText_WhichFloorWouldYouLike::
-	.string "Welcome to LILYCOVE DEPARTMENT STORE.\p"
+	.string "Welcome to Lilycove Department Store.\p"
 	.string "Which floor would you like?$"
 
 gText_SandstormIsVicious::
@@ -833,7 +833,7 @@ gText_SandstormIsVicious::
 	.string "It's impossible to keep going.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the BAG can be\n"
+	.string "An item in the Bag can be\n"
 	.string "registered to SELECT for easy use.$"
 
 gText_PokemonTrainerSchoolEmail::
@@ -841,7 +841,7 @@ gText_PokemonTrainerSchoolEmail::
 	.string "SCHOOL.\p"
 	.string "… … … … … …\p"
 	.string "A Pokémon may learn up to four moves.\p"
-	.string "A TRAINER's expertise is tested on the\n"
+	.string "A Trainer's expertise is tested on the\n"
 	.string "move sets chosen for Pokémon.\p"
 	.string "… … … … … …$"
 
@@ -909,7 +909,7 @@ gText_PlayerFoundOneTMHM::
 
 gText_Sudowoodo_Attacked::
 	.string "The weird tree doesn't like the\n"
-	.string "WAILMER PAIL!\p"
+	.string "Wailmer Pail!\p"
 	.string "The weird tree attacked!$"
 
 gText_LegendaryFlewAway::

@@ -59,5 +59,5 @@ Roulette_Text_BoardWillBeCleared::
 	.string "The ROULETTE board will be cleared.$"
 
 Roulette_Text_CoinCaseIsFull::
-	.string "Your COIN CASE is full!\n"
+	.string "Your Coin Case is full!\n"
 	.string "Coins can be exchanged for prizes.$"

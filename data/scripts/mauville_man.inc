@@ -235,7 +235,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForDecor::
 MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale:
 	.string "I'm the STORYTELLER.\n"
 	.string "I'll tell you tales of legendary\l"
-	.string "TRAINERS.\p"
+	.string "Trainers.\p"
 	.string "Will you hear my tale?$"
 
 MauvilleCity_PokemonCenter_1F_Text_StorytellerFeelingTheBlues:
@@ -249,7 +249,7 @@ MauvilleCity_PokemonCenter_1F_Text_WhichTaleToTell:
 MauvilleCity_PokemonCenter_1F_Text_IKnowNoTales:
 	.string "But, I know of no legendary trainers.\n"
 	.string "Hence, I know no tales.\p"
-	.string "Where does one find a TRAINER worthy\n"
+	.string "Where does one find a Trainer worthy\n"
 	.string "of a legendary tale?$"
 
 MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
@@ -279,7 +279,7 @@ MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend:
 MauvilleCity_PokemonCenter_1F_Text_IWishMorePeopleWereInterested:
 	.string "I wish more people would be interested\n"
 	.string "in hearing my epic tales of legendary\l"
-	.string "TRAINERS.$"
+	.string "Trainers.$"
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle::
 	.string "The Save-Happy TRAINER$"
@@ -290,9 +290,9 @@ MauvilleCity_PokemonCenter_1F_Text_SavedGameAction::
 MauvilleCity_PokemonCenter_1F_Text_SavedGameStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER saved the game\n"
+	.string "This Trainer saved the game\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "A more cautious TRAINER than\n"
+	.string "A more cautious Trainer than\n"
 	.string "{STR_VAR_3} one will never find!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedTitle::
@@ -304,10 +304,10 @@ MauvilleCity_PokemonCenter_1F_Text_TrendsStartedAction::
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER started new trends\n"
+	.string "This Trainer started new trends\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} is setting trends for all\n"
-	.string "the HOENN region!$"
+	.string "the Hoennregion!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle::
     .string "The BERRY-Planting TRAINER$"
@@ -318,10 +318,10 @@ MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedAction::
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER planted BERRIES\n"
+	.string "This Trainer planted BERRIES\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} is a legendary lover of\n"
-	.string "BERRIES!$"
+	.string "Berries!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesTitle::
 	.string "The BIKE-Loving TRAINER$"
@@ -332,7 +332,7 @@ MauvilleCity_PokemonCenter_1F_Text_BikeTradesAction::
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER swapped BIKES\n"
+	.string "This Trainer swapped BIKES\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must love BIKES deeply\n"
 	.string "and passionately!$"
@@ -346,9 +346,9 @@ MauvilleCity_PokemonCenter_1F_Text_InterviewsAction::
 MauvilleCity_PokemonCenter_1F_Text_InterviewsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got interviewed\n"
+	.string "This Trainer got interviewed\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who's\n"
+	.string "{STR_VAR_3} must be a Trainer who's\n"
 	.string "attracting much attention!$"
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle::
@@ -360,8 +360,8 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER battled {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who can\n"
+	.string "This Trainer battled {STR_VAR_1} times!\p"
+	.string "{STR_VAR_3} must be a Trainer who can\n"
 	.string "never refuse a chance to battle!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
@@ -373,7 +373,7 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER caught\n"
+	.string "This Trainer caught\n"
 	.string "{STR_VAR_1} Pokémon!\p"
 	.string "{STR_VAR_3} is a legendary catcher of\n"
 	.string "wild Pokémon!$"
@@ -387,7 +387,7 @@ MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction::
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER caught\n"
+	.string "This Trainer caught\n"
 	.string "{STR_VAR_1} Pokémon while fishing!\p"
 	.string "{STR_VAR_3} is a legendary fishing\n"
 	.string "expert!$"
@@ -396,15 +396,15 @@ MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::
 	.string "The EGG-Warming TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction::
-	.string "Hatched EGGS$"
+	.string "Hatched Eggs$"
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER hatched {STR_VAR_1} Pokémon\n"
-	.string "from EGGS!\p"
+	.string "This Trainer hatched {STR_VAR_1} Pokémon\n"
+	.string "from Eggs!\p"
 	.string "{STR_VAR_3} is a legendary warmer\n"
-	.string "of EGGS!$"
+	.string "of Eggs!$"
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle::
 	.string "The Evolver TRAINER$"
@@ -415,7 +415,7 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction::
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {STR_VAR_1} Pokémon\n"
+	.string "This Trainer made {STR_VAR_1} Pokémon\n"
 	.string "evolve!\p"
 	.string "{STR_VAR_3} is the ultimate evolver\n"
 	.string "of Pokémon!$"
@@ -429,7 +429,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed Pokémon\n"
+	.string "This Trainer healed Pokémon\n"
 	.string "{STR_VAR_1} times at Pokémon CenterS!\p"
 	.string "There could be no greater lover of\n"
 	.string "Pokémon CenterS than {STR_VAR_3}!$"
@@ -443,7 +443,7 @@ MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction::
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER healed Pokémon\n"
+	.string "This Trainer healed Pokémon\n"
 	.string "{STR_VAR_1} times at home!\p"
 	.string "There could be no more of a homebody\n"
 	.string "than {STR_VAR_3}!$"
@@ -452,15 +452,15 @@ MauvilleCity_PokemonCenter_1F_Text_SafariGamesTitle::
 	.string "The SAFARI-Loving TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesAction::
-	.string "Entered the SAFARI ZONE$"
+	.string "Entered the Safari Zone$"
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER went into the SAFARI ZONE\n"
+	.string "This Trainer went into the Safari Zone\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER whose wild side\n"
-	.string "must come out in the SAFARI ZONE!$"
+	.string "{STR_VAR_3} is a Trainer whose wild side\n"
+	.string "must come out in the Safari Zone!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle::
 	.string "The CUT-Frenzy TRAINER$"
@@ -471,9 +471,9 @@ MauvilleCity_PokemonCenter_1F_Text_UsedCutAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedCutStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used CUT\n"
+	.string "This Trainer used CUT\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who just must\n"
+	.string "{STR_VAR_3} is a Trainer who just must\n"
 	.string "love to CUT!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle::
@@ -485,23 +485,23 @@ MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used ROCK SMASH\n"
+	.string "This Trainer used Rock Smash\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
+	.string "{STR_VAR_3} must be a Trainer who\n"
 	.string "can't leave a stone unsmashed!$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesTitle::
 	.string "The Move-Loving TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesAction::
-	.string "Moved the SECRET BASE$"
+	.string "Moved the Secret Base$"
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER moved the SECRET BASE\n"
+	.string "This Trainer moved the Secret Base\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who loves\n"
+	.string "{STR_VAR_3} is a Trainer who loves\n"
 	.string "to move houses often!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle::
@@ -513,9 +513,9 @@ MauvilleCity_PokemonCenter_1F_Text_UsedSplashAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used SPLASH\n"
+	.string "This Trainer used SPLASH\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who must love\n"
+	.string "{STR_VAR_3} is a Trainer who must love\n"
 	.string "SPLASHING around!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleTitle::
@@ -527,7 +527,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedStruggleAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER had to rely on STRUGGLE\n"
+	.string "This Trainer had to rely on STRUGGLE\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} is a tenacious TRAINER\n"
 	.string "who never gives in to adversity!$"
@@ -541,9 +541,9 @@ MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsAction::
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won the jackpot on\n"
+	.string "This Trainer won the jackpot on\n"
 	.string "the SLOTS {STR_VAR_1} times.\p"
-	.string "{STR_VAR_3} is a TRAINER who was lucky\n"
+	.string "{STR_VAR_3} is a Trainer who was lucky\n"
 	.string "on the SLOTS!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle::
@@ -555,35 +555,35 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction::
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won in ROULETTE\n"
+	.string "This Trainer won in ROULETTE\n"
 	.string "{STR_VAR_1} times in a row.\p"
 	.string "{STR_VAR_3} was lucky when the ball\n"
 	.string "bounced in ROULETTE!$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle::
-	.string "The BATTLE TOWER Challenger$"
+	.string "The Battle Tower Challenger$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction::
-	.string "Took the BATTLE TOWER challenge$"
+	.string "Took the Battle Tower challenge$"
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER took the BATTLE TOWER\n"
+	.string "This Trainer took the Battle Tower\n"
 	.string "challenge {STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} is a TRAINER who aspires\n"
-	.string "for excellence in the BATTLE TOWER!$"
+	.string "{STR_VAR_3} is a Trainer who aspires\n"
+	.string "for excellence in the Battle Tower!$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
 	.string "The Blend-Loving TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction::
-	.string "Made {POKEBLOCK}S$"
+	.string "Made {POKEBLOCK}s$"
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER made {POKEBLOCK}S\n"
+	.string "This Trainer made {POKEBLOCK}s\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "There is none better at using a BERRY\n"
 	.string "BLENDER than {STR_VAR_3}!$"
@@ -592,12 +592,12 @@ MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle::
 	.string "The CONTEST-Loving TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsAction::
-	.string "Entered CONTESTS$"
+	.string "Entered Contests$"
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER entered CONTESTS\n"
+	.string "This Trainer entered Contests\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must love showing off\n"
 	.string "Pokémon to others!$"
@@ -606,12 +606,12 @@ MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle::
 	.string "The CONTEST Master$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction::
-	.string "Won CONTESTS$"
+	.string "Won Contests$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won CONTESTS\n"
+	.string "This Trainer won Contests\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be an incredible\n"
 	.string "CONTEST master!$"
@@ -625,7 +625,7 @@ MauvilleCity_PokemonCenter_1F_Text_TimesShoppedAction::
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bought items in shops\n"
+	.string "This Trainer bought items in shops\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be one of those\n"
 	.string "people who are born to shop.$"
@@ -634,12 +634,12 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
 	.string "The Item-Finding TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "Used an ITEMFINDER$"
+	.string "Used an Itemfinder$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER used an ITEMFINDER\n"
+	.string "This Trainer used an Itemfinder\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must enjoy scouring the\n"
 	.string "ground for hidden items!$"
@@ -653,7 +653,7 @@ MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction::
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER got soaked by rain\n"
+	.string "This Trainer got soaked by rain\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3}'s charisma must even\n"
 	.string "attract rain!$"
@@ -667,7 +667,7 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction::
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked a Pokédex\n"
+	.string "This Trainer checked a Pokédex\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must love inspecting\n"
 	.string "Pokémon in a Pokédex!$"
@@ -681,9 +681,9 @@ MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction::
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER received RIBBONS\n"
+	.string "This Trainer received RIBBONS\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER who\n"
+	.string "{STR_VAR_3} must be a Trainer who\n"
 	.string "loves to collect RIBBONS!$"
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedTitle::
@@ -695,7 +695,7 @@ MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction::
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER jumped down ledges\n"
+	.string "This Trainer jumped down ledges\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "If there's a ledge to be jumped,\n"
 	.string "{STR_VAR_3} can't ignore it!$"
@@ -709,7 +709,7 @@ MauvilleCity_PokemonCenter_1F_Text_TVWatchedAction::
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER watched TV\n"
+	.string "This Trainer watched TV\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must love watching TV!$"
 
@@ -722,13 +722,13 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction::
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER checked the time\n"
+	.string "This Trainer checked the time\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a punctual TRAINER\n"
 	.string "who's conscious of the time.$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle::
-	.string "The Pokémon LOTTERY Wizard$"
+	.string "The Pokémon Lottery Wizard$"
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction::
 	.string "Won Pokémon LOTTERIES$"
@@ -736,35 +736,35 @@ MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction::
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER won Pokémon LOTTERIES\n"
+	.string "This Trainer won Pokémon LOTTERIES\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must have many friends\n"
 	.string "to trade Pokémon with!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
-	.string "The DAY CARE-Using Trainer$"
+	.string "The Daycare-Using Trainer$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
-	.string "Left Pokémon at the DAY CARE$"
+	.string "Left Pokémon at the Daycare$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER left Pokémon with the\n"
-	.string "DAY CARE {STR_VAR_1} times!\p"
+	.string "This Trainer left Pokémon with the\n"
+	.string "Daycare {STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a real go-getter\n"
 	.string "who raises Pokémon aggressively!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle::
-	.string "The CABLE CAR-Loving TRAINER$"
+	.string "The Cable Car-Loving TRAINER$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarAction::
-	.string "Rode the CABLE CAR$"
+	.string "Rode the Cable Car$"
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER rode the CABLE CAR\n"
+	.string "This Trainer rode the Cable Car\n"
 	.string "{STR_VAR_1} times!\p"
 	.string "{STR_VAR_3} must be a busy TRAINER\n"
 	.string "who's up and down all the time!$"
@@ -778,9 +778,9 @@ MauvilleCity_PokemonCenter_1F_Text_HotSpringsAction::
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
-	.string "This TRAINER bathed in hot springs\n"
+	.string "This Trainer bathed in hot springs\n"
 	.string "{STR_VAR_1} times!\p"
-	.string "{STR_VAR_3} must be a TRAINER with\n"
+	.string "{STR_VAR_3} must be a Trainer with\n"
 	.string "baby-smooth skin!$"
 
 

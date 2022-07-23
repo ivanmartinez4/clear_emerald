@@ -1354,13 +1354,13 @@ SootopolisCity_EventScript_MaxieArchieLeave::
 	end
 
 SootopolisCity_Text_GymSign:
-	.string "SOOTOPOLIS CITY Pokémon Gym\n"
+	.string "Sootopolis City Pokémon Gym\n"
 	.string "LEADER: JUAN\p"
 	.string "“The Gym Leader with the beauty\n"
 	.string "of pure water!”$"
 
 SootopolisCity_Text_CitySign:
-	.string "SOOTOPOLIS CITY\p"
+	.string "Sootopolis City\p"
 	.string "“The mystical city where history\n"
 	.string "slumbers.”$"
 
@@ -1460,10 +1460,10 @@ SootopolisCity_Text_PrettyMonCameFromSky:
 
 SootopolisCity_Text_SootopolisWillBeWrecked:
 	.string "Oh, no!\n"
-	.string "SOOTOPOLIS CITY will get wrecked!$"
+	.string "Sootopolis City will get wrecked!$"
 
 SootopolisCity_Text_SootopolisDidntGetWrecked:
-	.string "SOOTOPOLIS CITY didn't get wrecked!$"
+	.string "Sootopolis City didn't get wrecked!$"
 
 SootopolisCity_Text_NoOrdinaryTourist:
 	.string "Hm!\n"
@@ -1479,13 +1479,13 @@ SootopolisCity_Text_CaveOfOriginPleaseLeave:
 	.string "Who might you be?\p"
 	.string "This is the CAVE OF ORIGIN.\p"
 	.string "The spirits of Pokémon, becalmed at\n"
-	.string "MT. PYRE, are said to be revived here.\p"
+	.string "Mt. Pyre, are said to be revived here.\p"
 	.string "Please leave.$"
 
 SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "A person with a strong will and\n"
 	.string "superior talent…\p"
-	.string "A TRAINER who has knowledge and\n"
+	.string "A Trainer who has knowledge and\n"
 	.string "experience of many kinds of Pokémon…\p"
 	.string "If such a person were to appear, I was\n"
 	.string "instructed by WALLACE to lead that\l"
@@ -1563,7 +1563,7 @@ SootopolisCity_Text_AfterAllOurScheming:
 
 SootopolisCity_Text_KyogreCalmDown:
 	.string "ARCHIE: KYOGRE! What's wrong?!\n"
-	.string "Look over here! It's the RED ORB!\l"
+	.string "Look over here! It's the Red Orb!\l"
 	.string "Calm down! KYOGRE!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -1573,7 +1573,7 @@ SootopolisCity_Text_KyogreCalmDown:
 SootopolisCity_Text_TryingMeaninglessToPokemon:
 	.string "ARCHIE: KYOGRE and GROUDON both\n"
 	.string "flew off to who knows where.\p"
-	.string "The weather in HOENN has returned\n"
+	.string "The weather in Hoennhas returned\n"
 	.string "to its normal state…\p"
 	.string "Haha…\n"
 	.string "Hahaha…\p"
@@ -1617,7 +1617,7 @@ SootopolisCity_Text_KnowWhatsNeededToHelpHim:
 	.string "needed to help him…$"
 
 SootopolisCity_Text_NeverBeenToSkyPillar:
-	.string "Steven: The SKY PILLAR…\p"
+	.string "Steven: The Sky Pillar…\p"
 	.string "I've never been there.\n"
 	.string "I wonder where it could be?$"
 
@@ -1629,16 +1629,16 @@ SootopolisCity_Text_SoThatsRayquaza:
 SootopolisCity_Text_MaxieArchieLeft:
 	.string "Steven: It looks like both MAXIE and\n"
 	.string "ARCHIE have gone away somewhere.\p"
-	.string "Perhaps they've gone to MT. PYRE to\n"
+	.string "Perhaps they've gone to Mt. Pyre to\n"
 	.string "return those ORBS…$"
 
 SootopolisCity_Text_HaventYouScaledSkyPillar:
 	.string "Wallace: Oh?\n"
 	.string "{PLAYER}{KUN}?\p"
-	.string "Haven't you scaled the SKY PILLAR\n"
+	.string "Haven't you scaled the Sky Pillar\n"
 	.string "yet?\p"
 	.string "I'm sure that you can make it to\n"
-	.string "the top of the SKY PILLAR…$"
+	.string "the top of the Sky Pillar…$"
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "Wallace: {PLAYER}{KUN}…\p"
@@ -1651,7 +1651,7 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string "Wallace: {PLAYER}{KUN}…\n"
 	.string "My eyes didn't deceive me.\p"
 	.string "Thanks to your help, SOOTOPOLIS…\n"
-	.string "No, all of HOENN was saved.\p"
+	.string "No, all of Hoennwas saved.\p"
 	.string "On behalf of the people, I thank you.\p"
 	.string "This is a gift from me.\n"
 	.string "Please accept it.$"
@@ -1659,10 +1659,10 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "That HIDDEN MACHINE contains\n"
 	.string "WATERFALL.\p"
-	.string "If you have the RAIN BADGE, a Pokémon\n"
+	.string "If you have the RAIN Badge, a Pokémon\n"
 	.string "that has learned that HM move can\l"
 	.string "force its way up waterfalls.\p"
-	.string "And where does one get the RAIN BADGE?\n"
+	.string "And where does one get the RAIN Badge?\n"
 	.string "You know, don't you?\p"
 	.string "That's right! You have to beat\n"
 	.string "the SOOTOPOLIS Gym Leader.\p"

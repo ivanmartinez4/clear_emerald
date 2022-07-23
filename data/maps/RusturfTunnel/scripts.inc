@@ -439,7 +439,7 @@ RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "PEEKO owes her life to you!\p"
-	.string "They call me MR. BRINEY.\n"
+	.string "They call me Mr. Briney.\n"
 	.string "And, you are?\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
@@ -467,7 +467,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 
 RusturfTunnel_Text_ToGetToVerdanturf:
 	.string "To get from RUSTBORO to VERDANTURF,\n"
-	.string "you need to go to DEWFORD, then pass\l"
+	.string "you need to go to Dewford, then pass\l"
 	.string "through SLATEPORT and MAUVILLE…$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:

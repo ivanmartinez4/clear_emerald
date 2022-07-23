@@ -225,7 +225,7 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "Wallace: Welcome, {PLAYER}{KUN}.\p"
-	.string "That incident in SOOTOPOLIS CITY…\n"
+	.string "That incident in Sootopolis City…\n"
 	.string "That was superb work, putting an end\l"
 	.string "to that crisis all by yourself.\p"
 	.string "Oops!\p"
@@ -253,7 +253,7 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "And yet it was utterly glorious!\p"
 	.string "Kudos to you, {PLAYER}{KUN}!\p"
 	.string "You are a truly noble Pokémon\n"
-	.string "TRAINER!$"
+	.string "Trainer!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "Wallace: The Pokémon you sent into\n"
@@ -266,9 +266,9 @@ EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
 	.string "Even I felt bedazzled by your\n"
 	.string "masterful performance!\p"
 	.string "You now stand at the glorious peak\n"
-	.string "of the Pokémon LEAGUE.\p"
+	.string "of the Pokémon League.\p"
 	.string "I now proclaim you to be the new\n"
-	.string "HOENN region…$"
+	.string "Hoenn region…$"
 
 EverGrandeCity_ChampionsRoom_Text_MayAdvice:
 	.string "May: {PLAYER}{KUN}!\p"

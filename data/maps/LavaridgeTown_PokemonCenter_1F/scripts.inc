@@ -23,16 +23,16 @@ LavaridgeTown_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 LavaridgeTown_PokemonCenter_1F_EventScript_Woman::
-	msgbox LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether, MSGBOX_NPC
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_TRAINERSPokemonSpendTimeTogether, MSGBOX_NPC
 	end
 
 LavaridgeTown_PokemonCenter_1F_EventScript_Gentleman::
-	msgbox LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo, MSGBOX_NPC
+	msgbox LavaridgeTown_PokemonCenter_1F_Text_TRAINERSShouldRestToo, MSGBOX_NPC
 	end
 
-LavaridgeTown_PokemonCenter_1F_Text_TrainersPokemonSpendTimeTogether:
+LavaridgeTown_PokemonCenter_1F_Text_TRAINERSPokemonSpendTimeTogether:
 	.string "I think Pokémon get closer to their\n"
-	.string "TRAINERS if they spend time together.\p"
+	.string "Trainers if they spend time together.\p"
 	.string "The longer the better.\n"
 	.string "That's what I think.$"
 
@@ -42,7 +42,7 @@ LavaridgeTown_PokemonCenter_1F_Text_HotSpringCanInvigorate:
 	.string "I wish I could let my Pokémon\n"
 	.string "soak, too.$"
 
-LavaridgeTown_PokemonCenter_1F_Text_TrainersShouldRestToo:
+LavaridgeTown_PokemonCenter_1F_Text_TRAINERSShouldRestToo:
 	.string "Hohoho! Hey, kid, you can reach\n"
 	.string "the hot springs from here.\p"
 	.string "If Pokémon are getting rest, so too\n"

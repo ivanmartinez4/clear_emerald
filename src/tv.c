@@ -2265,7 +2265,7 @@ u8 GetRibbonCount(struct Pokemon *pokemon)
 
 static u8 MonDataIdxToRibbon(u8 monDataIdx)
 {
-    if (monDataIdx == MON_DATA_CHAMPION_RIBBON) return Champion_RIBBON;
+    if (monDataIdx == MON_DATA_CHAMPION_RIBBON) return CHAMPION_RIBBON;
     if (monDataIdx == MON_DATA_COOL_RIBBON)     return COOL_RIBBON_NORMAL;
     if (monDataIdx == MON_DATA_BEAUTY_RIBBON)   return BEAUTY_RIBBON_NORMAL;
     if (monDataIdx == MON_DATA_CUTE_RIBBON)     return CUTE_RIBBON_NORMAL;
@@ -2282,7 +2282,7 @@ static u8 MonDataIdxToRibbon(u8 monDataIdx)
     if (monDataIdx == MON_DATA_NATIONAL_RIBBON) return NATIONAL_RIBBON;
     if (monDataIdx == MON_DATA_EARTH_RIBBON)    return EARTH_RIBBON;
     if (monDataIdx == MON_DATA_WORLD_RIBBON)    return WORLD_RIBBON;
-    return Champion_RIBBON;
+    return CHAMPION_RIBBON;
 }
 
 void TryPutTrainerFanClubOnAir(void)
@@ -6133,7 +6133,7 @@ static void DoTVShowSpotTheCuties(void)
         TVShowConvertInternationalString(gStringVar2, show->cuties.nickname, show->cuties.pokemonNameLanguage);
         switch (show->cuties.selectedRibbon)
         {
-        case Champion_RIBBON:
+        case CHAMPION_RIBBON:
             sTVShowState = SPOTCUTIES_STATE_RIBBON_CHAMPION;
             break;
         case COOL_RIBBON_NORMAL:

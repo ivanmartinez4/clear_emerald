@@ -312,7 +312,7 @@ BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
 	.string "the Frontier Pass.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
-	.string "{PLAYER} placed the TRAINER CARD\n"
+	.string "{PLAYER} placed the Trainer CARD\n"
 	.string "in the Frontier Pass.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
@@ -347,12 +347,12 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 	.string "It is the gigantic tower considered\n"
 	.string "to be the Battle Frontier's symbol.\p"
-	.string "There are four kinds of BATTLE ROOMS\n"
+	.string "There are four kinds of Battle Room S\n"
 	.string "in the tower for SINGLE, DOUBLE, MULTI,\l"
 	.string "and LINK Multi BattleS.$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
-	.string "The BATTLE DOME is the large building\n"
+	.string "The Battle Dome is the large building\n"
 	.string "shaped like a huge egg.\p"
 	.string "Events named Battle Tourneys are held\n"
 	.string "in this facility.\p"
@@ -361,20 +361,20 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "BATTLES.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
-	.string "The BATTLE PALACE is the red building\n"
+	.string "The Battle Palace is the red building\n"
 	.string "on the right of the Battle Frontier.\p"
 	.string "There are two kinds of BATTLE HALLS\n"
-	.string "for SINGLE and Double BattleS.$"
+	.string "for SINGLE and Double Battles.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
-	.string "The BATTLE ARENA is the dojo-like\n"
+	.string "The Battle Arena is the dojo-like\n"
 	.string "building at the center-right of\l"
 	.string "the Battle Frontier.\p"
 	.string "An event called the Set KO Tourney\n"
-	.string "takes place at the BATTLE ARENA.$"
+	.string "takes place at the Battle Arena.$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
-	.string "The BATTLE FACTORY is the large\n"
+	.string "The Battle Factory is the large\n"
 	.string "building that is the closest to us.\p"
 	.string "An event called the Battle Swap\n"
 	.string "is conducted there.\p"
@@ -383,21 +383,21 @@ BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
 	.string "BATTLES.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePikeInfo:
-	.string "The BATTLE PIKE is the building shaped\n"
+	.string "The Battle Pike is the building shaped\n"
 	.string "like a Pokémon at the center-left of\l"
 	.string "the Battle Frontier.\p"
 	.string "An event called the Battle Choice\n"
 	.string "is conducted there.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePyramidInfo:
-	.string "The BATTLE PYRAMID is the enormous\n"
+	.string "The Battle Pyramid is the enormous\n"
 	.string "pyramid.\p"
 	.string "An event called the Battle Quest\n"
 	.string "is conducted there.$"
 
 BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 	.string "The RANKING HALL is located near\n"
-	.string "the BATTLE TOWER.\p"
+	.string "the Battle Tower.\p"
 	.string "There, you may see the most fantastic\n"
 	.string "records left by the trainers that\l"
 	.string "took on the many challenges of\l"
@@ -405,7 +405,7 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 	.string "The EXCHANGE SERVICE CORNER is near\n"
-	.string "the BATTLE TOWER.\p"
+	.string "the Battle Tower.\p"
 	.string "The Battle Points you have earned in\n"
 	.string "the Battle Frontier may be exchanged\l"
 	.string "for fabulous prizes there.$"
@@ -428,7 +428,7 @@ BattleFrontier_ReceptionGate_Text_Level50Info:
 	.string "The Level 50 course is open to Pokémon\n"
 	.string "up to and including Level 50.\p"
 	.string "Please keep in mind, however, that\n"
-	.string "no TRAINER you face will have any\l"
+	.string "no Trainer you face will have any\l"
 	.string "Pokémon below Level 50.\p"
 	.string "This course is the entry level for\n"
 	.string "battles at the Battle Frontier.\p"
@@ -442,13 +442,13 @@ BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
 	.string "The levels of your opponents will\n"
 	.string "be adjusted to match the levels of\l"
 	.string "your Pokémon.\p"
-	.string "However, no TRAINER you face will\n"
+	.string "However, no Trainer you face will\n"
 	.string "have any Pokémon below Level 60.$"
 
 BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 	.string "Virtually any kind of Pokémon may take\n"
 	.string "on the challenges at all facilities.\p"
-	.string "EGGS and certain kinds of Pokémon,\n"
+	.string "Eggs and certain kinds of Pokémon,\n"
 	.string "however, are not permitted.\p"
 	.string "The numbers of Pokémon required for\n"
 	.string "challenges will depend on the facility.\p"
@@ -473,7 +473,7 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "There are seven facilities at\n"
 	.string "the Battle Frontier.\p"
-	.string "TRAINERS who gain recognition for\n"
+	.string "Trainers who gain recognition for\n"
 	.string "their abilities may be rewarded with\l"
 	.string "symbols from each of the facilities.\p"
 	.string "To earn a symbol, trainers may need\n"
@@ -489,14 +489,14 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "a friend or friends.\p"
 	.string "Or you may record a battle conducted\n"
 	.string "at the Battle Frontier excluding\l"
-	.string "matches at the BATTLE PIKE or\l"
-	.string "the BATTLE PYRAMID.\p"
+	.string "matches at the Battle Pike or\l"
+	.string "the Battle Pyramid.\p"
 	.string "You may choose to record your match\n"
 	.string "at the end of a battle.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "Battle Points are rewards given to\n"
-	.string "TRAINERS who battled outstandingly\l"
+	.string "Trainers who battled outstandingly\l"
 	.string "at the Battle Frontier.\p"
 	.string "You may trade in your Battle Points\n"
 	.string "for prizes at the EXCHANGE SERVICE\l"

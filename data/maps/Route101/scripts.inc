@@ -265,7 +265,7 @@ Route101_Text_YouSavedMe:
 	.string "Oh?\p"
 	.string "Hi, you're {PLAYER}{KUN}!\p"
 	.string "This is not the place to chat, so come\n"
-	.string "by my Pokémon LAB later, okay?$"
+	.string "by my Pokémon Lab later, okay?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If Pokémon get tired, take them to\n"
@@ -280,6 +280,6 @@ Route101_Text_WildPokemonInTallGrass:
 	.string "to go into the tall grass and search.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
+	.string "Route 101\n"
 	.string "{UP_ARROW} Oldale Town$"
 

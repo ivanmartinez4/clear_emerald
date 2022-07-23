@@ -155,7 +155,7 @@ VictoryRoad_1F_Text_WallyPostBattle:
 	.string "Wally: I couldn't beat you this time,\n"
 	.string "too… But one of these days, {PLAYER},\l"
 	.string "I'm going to catch up to you…\p"
-	.string "And challenge the Pokémon LEAGUE!$"
+	.string "And challenge the Pokémon League!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
 	.string "I've made it this far a couple times,\n"
@@ -194,7 +194,7 @@ VictoryRoad_1F_Text_HopePostBattle:
 	.string "becoming the Champion.$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "What is the VICTORY ROAD?\n"
+	.string "What is the Victory Road?\n"
 	.string "I'll tell you if you win!$"
 
 VictoryRoad_1F_Text_QuincyDefeat:
@@ -203,7 +203,7 @@ VictoryRoad_1F_Text_QuincyDefeat:
 
 VictoryRoad_1F_Text_QuincyPostBattle:
 	.string "Getting through here safely--that's\n"
-	.string "the final test for any TRAINER aiming\l"
+	.string "the final test for any Trainer aiming\l"
 	.string "to become the Pokémon Champion.\p"
 	.string "That's why it's called the VICTORY\n"
 	.string "ROAD.$"

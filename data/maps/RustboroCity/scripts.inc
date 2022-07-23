@@ -199,8 +199,8 @@ RustboroCity_EventScript_CitySign::
 	msgbox RustboroCity_Text_CitySign, MSGBOX_SIGN
 	end
 
-RustboroCity_EventScript_TrainersSchoolSign::
-	msgbox RustboroCity_Text_TrainersSchoolSign, MSGBOX_SIGN
+RustboroCity_EventScript_TRAINERSSchoolSign::
+	msgbox RustboroCity_Text_TRAINERSSchoolSign, MSGBOX_SIGN
 	end
 
 RustboroCity_EventScript_CuttersHouseSign::
@@ -956,12 +956,12 @@ RustboroCity_Text_SneakyLookingManWentAroundCorner:
 RustboroCity_Text_HaveYouChallengedGym:
 	.string "Have you taken the Pokémon Gym\n"
 	.string "challenge?\p"
-	.string "When you get that shiny Gym BADGE\n"
+	.string "When you get that shiny Gym Badge\n"
 	.string "in hand, I guess trainers begin to\l"
 	.string "realize what is required of them.$"
 
 RustboroCity_Text_HeyThatsRustborosGymBadge:
-	.string "Hey, that's RUSTBORO's Gym BADGE!\p"
+	.string "Hey, that's RUSTBORO's Gym Badge!\p"
 	.string "Out of all the Pokémon Gym Badges,\n"
 	.string "RUSTBORO's is the coolest, I'd say.$"
 
@@ -969,7 +969,7 @@ RustboroCity_Text_YoureNewAroundHere:
 	.string "Oh? Who might you be?\n"
 	.string "You're a new face around these parts.\p"
 	.string "Have you just transferred into the\n"
-	.string "Pokémon TRAINER'S SCHOOL?$"
+	.string "Pokémon Trainer's School?$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "I challenged the Gym Leader, but…\p"
@@ -979,16 +979,16 @@ RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "well against ROCK-type Pokémon…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
-	.string "The old sailor MR. BRINEY lives in\n"
+	.string "The old sailor Mr. Briney lives in\n"
 	.string "a cottage by the sea.\p"
 	.string "He goes for walks in the tunnel every\n"
 	.string "so often.$"
 
 RustboroCity_Text_MrBrineyLovesPeeko:
-	.string "The old sailor MR. BRINEY lives in\n"
+	.string "The old sailor Mr. Briney lives in\n"
 	.string "a cottage by the sea.\p"
 	.string "He said he was going shopping in\n"
-	.string "SLATEPORT for his pet, PEEKO.\p"
+	.string "Slateport for his pet, PEEKO.\p"
 	.string "That old sea dog, he must really love\n"
 	.string "that PEEKO.$"
 
@@ -998,7 +998,7 @@ RustboroCity_Text_WowYouHavePokemon:
 	.string "places with Pokémon, too.$"
 
 RustboroCity_Text_CatchRarePokemonIfIGoToSchool:
-	.string "Pokémon TRAINER'S SCHOOL!\p"
+	.string "Pokémon Trainer's School!\p"
 	.string "If I go to this school, will I be able\n"
 	.string "to catch rare Pokémon easily?$"
 
@@ -1027,7 +1027,7 @@ RustboroCity_Text_WaitDontTakeMyGoods:
 
 RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, it's you!\p"
-	.string "You're that fantastic TRAINER who\n"
+	.string "You're that fantastic Trainer who\n"
 	.string "helped me in PetalburgWOODS!\p"
 	.string "Help me! I was robbed by TEAM AQUA!\n"
 	.string "I have to get the DEVON GOODS back!\p"
@@ -1043,7 +1043,7 @@ RustboroCity_Text_YouGotItThankYou:
 	.string "The DEVON GOODS?\p"
 	.string "You did!\n"
 	.string "You got them back!\p"
-	.string "You really are a great TRAINER!\p"
+	.string "You really are a great Trainer!\p"
 	.string "I know! As my thanks, I'll give you\n"
 	.string "another Great Ball!$"
 
@@ -1069,7 +1069,7 @@ RustboroCity_Text_RegisteredMay:
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "May: Oh, by the way, I passed\n"
-	.string "MR. BRINEY in PetalburgWOODS.\p"
+	.string "Mr. Briney in PetalburgWOODS.\p"
 	.string "I guess he's on his way home to his\n"
 	.string "cottage by the sea.\p"
 	.string "How's your Pokédex coming along,\n"
@@ -1081,7 +1081,7 @@ RustboroCity_Text_MayOhHaventRaisedPokemonEnough:
 	.string "May: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "Pokémon very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "That's not very good for a Trainer!$"
 
 RustboroCity_Text_MayWantToBattle:
 	.string "May: So, what do you think?\n"
@@ -1096,10 +1096,10 @@ RustboroCity_Text_MayDefeat:
 	.string "You're better than I expected!$"
 
 RustboroCity_Text_MayMrBrineyHint:
-	.string "May: Oh, by the way, MR. BRINEY, who\n"
+	.string "May: Oh, by the way, Mr. Briney, who\n"
 	.string "I just passed…\p"
 	.string "{PLAYER}{KUN}, you just moved here so you\n"
-	.string "might not know this, but MR. BRINEY\l"
+	.string "might not know this, but Mr. Briney\l"
 	.string "was once a revered seafarer.$"
 
 RustboroCity_Text_BrendanHiLetsRegister:
@@ -1116,7 +1116,7 @@ RustboroCity_Text_RegisteredBrendan:
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 	.string "Brendan: By the way, {PLAYER}, I walked\n"
-	.string "by MR. BRINEY in PetalburgWOODS.\p"
+	.string "by Mr. Briney in PetalburgWOODS.\p"
 	.string "I bet he was on his way home to his\n"
 	.string "cottage by the sea.\p"
 	.string "{PLAYER}, how's your Pokédex?\n"
@@ -1143,10 +1143,10 @@ RustboroCity_Text_BrendanDefeat:
 
 RustboroCity_Text_BrendanMrBrineyHint:
 	.string "Brendan: By the way, you know\n"
-	.string "MR. BRINEY? The guy I just passed?\p"
+	.string "Mr. Briney? The guy I just passed?\p"
 	.string "I bet you didn't know this, since you\n"
 	.string "just moved here, {PLAYER}, but\l"
-	.string "MR. BRINEY was once a great sailor.$"
+	.string "Mr. Briney was once a great sailor.$"
 
 RustboroCity_Text_TunnelNearingCompletion:
 	.string "“Timesaving tunnel nearing\n"
@@ -1175,13 +1175,13 @@ RustboroCity_Text_CitySign:
 	.string "“The city probing the integration of\n"
 	.string "nature and science.”$"
 
-RustboroCity_Text_TrainersSchoolSign:
-	.string "Pokémon TRAINER'S SCHOOL\p"
+RustboroCity_Text_TRAINERSSchoolSign:
+	.string "Pokémon Trainer's School\p"
 	.string "“We'll teach you anything about\n"
 	.string "Pokémon!”$"
 
 RustboroCity_Text_CuttersHouse:
-	.string "CUTTER'S HOUSE$"
+	.string "Cutter's House$"
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
 	.string "I've been developing an added feature\n"
@@ -1212,7 +1212,7 @@ RustboroCity_Text_IdBetterGetBackToWork:
 RustboroCity_Text_YouCanHave2On2Battle:
 	.string "Did you know this?\p"
 	.string "You can have a 2-on-2 battle even\n"
-	.string "if you're not with another TRAINER.\p"
+	.string "if you're not with another Trainer.\p"
 	.string "If you catch the eyes of two trainers\n"
 	.string "when you have two or more Pokémon,\l"
 	.string "they'll both challenge you.\p"

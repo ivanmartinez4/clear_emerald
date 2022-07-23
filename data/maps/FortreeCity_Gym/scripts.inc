@@ -156,7 +156,7 @@ FortreeCity_Gym_Text_JaredDefeat:
 	.string "You're strong…$"
 
 FortreeCity_Gym_Text_JaredPostBattle:
-	.string "A TRAINER has to be smart to keep\n"
+	.string "A Trainer has to be smart to keep\n"
 	.string "up with unexpected turns of events.\p"
 	.string "Do you have the smarts to get to\n"
 	.string "our Leader?$"
@@ -245,14 +245,14 @@ FortreeCity_Gym_Text_WinonaDefeat:
 	.string "command Pokémon with more grace\l"
 	.string "than I…\p"
 	.string "In recognition of your prowess,\n"
-	.string "I present to you this Gym BADGE.$"
+	.string "I present to you this Gym Badge.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
-	.string "{PLAYER} received the FEATHER BADGE\n"
+	.string "{PLAYER} received the FEATHER Badge\n"
 	.string "from WINONA.$"
 
 FortreeCity_Gym_Text_ExplainFeatherBadgeTakeThis:
-	.string "With the FEATHER BADGE, all Pokémon up\n"
+	.string "With the FEATHER Badge, all Pokémon up\n"
 	.string "to LV 70, even those received through\l"
 	.string "trades, will obey your every command.\p"
 	.string "You will also be able to use\n"
@@ -275,11 +275,11 @@ FortreeCity_Gym_Text_WinonaPostBattle:
 	.string "devoted to BIRD Pokémon.$"
 
 FortreeCity_Gym_Text_GymStatue:
-	.string "FORTREE CITY Pokémon Gym$"
+	.string "Fortree CityY Pokémon Gym$"
 
 FortreeCity_Gym_Text_GymStatueCertified:
-	.string "FORTREE CITY Pokémon Gym\p"
-	.string "WINONA'S CERTIFIED trainers:\n"
+	.string "Fortree CityY Pokémon Gym\p"
+	.string "WINONA'sCERTIFIED trainers:\n"
 	.string "{PLAYER}$"
 
 FortreeCity_Gym_Text_WinonaPreRematch:

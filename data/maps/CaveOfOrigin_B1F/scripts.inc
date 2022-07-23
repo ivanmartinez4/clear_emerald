@@ -98,7 +98,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin:
 	.string "where RAYQUAZA might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat:
-	.string "Wallace: MT. PYRE?\p"
+	.string "Wallace: Mt. Pyre?\p"
 	.string "But when I met the old lady there\n"
 	.string "earlier, she made no mention of it.\p"
 	.string "I very much doubt that the old lady\n"
@@ -112,9 +112,9 @@ CaveOfOrigin_B1F_Text_CantYouRememberSomehow:
 	.string "Can't you remember somehow?$"
 
 CaveOfOrigin_B1F_Text_WellHeadToSkyPillar:
-	.string "WALLACE: The SKY PILLAR?\p"
+	.string "Wallace: The Sky Pillar?\p"
 	.string "That's it!\n"
-	.string "It must be the SKY PILLAR!\p"
+	.string "It must be the Sky Pillar!\p"
 	.string "{PLAYER}{KUN}, there's not a moment to lose!\n"
-	.string "We'll head to the SKY PILLAR right away!$"
+	.string "We'll head to the Sky Pillar right away!$"
 

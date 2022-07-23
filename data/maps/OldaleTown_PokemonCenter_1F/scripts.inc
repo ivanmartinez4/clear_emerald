@@ -19,7 +19,7 @@ OldaleTown_PokemonCenter_1F_EventScript_Nurse::
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Gentleman::
-	msgbox OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC, MSGBOX_NPC
+	msgbox OldaleTown_PokemonCenter_1F_Text_TRAINERSCanUsePC, MSGBOX_NPC
 	end
 
 OldaleTown_PokemonCenter_1F_EventScript_Boy::
@@ -39,9 +39,9 @@ OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
 	release
 	end
 
-OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
+OldaleTown_PokemonCenter_1F_Text_TRAINERSCanUsePC:
 	.string "That PC in the corner there is\n"
-	.string "for any Pokémon TRAINER to use.\p"
+	.string "for any Pokémon Trainer to use.\p"
 	.string "Naturally, that means you're welcome\n"
 	.string "to use it, too.$"
 

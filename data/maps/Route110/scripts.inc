@@ -774,7 +774,7 @@ Route110_Text_MayTakeThis:
 	.string "This is from me!$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "May: That's an ITEMFINDER.\p"
+	.string "May: That's an Itemfinder.\p"
 	.string "Try it out. If there is an item that's\n"
 	.string "not visible, it emits a sound.\p"
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
@@ -800,7 +800,7 @@ Route110_Text_BrendanTakeThis:
 	.string "Here, take this.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "Brendan: That's an ITEMFINDER.\p"
+	.string "Brendan: That's an Itemfinder.\p"
 	.string "Use it to root around for items that\n"
 	.string "aren't visible.\p"
 	.string "If it senses something, it emits\n"
@@ -810,7 +810,7 @@ Route110_Text_BrendanExplainItemfinder:
 
 Route110_Text_RideBikeAtFullSpeed:
 	.string "Wouldn't it be great to ride a BIKE\n"
-	.string "at full speed on CYCLING ROAD?$"
+	.string "at full speed on Cycling Road?$"
 
 Route110_Text_HairStreamsBehindMe:
 	.string "How do you like the way my raven-\n"
@@ -852,7 +852,7 @@ Route110_Text_BikeTechniques:
 Route110_Text_WhichShouldIChoose:
 	.string "Which should I choose?\p"
 	.string "Make a beeline for MAUVILLE on\n"
-	.string "CYCLING ROAD, or take the low road\l"
+	.string "Cycling Road, or take the low road\l"
 	.string "and look for Pokémon?$"
 
 Route110_Text_CyclingChallengeResultSummary:
@@ -892,9 +892,9 @@ Route110_Text_ChallengeReactionWorst:
 	.string "returning that BIKE to RYDEL.$"
 
 Route110_Text_RatedForNumberOfCollisions:
-	.string "This is CYCLING ROAD.\p"
+	.string "This is Cycling Road.\p"
 	.string "If you were to ride from MAUVILLE to\n"
-	.string "SLATEPORT on a MACH BIKE, you would\l"
+	.string "Slateport on a MACH BIKE, you would\l"
 	.string "be rated for the number of collisions\l"
 	.string "and your total time.$"
 
@@ -904,18 +904,18 @@ Route110_Text_AlwaysAimHigher:
 	.string "Always aim higher!$"
 
 Route110_Text_AcroBikesDoNotQualify:
-	.string "On this CYCLING ROAD, those riding\n"
+	.string "On this Cycling Road, those riding\n"
 	.string "MACH BIKES are rated for their number\l"
 	.string "of collisions and their total times.\p"
 	.string "ACRO BIKES do not qualify for rating.\n"
 	.string "They are easy to turn, so it's not fair.$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
-	.string "{DOWN_ARROW} SLATEPORT CITY$"
+	.string "Route 110\n"
+	.string "{DOWN_ARROW} Slateport City$"
 
 Route110_Text_CyclingRoadSign:
-	.string "SEASIDE CYCLING ROAD$"
+	.string "SEASIDE Cycling Road$"
 
 Route110_Text_AquaWasHere:
 	.string "“TEAM AQUA was here!”\p"
@@ -925,31 +925,31 @@ Route110_Text_AquaWasHere:
 	.string "says now.$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
-	.string "{LEFT_ARROW} ROUTE 103$"
+	.string "Route 110\n"
+	.string "{LEFT_ARROW} Route 103$"
 
 Route110_Text_SeasideParkingSign:
 	.string "SEASIDE PARKING$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
-	.string "{UP_ARROW} MAUVILLE CITY$"
+	.string "Route 110\n"
+	.string "{UP_ARROW} Mauville City$"
 
 Route110_Text_TrainerTipsPrlzSleep:
-	.string "TRAINER TIPS\p"
+	.string "Trainer Tips\p"
 	.string "The foe can be made helpless by\n"
 	.string "paralyzing it or causing it to sleep.\p"
 	.string "It is an important technique for\n"
 	.string "Pokémon battles.$"
 
 Route110_Text_TrainerTipsRegisterItems:
-	.string "TRAINER TIPS\p"
-	.string "The items in the BAG can be reorganized\n"
+	.string "Trainer Tips\p"
+	.string "The items in the Bag can be reorganized\n"
 	.string "by pressing SELECT.$"
 
 Route110_Text_TrickHouseSign:
 	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
-	.string "to reach the wondrous TRICK HOUSE.”$"
+	.string "to reach the wondrous Trick House.”$"
 
 Route110_Text_BestRecord:
 	.string "THE BEST RECORD TO DATE…\p"

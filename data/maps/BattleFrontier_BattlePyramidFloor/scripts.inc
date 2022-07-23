@@ -129,7 +129,7 @@ BattleFacility_TrainerBattle_PlaceholderText:
 	.string "This is a sample message.$"
 
 gText_BattlePyramidConfirmRest::
-	.string "Your BATTLE PYRAMID quest will be\n"
+	.string "Your Battle Pyramid quest will be\n"
 	.string "saved so that you may quit for now.\l"
 	.string "Is that okay?$"
 
@@ -516,32 +516,32 @@ BattlePyramid_Text_ZeroItemsRemaining6::
 BattlePyramid_Text_SevenTrainersRemaining1::
 	.string "You were really awesome!\p"
 	.string "But there are still seven tough\n"
-	.string "TRAINERS other than me!$"
+	.string "Trainers other than me!$"
 
 BattlePyramid_Text_SixTrainersRemaining1::
 	.string "You were really awesome!\p"
 	.string "But there are still six tough\n"
-	.string "TRAINERS other than me!$"
+	.string "Trainers other than me!$"
 
 BattlePyramid_Text_FiveTrainersRemaining1::
 	.string "You were really awesome!\p"
 	.string "But there are still five tough\n"
-	.string "TRAINERS other than me!$"
+	.string "Trainers other than me!$"
 
 BattlePyramid_Text_FourTrainersRemaining1::
 	.string "You were really awesome!\p"
 	.string "But there are still four tough\n"
-	.string "TRAINERS other than me!$"
+	.string "Trainers other than me!$"
 
 BattlePyramid_Text_ThreeTrainersRemaining1::
 	.string "You were really awesome!\p"
 	.string "But there are still three tough\n"
-	.string "TRAINERS other than me!$"
+	.string "Trainers other than me!$"
 
 BattlePyramid_Text_TwoTrainersRemaining1::
 	.string "You were really awesome!\p"
 	.string "But there are still two tough\n"
-	.string "TRAINERS other than me!$"
+	.string "Trainers other than me!$"
 
 BattlePyramid_Text_OneTrainersRemaining1::
 	.string "You were really awesome!\p"
@@ -585,7 +585,7 @@ BattlePyramid_Text_TwoTrainersRemaining2::
 
 BattlePyramid_Text_OneTrainersRemaining2::
 	.string "This is so upsetting!\p"
-	.string "But there's one TRAINER left!\n"
+	.string "But there's one Trainer left!\n"
 	.string "I'm sure you will be humbled!$"
 
 BattlePyramid_Text_ZeroTrainersRemaining2::
@@ -659,7 +659,7 @@ BattlePyramid_Text_TwoTrainersRemaining4::
 
 BattlePyramid_Text_OneTrainersRemaining4::
 	.string "Maybe you could complete your sweep\n"
-	.string "with the one TRAINER left on this floor.$"
+	.string "with the one Trainer left on this floor.$"
 
 BattlePyramid_Text_ZeroTrainersRemaining4::
 	.string "There isn't a single person left who\n"
@@ -691,7 +691,7 @@ BattlePyramid_Text_TwoTrainersRemaining5::
 
 BattlePyramid_Text_OneTrainersRemaining5::
 	.string "You may have what it takes to beat\n"
-	.string "the one expert TRAINER who remains.$"
+	.string "the one expert Trainer who remains.$"
 
 BattlePyramid_Text_ZeroTrainersRemaining5::
 	.string "Your skills are beyond reproach.\p"

@@ -189,10 +189,10 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
 	.string "Yow! You've beaten even JUAN, who\n"
-	.string "was supposedly the best in all HOENN!\p"
-	.string "Okay! Check out your TRAINER CARD.\p"
+	.string "was supposedly the best in all Hoenn!\p"
+	.string "Okay! Check out your Trainer CARD.\p"
 	.string "If you've gotten all the Badges, you're\n"
-	.string "set for the Pokémon LEAGUE challenge!$"
+	.string "set for the Pokémon League challenge!$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "Let me ask you.\n"
@@ -230,17 +230,17 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 	.string "… … … … … …\p"
 	.string "Hahaha, I merely jest!\p"
 	.string "Rather than my clothes, I shall reward\n"
-	.string "you with this, the RAIN BADGE!$"
+	.string "you with this, the RAIN Badge!$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
-	.string "{PLAYER} received the RAIN BADGE\n"
+	.string "{PLAYER} received the RAIN Badge\n"
 	.string "from JUAN.$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
-	.string "Having the RAIN BADGE shall assure you\n"
+	.string "Having the RAIN Badge shall assure you\n"
 	.string "the full obedience of all your Pokémon\l"
 	.string "to your every command.\p"
-	.string "The RAIN BADGE also allows the use\n"
+	.string "The RAIN Badge also allows the use\n"
 	.string "of the HM move WATERFALL to scale\l"
 	.string "walls of cascading water.\p"
 	.string "And, so that you never forget the\n"
@@ -259,27 +259,27 @@ SootopolisCity_Gym_1F_Text_RegisteredJuan:
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The trainers who have gathered all\n"
-	.string "the Gym Badges of HOENN should make\l"
+	.string "the Gym Badges of Hoennshould make\l"
 	.string "way to the ultimate destination.\p"
-	.string "The Pokémon LEAGUE.\p"
+	.string "The Pokémon League.\p"
 	.string "Travel to the easternmost reaches\n"
-	.string "of HOENN, to the island EVER GRANDE.\p"
+	.string "of HOENN, to the island Evergrande.\p"
 	.string "There, you shall find the Pokémon\n"
 	.string "LEAGUE.$"
 
 SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
-	.string "There remains but one BADGE to\n"
-	.string "obtain in HOENN.\p"
+	.string "There remains but one Badge to\n"
+	.string "obtain in Hoenn\p"
 	.string "If you wish to challenge the Pokémon\n"
 	.string "LEAGUE, you must obtain the last\l"
 	.string "BADGE from the Gym in FORTREE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
-	.string "SOOTOPOLIS CITY Pokémon Gym$"
+	.string "Sootopolis City Pokémon Gym$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-	.string "SOOTOPOLIS CITY Pokémon Gym\p"
-	.string "JUAN'S CERTIFIED trainers:\n"
+	.string "Sootopolis City Pokémon Gym\p"
+	.string "JUAN'sCERTIFIED trainers:\n"
 	.string "{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:

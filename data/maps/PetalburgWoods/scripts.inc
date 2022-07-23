@@ -444,8 +444,8 @@ PetalburgWoods_Text_HiddenItemsExplanation:
 
 PetalburgWoods_Text_TryUsingThisItem:
 	.string "Oh, neat!\n"
-	.string "That's the BADGE from RUSTBORO Gym!\p"
-	.string "You must be a TRAINER.\n"
+	.string "That's the Badge from RUSTBORO Gym!\p"
+	.string "You must be a Trainer.\n"
 	.string "You should try using this item.$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
@@ -457,7 +457,7 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "to hold.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "TRAINER TIPS\p"
+	.string "Trainer Tips\p"
 	.string "Any Pokémon that appears even once\n"
 	.string "in a battle is awarded EXP Points.\p"
 	.string "To raise a weak Pokémon, put it at the\n"
@@ -467,7 +467,7 @@ PetalburgWoods_Text_TrainerTipsExperience:
 	.string "being exposed to any harm.$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-	.string "TRAINER TIPS\p"
+	.string "Trainer Tips\p"
 	.string "In addition to Hit Points (HP), Pokémon\n"
 	.string "have Power Points (PP) that are used to\l"
 	.string "make moves during battle.\p"

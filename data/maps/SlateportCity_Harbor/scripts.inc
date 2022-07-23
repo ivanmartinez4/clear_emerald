@@ -419,10 +419,10 @@ SlateportCity_Harbor_Text_AbnormalWeather:
 	.string "For a ship to sail safely, we need to\n"
 	.string "know about the weather!\p"
 	.string "Speaking of weather, I heard something\n"
-	.string "from a guy at the WEATHER INSTITUTE.\p"
+	.string "from a guy at the Weather Institute.\p"
 	.string "He was saying abnormal weather has\n"
 	.string "been reported all over the place!\p"
-	.string "You should visit the WEATHER INSTITUTE\n"
+	.string "You should visit the Weather Institute\n"
 	.string "and ask around!$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
@@ -484,16 +484,16 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
 	.string "CAPT. STERN: Oh, yes.\n"
-	.string "MR. BRINEY came to our SHIPYARD.\p"
+	.string "Mr. Briney came to our SHIPYARD.\p"
 	.string "It won't be long now before we finish\n"
 	.string "making the ferry!$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "CAPT. STERN: {PLAYER}{KUN}!\p"
 	.string "We finally finished making the ferry\n"
-	.string "S.S. TIDAL!\p"
+	.string "S.S. Tidal!\p"
 	.string "We couldn't have done it without\n"
-	.string "your friend MR. BRINEY.\p"
+	.string "your friend Mr. Briney.\p"
 	.string "Please go for a short cruise on it!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:

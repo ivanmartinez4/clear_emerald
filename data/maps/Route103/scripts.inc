@@ -290,7 +290,7 @@ Route103_EventScript_Isabelle::
 
 Route103_Text_MayRoute103Pokemon:
 	.string "May: Let's see… The Pokémon found\n"
-	.string "on ROUTE 103 include…$"
+	.string "on Route 103 include…$"
 
 Route103_Text_MayLetsBattle:
 	.string "Oh, hi, {PLAYER}{KUN}!\p"
@@ -299,7 +299,7 @@ Route103_Text_MayLetsBattle:
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.$"
+	.string "a Trainer is like.$"
 
 Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
@@ -313,18 +313,18 @@ Route103_Text_MayTimeToHeadBack:
 	.string "You might be able to befriend any\n"
 	.string "kind of Pokémon easily.\p"
 	.string "Well, it's time to head back to\n"
-	.string "the LAB.$"
+	.string "the Lab.$"
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "Brendan: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "that one that live on Route 103…$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "Hey, it's {PLAYER}!\p"
 	.string "…Oh, yeah, Dad gave you a Pokémon.\p"
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
+	.string "I'll teach you what being a Trainer's\n"
 	.string "about!$"
 
 Route103_Text_BrendanDefeated:
@@ -338,7 +338,7 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could befriend any Pokémon with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "We should head back to the Lab.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "My Pokémon is staggeringly tired…\n"
@@ -350,6 +350,6 @@ Route103_Text_ShortcutToOldale:
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
+	.string "Route 103\n"
 	.string "{DOWN_ARROW} Oldale Town$"
 

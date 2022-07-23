@@ -111,7 +111,7 @@ MeteorFalls_1F_2R_Text_JohnPostBattle:
 	.string "my dear wife in a battle.$"
 
 MeteorFalls_1F_2R_Text_JohnNotEnoughMons:
-	.string "JOHN: Well, well, what a young TRAINER!\p"
+	.string "JOHN: Well, well, what a young Trainer!\p"
 	.string "Will you battle with us? If so, you'll\n"
 	.string "have to return with more Pokémon.$"
 
@@ -155,7 +155,7 @@ MeteorFalls_1F_2R_Text_JohnPostRematch:
 	.string "we battled day in and day out…$"
 
 MeteorFalls_1F_2R_Text_JohnRematchNotEnoughMons:
-	.string "JOHN: Well, well, what a young TRAINER!\p"
+	.string "JOHN: Well, well, what a young Trainer!\p"
 	.string "Will you battle with us? If so, you'll\n"
 	.string "have to return with more Pokémon.$"
 

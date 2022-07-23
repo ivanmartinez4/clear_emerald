@@ -150,7 +150,7 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
+	.string "Mt. Chimney's Jagged Pass…\p"
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
@@ -194,7 +194,7 @@ JaggedPass_Text_DianaPostRematch:
 	.string "enjoy this bumpy hike.$"
 
 JaggedPass_Text_EthanIntro:
-	.string "JAGGED PASS is hard to walk on.\n"
+	.string "Jagged Pass is hard to walk on.\n"
 	.string "It's a good place for training.$"
 
 JaggedPass_Text_EthanDefeat:
@@ -220,7 +220,7 @@ JaggedPass_Text_EthanRematchDefeat:
 
 JaggedPass_Text_EthanPostRematch:
 	.string "I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…$"
+	.string "in Mauville City…$"
 
 JaggedPass_Text_GruntIntro:
 	.string "Wah!\n"

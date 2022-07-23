@@ -399,7 +399,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Recently, our company developed\n"
 	.string "a new kind of Poké Ball.\p"
 	.string "As a token of our appreciation, this\n"
-	.string "is our gift to our wonderful TRAINER!$"
+	.string "is our gift to our wonderful Trainer!$"
 
 Route116_Text_NewBallAvailableAtMart:
 	.string "Our new Poké Ball will be available\n"
@@ -408,14 +408,14 @@ Route116_Text_NewBallAvailableAtMart:
 	.string "Thank you and bye-bye!$"
 
 Route116_Text_BagIsJamPacked:
-	.string "Your BAG is jam-packed.\n"
+	.string "Your Bag is jam-packed.\n"
 	.string "I can't give you this REPEAT BALL.$"
 
 Route116_Text_TokenOfAppreciation:
 	.string "As a token of our appreciation for\n"
 	.string "your delivering our package, I have\l"
 	.string "a gift of a new kind of Poké Ball\l"
-	.string "for our most wonderful TRAINER!$"
+	.string "for our most wonderful Trainer!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
 	.string "I dropped my glasses…\n"
@@ -443,20 +443,20 @@ Route116_Text_NotWhatImLookingFor:
 	.string "They're not what I'm looking for…$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
+	.string "Route 116\n"
 	.string "{LEFT_ARROW} Rustboro City$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
+	.string "Rusturf Tunnel\n"
 	.string "“Linking RUSTBORO and VERDANTURF\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 
 Route116_Text_TunnelersRestHouse:
-	.string "TUNNELER'S REST HOUSE$"
+	.string "Tunneler's Rest House$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "TRAINER TIPS\p"
+	.string "Trainer Tips\p"
 	.string "If you want to stop a Pokémon from\n"
 	.string "evolving, press the B Button while it\l"
 	.string "is trying to evolve.\l"
@@ -464,10 +464,10 @@ Route116_Text_TrainerTipsBToStopEvolution:
 	.string "This is called an evolution cancel.$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
+	.string "Trainer Tips\p"
+	.string "Your Bag has several POCKETS.\p"
 	.string "Items you obtain are automatically\n"
 	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "No Trainer can afford to be without\n"
+	.string "a Bag of their own.$"
 

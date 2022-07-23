@@ -88,7 +88,7 @@ ProfileMan_EventScript_DeclineNewProfile::
 	end
 
 ProfileMan_Text_CollectTrainerProfiles:
-	.string "Hello there, TRAINER!\n"
+	.string "Hello there, Trainer!\n"
 	.string "You've got a wonderful smile, there.\p"
 	.string "I have a hobby--collecting the profiles\n"
 	.string "of Pokémon trainers.$"
@@ -130,7 +130,7 @@ ProfileMan_Text_NotIntoItRightNow:
 	.string "Well, anytime is good by me!$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "Hello there, TRAINER!\n"
+	.string "Hello there, Trainer!\n"
 	.string "You've got a wonderful smile.$"
 
 ProfileMan_Text_MayISeeYourNewProfile:

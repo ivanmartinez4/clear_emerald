@@ -618,12 +618,12 @@ MauvilleCity_GameCorner_EventScript_NoCoinCase::
 	end
 
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
-	.string "This is MAUVILLE GAME CORNER.$"
+	.string "This is MAUVILLE Game Corner.$"
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
 	.string "Okay, you wanted some COINS for\n"
 	.string "the games?\p"
-	.string "But you don't have a COIN CASE for\n"
+	.string "But you don't have a Coin Case for\n"
 	.string "stowing the COINS.$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
@@ -641,7 +641,7 @@ MauvilleCity_GameCorner_Text_DontHaveEnoughMoney:
 
 MauvilleCity_GameCorner_Text_CoinCaseIsFull:
 	.string "Oh?\n"
-	.string "Your COIN CASE is full.$"
+	.string "Your Coin Case is full.$"
 
 MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
 	.string "Oh… You don't need COINS, then?\n"
@@ -699,7 +699,7 @@ MauvilleCity_GameCorner_Text_CantWinJackpot:
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseGoNextDoor:
 	.string "Hey, kid, if you want to play here,\n"
-	.string "you need a COIN CASE.\p"
+	.string "you need a Coin Case.\p"
 	.string "I think the young lady next door\n"
 	.string "had one. Go see her!$"
 
@@ -709,9 +709,9 @@ MauvilleCity_GameCorner_Text_LuckOnlyLastSoLongTakeCoins:
 	.string "Here, take some COINS!$"
 
 MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
-	.string "MAUVILLE has something for\n"
+	.string "Mauville has something for\n"
 	.string "everyone.\p"
-	.string "For me, it's the GAME CORNER.$"
+	.string "For me, it's the Game Corner.$"
 
 MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
 	.string "The ROULETTE tables have different\n"
@@ -725,7 +725,7 @@ MauvilleCity_GameCorner_Text_EasyToLoseTrackOfTime:
 
 MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay:
 	.string "COINS are needed to play here\n"
-	.string "in the GAME CORNER.$"
+	.string "in the Game Corner.$"
 
 MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
 	.string "This ROULETTE thing…\n"
@@ -756,5 +756,5 @@ MauvilleCity_GameCorner_Text_HeresSomeSlotsInfo:
 
 MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
 	.string "You can't play if you don't have\n"
-	.string "a COIN CASE.$"
+	.string "a Coin Case.$"
 

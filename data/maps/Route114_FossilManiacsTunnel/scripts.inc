@@ -56,7 +56,7 @@ Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil::
 	end
 
 Route114_FossilManiacsTunnel_Text_LookInDesertForFossils:
-	.string "I'm the FOSSIL MANIAC…\n"
+	.string "I'm the Fossil Maniac…\n"
 	.string "I'm a nice guy who loves FOSSILS…\p"
 	.string "Do you want a FOSSIL?\p"
 	.string "But the FOSSILS around these parts all\n"
