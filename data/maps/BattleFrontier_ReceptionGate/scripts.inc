@@ -316,7 +316,7 @@ BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
 	.string "in the Frontier Pass.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
-	.string "We hope you enjoy all that the BATTLE\n"
+	.string "We hope you enjoy all that the Battle\n"
 	.string "FRONTIER has to offer!$"
 
 BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
@@ -363,7 +363,7 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "The Battle Palace is the red building\n"
 	.string "on the right of the Battle Frontier.\p"
-	.string "There are two kinds of BATTLE HALLS\n"
+	.string "There are two kinds of Battle Halls\n"
 	.string "for SINGLE and Double Battles.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
@@ -413,14 +413,14 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
 	.string "I'm your guide to the basic rules that\n"
 	.string "are common to all the challenges\l"
-	.string "offered by the facilities in the BATTLE\l"
+	.string "offered by the facilities in the Battle\l"
 	.string "FRONTIER.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
 	.string "What would you like to learn about?$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
-	.string "All the challenges at the BATTLE\n"
+	.string "All the challenges at the Battle\n"
 	.string "FRONTIER's facilities come in\l"
 	.string "two courses--Level 50 and Open Level.$"
 
@@ -457,7 +457,7 @@ BattleFrontier_ReceptionGate_Text_MonEntryInfo:
 	.string "permitted.$"
 
 BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
-	.string "When entering a challenge at a BATTLE\n"
+	.string "When entering a challenge at a Battle\n"
 	.string "FRONTIER facility, Pokémon may not\l"
 	.string "be holding the same kind of item.\p"
 	.string "Please make sure that all Pokémon\n"

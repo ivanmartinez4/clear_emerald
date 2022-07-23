@@ -65,7 +65,7 @@ FallarborTown_Text_RegionKnownForMeteors:
 
 FallarborTown_Text_MyPreciousAzurill:
 	.string "See! Take a look!\n"
-	.string "This is my precious AZURILL!\p"
+	.string "This is my precious Azurill!\p"
 	.string "It's slick and smooth and plushy, too!$"
 
 FallarborTown_Text_Azurill:

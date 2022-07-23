@@ -87,7 +87,7 @@ gBirchDexRatingText_LessThan160::
 
 gBirchDexRatingText_LessThan170::
 	.string "One can get a very good idea about\n"
-	.string "the Pokémon of the Hoennregion\l"
+	.string "the Pokémon of the Hoenn region\l"
 	.string "by looking through your Pokédex.$"
 
 gBirchDexRatingText_LessThan180::

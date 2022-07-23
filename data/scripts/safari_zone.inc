@@ -155,11 +155,11 @@ Route121_SafariZoneEntrance_Text_PCIsFull:
 
 Route121_SafariZoneEntrance_Text_YouNeedPokeblockCase:
 	.string "Excuse me!\n"
-	.string "You seem to be without a {POKEBLOCK} CASE.\p"
+	.string "You seem to be without a {POKEBLOCK} Case.\p"
 	.string "Your SAFARI Game will be much more\n"
 	.string "fruitful if you use {POKEBLOCK}s.\p"
-	.string "Please come back with a {POKEBLOCK} CASE.\p"
-	.string "You may obtain a {POKEBLOCK} CASE from\n"
+	.string "Please come back with a {POKEBLOCK} Case.\p"
+	.string "You may obtain a {POKEBLOCK} Case from\n"
 	.string "the LILYCOVE Contest Hall.$"
 
 SafariZone_South_Text_StillHaveTimeExit:

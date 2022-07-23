@@ -135,7 +135,7 @@ gText_BattlePyramidConfirmRest::
 
 gText_BattlePyramidConfirmRetire::
 	.string "Are you sure you want to quit your\n"
-	.string "PYRAMID quest?$"
+	.string "Pyramid quest?$"
 
 BattlePyramid_Text_ExitHintUp1::
 	.string "This floor's exit is in\n"
@@ -625,7 +625,7 @@ BattlePyramid_Text_TwoTrainersRemaining3::
 
 BattlePyramid_Text_OneTrainersRemaining3::
 	.string "That's pretty impressive!\p"
-	.string "But there's still one more TRAINER\n"
+	.string "But there's still one more Trainer\n"
 	.string "on this floor. Can you prevail?$"
 
 BattlePyramid_Text_ZeroTrainersRemaining3::
@@ -724,7 +724,7 @@ BattlePyramid_Text_TwoTrainersRemaining6::
 
 BattlePyramid_Text_OneTrainersRemaining6::
 	.string "Can you keep winning against\n"
-	.string "the last remaining TRAINER?$"
+	.string "the last remaining Trainer?$"
 
 BattlePyramid_Text_ZeroTrainersRemaining6::
 	.string "There aren't any trainers left that\n"

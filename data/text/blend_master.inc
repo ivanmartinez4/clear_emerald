@@ -17,7 +17,7 @@ BerryBlender_Text_TooBusyNowIsee:
 
 BerryBlender_Text_BlendMasterNoBerries:
 	.string "Hmmm!\p"
-	.string "You haven't got a single BERRY!\p"
+	.string "You haven't got a single Berry!\p"
 	.string "I shall be here all day!\n"
 	.string "Hurry back with some Berries!$"
 
@@ -26,12 +26,12 @@ BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
 	.string "Of course!\p"
 	.string "Incidentally…\n"
 	.string "You do know how to blend {POKEBLOCK}s\l"
-	.string "from BERRIES?$"
+	.string "from Berries?$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
 	.string "Hmmm!\p"
 	.string "Ah, but it is a simple process!\p"
-	.string "When the BLENDER's arrow comes to\n"
+	.string "When the Blender's arrow comes to\n"
 	.string "your marker, just press the A Button.\p"
 	.string "That's all you have to do.\p"
 	.string "When you see how precisely I press\n"
@@ -46,13 +46,13 @@ BerryBlender_Text_BlendMasterLetsBerryBlender:
 BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "Hmmm!\p"
 	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} CASE!\p"
+	.string "the {POKEBLOCK} Case!\p"
 	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} CASE and hurry back!$"
+	.string "Obtain the {POKEBLOCK} Case and hurry back!$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
 	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} CASE appears to be full!\p"
+	.string "Your {POKEBLOCK} Case appears to be full!\p"
 	.string "I shall be here all day!\n"
 	.string "Use some {POKEBLOCK}s and hurry back!$"
 
@@ -67,7 +67,7 @@ BerryBlender_Text_WhatAnExpert:
 	.string "What an expert!$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "When I blended with the MASTER,\n"
+	.string "When I blended with the Master,\n"
 	.string "we made amazing {POKEBLOCK}s!$"
 
 BerryBlender_Text_QualitiesOfBlendMaster:
@@ -81,5 +81,5 @@ BerryBlender_Text_QualitiesOfBlendMaster:
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
 	.string "The Blend Master's supposed to work\n"
 	.string "on his skills deep in the mountains.\p"
-	.string "Sometimes, he comes to LILYCOVE\n"
-	.string "to blend Berriesall day long.$"
+	.string "Sometimes, he comes to Lilycove\n"
+	.string "to blend Berries all day long.$"

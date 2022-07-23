@@ -482,7 +482,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
 	.string "Please wait.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Would you like to cancel your BATTLE\n"
+	.string "Would you like to cancel your Battle\n"
 	.string "ROOM challenge?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::

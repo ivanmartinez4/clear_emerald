@@ -1065,7 +1065,7 @@ Route104_Text_PrettyPetalFlowShop:
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "Trainer Tips\p"
-	.string "In the Hoennregion there are pairs\n"
+	.string "In the Hoenn region there are pairs\n"
 	.string "of trainers who challenge others\l"
 	.string "for 2-on-2 Pokémon battles called\l"
 	.string "Double Battles.\p"

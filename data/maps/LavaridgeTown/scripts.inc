@@ -295,7 +295,7 @@ LavaridgeTown_Text_MayExplainGoGogglesChallengeDad:
 	.string "You're trying hard because you don't\n"
 	.string "want to lose to me, I bet!\p"
 	.string "{PLAYER}{KUN}, I think I should challenge\n"
-	.string "your dad in PetalburgGym.\p"
+	.string "your dad in Petalburg Gym.\p"
 	.string "See you again!$"
 
 LavaridgeTown_Text_BrendanNiceBadgesTakeThis:

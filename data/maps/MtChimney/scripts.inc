@@ -331,7 +331,7 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
+	.string "The power contained in the Meteorite…\p"
 	.string "By amplifying its power with this\n"
 	.string "machine, Mt. Chimney's volcanic\l"
 	.string "activity will instantly intensify…\p"
@@ -377,14 +377,14 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "But don't think that this is the last\n"
 	.string "you've seen of Team Magma.\p"
 	.string "Fufufu…\p"
-	.string "Even without the METEORITE, if we\n"
+	.string "Even without the Meteorite, if we\n"
 	.string "obtain that ORB… Fufufu…$"
 
 MtChimney_Text_TabithaIntro:
 	.string "Hehehe!\p"
 	.string "So you've come all the way here!\p"
 	.string "But you're too late!\n"
-	.string "I've already delivered the METEORITE\l"
+	.string "I've already delivered the Meteorite\l"
 	.string "from Meteor Falls to the BOSS!$"
 
 MtChimney_Text_TabithaDefeat:
@@ -394,7 +394,7 @@ MtChimney_Text_TabithaDefeat:
 
 MtChimney_Text_TabithaPostBattle:
 	.string "BOSS, hurry!\n"
-	.string "Give it the METEORITE's energy!\p"
+	.string "Give it the Meteorite's energy!\p"
 	.string "Hehehe…$"
 
 MtChimney_Text_Grunt2Intro:
@@ -516,22 +516,22 @@ MtChimney_Text_OhFineThen:
 	.string "Oh, fine then.$"
 
 MtChimney_Text_MetoriteFittedOnMachine:
-	.string "A METEORITE is fitted on a mysterious\n"
+	.string "A Meteorite is fitted on a mysterious\n"
 	.string "machine…\p"
 	.string "The machine seems to be storing\n"
-	.string "energy in the METEORITE.$"
+	.string "energy in the Meteorite.$"
 
 MtChimney_Text_RemoveTheMeteorite:
-	.string "A METEORITE is fitted on a mysterious\n"
+	.string "A Meteorite is fitted on a mysterious\n"
 	.string "machine…\p"
-	.string "Do you want to remove the METEORITE?$"
+	.string "Do you want to remove the Meteorite?$"
 
 MtChimney_Text_PlayerRemovedMeteorite:
-	.string "{PLAYER} removed the METEORITE from\n"
+	.string "{PLAYER} removed the Meteorite from\n"
 	.string "the mysterious machine.$"
 
 MtChimney_Text_PlayerLeftMeteorite:
-	.string "{PLAYER} left the METEORITE where\n"
+	.string "{PLAYER} left the Meteorite where\n"
 	.string "it was.$"
 
 MtChimney_Text_MachineMakesNoResponse:

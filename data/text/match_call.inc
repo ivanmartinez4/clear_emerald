@@ -2025,7 +2025,7 @@ MatchCall_Text_Mom1::
 MatchCall_Text_Mom2::
 	.string "Mom: Hi, {PLAYER}!\n"
 	.string "Your father keeps himself locked\l"
-	.string "away in the PetalburgGym.\p"
+	.string "away in the Petalburg Gym.\p"
 	.string "He comes home every so often.\n"
 	.string "But he goes back to the Gym when\l"
 	.string "he's eaten everything he can.\p"
@@ -2454,7 +2454,7 @@ MatchCall_Text_May14::
 
 MatchCall_Text_May15::
 	.string "May: There isn't a single Trainer\n"
-	.string "left in Hoennwho doesn't know who\l"
+	.string "left in Hoenn who doesn't know who\l"
 	.string "you are, {PLAYER}{KUN}!\p"
 	.string "When I tell people that I'm friends\n"
 	.string "with you, {PLAYER}{KUN}, they're all\l"
@@ -2580,7 +2580,7 @@ MatchCall_Text_Brendan14::
 
 MatchCall_Text_Brendan15::
 	.string "Brendan: There isn't a Trainer in\n"
-	.string "all of Hoennwho doesn't know who\l"
+	.string "all of Hoenn who doesn't know who\l"
 	.string "you are, {PLAYER}!\p"
 	.string "When I tell people that I'm friends\n"
 	.string "with you, {PLAYER}, they get pretty\l"
@@ -2766,7 +2766,7 @@ MatchCall_Text_Norman8::
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
 	.string "you to battle.\p"
-	.string "I'm waiting in the PetalburgGym.\n"
+	.string "I'm waiting in the Petalburg Gym.\n"
 	.string "Accept my challenge anytime!$"
 
 MatchCall_Text_Norman9::

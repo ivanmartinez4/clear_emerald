@@ -368,7 +368,7 @@ MossdeepCity_Gym_Text_GymGuideAdvice:
 	.string "Yo, how's it going, Champion-bound\n"
 	.string "{PLAYER}?\p"
 	.string "The Gym Leaders here use\n"
-	.string "PSYCHIC-type Pokémon.\p"
+	.string "Psychic-type Pokémon.\p"
 	.string "If you go up against them with\n"
 	.string "Fighting- or Poison-type Pokémon,\l"
 	.string "they'll inflict horrible damage!\p"

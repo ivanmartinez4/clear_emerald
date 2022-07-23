@@ -699,7 +699,7 @@ LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger:
 	.string "your quiz challenge right away.$"
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
-	.string "I'm the CONTEST LADY!\n"
+	.string "I'm the Contest LADY!\n"
 	.string "I sure do love Contests!$"
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
@@ -716,7 +716,7 @@ LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
 	.string "Please, may I have one {POKEBLOCK}?\n"
 	.string "All I'm asking for is one!\p"
 	.string "…Oh, but…\n"
-	.string "Don't you have a {POKEBLOCK} CASE?\l"
+	.string "Don't you have a {POKEBLOCK} Case?\l"
 	.string "That's no good. Next time, then!$"
 
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock:

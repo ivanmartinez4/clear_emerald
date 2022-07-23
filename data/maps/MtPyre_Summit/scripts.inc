@@ -527,7 +527,7 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken:
 
 MtPyre_Summit_Text_GroudonKyogreAwakened:
 	.string "Oh, my goodness…\p"
-	.string "You say that both GROUDON and KYOGRE\n"
+	.string "You say that both Groudon and Kyogre\n"
 	.string "have been awakened?\p"
 	.string "It is said that the Blue Orb and\n"
 	.string "the Red Orb quelled the rage of\l"
@@ -565,7 +565,7 @@ MtPyre_Summit_Text_WillYouHearOutMyTale:
 	.string "must find solace here…\p"
 	.string "Is it coincidence that you are here…\p"
 	.string "Will you hear out my tale? A tale long\n"
-	.string "told in the Hoennregion?$"
+	.string "told in the Hoenn region?$"
 
 MtPyre_Summit_Text_GroudonKyogreTale:
 	.string "It happened long, long ago…\p"
@@ -598,7 +598,7 @@ MtPyre_Summit_Text_MaxieSilence:
 
 MtPyre_Summit_Text_HearTheNewLegendOfHoenn:
 	.string "It is my role to pass on the legends\n"
-	.string "of Hoennto future generations.\p"
+	.string "of Hoenn to future generations.\p"
 	.string "And the crisis that just ended in\n"
 	.string "SOOTOPOLIS rewrote a legend…\p"
 	.string "Have you the time to hear the new\n"

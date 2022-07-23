@@ -92,7 +92,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
 	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
-	.string "Pokémon of Hoenninteresting?$"
+	.string "Pokémon of Hoenn interesting?$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
 	.string "The girl TUBERS, they're cute, hey?\n"
@@ -110,7 +110,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
 	.string "You never know when and where\n"
 	.string "people will challenge you.\p"
 	.string "That's why I never leave home without\n"
-	.string "my GAME BOY ADVANCE.$"
+	.string "my Game Boy Advance.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "Scott:… … … … …\n"
@@ -118,7 +118,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "… … … … … Huh?!\n"
 	.string "Oh, sorry, sorry! I was snoozing!\p"
 	.string "I came to check out this Pokémon\n"
-	.string "CONTEST thing.\p"
+	.string "Contest thing.\p"
 	.string "I have to admit, it does look quite\n"
 	.string "entertaining, but…\p"
 	.string "Consider me a purist--I prefer\n"
@@ -130,7 +130,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 
 LilycoveCity_CoveLilyMotel_2F_Text_ContestsDoTakeStrategy:
 	.string "Scott:I think it does take strategy\n"
-	.string "to win a CONTEST.\p"
-	.string "Devising CONTEST strategies is one way\n"
+	.string "to win a Contest.\p"
+	.string "Devising Contest strategies is one way\n"
 	.string "of becoming a better TRAINER, I'd say.$"
 

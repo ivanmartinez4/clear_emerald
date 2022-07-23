@@ -1387,7 +1387,7 @@ SootopolisCity_Text_WhatIsThatGreenPokemon:
 	.string "What is that green Pokémon?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo:
-	.string "GROUDON and KYOGRE…\n"
+	.string "Groudon and Kyogre…\n"
 	.string "Where did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
@@ -1545,7 +1545,7 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "Maxie: G… GROUDON…\n"
+	.string "Maxie: G… Groudon…\n"
 	.string "Please! Stop what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all HOENN, not just\n"
@@ -1553,7 +1553,7 @@ SootopolisCity_Text_GroudonPleaseStop:
 
 SootopolisCity_Text_AfterAllOurScheming:
 	.string "Maxie: So the super-ancient Pokémon\n"
-	.string "weren't only GROUDON and KYOGRE…\p"
+	.string "weren't only Groudon and Kyogre…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one Pokémon's\l"
 	.string "simple action puts everything right\l"
@@ -1562,18 +1562,18 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fuhahaha…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "Archie: KYOGRE! What's wrong?!\n"
+	.string "Archie: Kyogre! What's wrong?!\n"
 	.string "Look over here! It's the Red Orb!\l"
-	.string "Calm down! KYOGRE!\p"
+	.string "Calm down! Kyogre!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "It's no good!\n"
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "Archie: KYOGRE and GROUDON both\n"
+	.string "Archie: Kyogre and Groudon both\n"
 	.string "flew off to who knows where.\p"
-	.string "The weather in Hoennhas returned\n"
+	.string "The weather in Hoenn has returned\n"
 	.string "to its normal state…\p"
 	.string "Haha…\n"
 	.string "Hahaha…\p"
@@ -1583,7 +1583,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon:
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 	.string "Steven: Those Pokémon fighting…\n"
-	.string "GROUDON… And KYOGRE…\p"
+	.string "Groudon… And Kyogre…\p"
 	.string "The two super-ancient Pokémon\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1598,7 +1598,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe:
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 	.string "Steven: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing GROUDON and KYOGRE make\n"
+	.string "Does seeing Groudon and Kyogre make\n"
 	.string "you think Pokémon are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "Pokémon are really more…\p"
@@ -1622,7 +1622,7 @@ SootopolisCity_Text_NeverBeenToSkyPillar:
 	.string "I wonder where it could be?$"
 
 SootopolisCity_Text_SoThatsRayquaza:
-	.string "Steven: So that's RAYQUAZA…\p"
+	.string "Steven: So that's Rayquaza…\p"
 	.string "It's incredible how the two rampaging\n"
 	.string "Pokémon would flee from it in fear…$"
 
@@ -1651,7 +1651,7 @@ SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string "Wallace: {PLAYER}{KUN}…\n"
 	.string "My eyes didn't deceive me.\p"
 	.string "Thanks to your help, Sootopolis…\n"
-	.string "No, all of Hoennwas saved.\p"
+	.string "No, all of Hoenn was saved.\p"
 	.string "On behalf of the people, I thank you.\p"
 	.string "This is a gift from me.\n"
 	.string "Please accept it.$"

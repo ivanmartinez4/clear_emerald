@@ -267,10 +267,10 @@ BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
 	.string "Scott:Have you met any of\n"
-	.string "the FRONTIER BRAINS?\p"
+	.string "the Frontier Brains?\p"
 	.string "Better yet, have you obtained any\n"
 	.string "symbols from them?\p"
-	.string "I handpicked the FRONTIER BRAINS\n"
+	.string "I handpicked the Frontier Brains\n"
 	.string "as the toughest trainers anywhere.\p"
 	.string "But I'm sure that seeing how tough\n"
 	.string "you are will startle even them!$"
@@ -322,7 +322,7 @@ BattleFrontier_ScottsHouse_Text_SoGladIBroughtYouHere:
 	.string "bring you here!$"
 
 BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
-	.string "Your BERRY POCKET seems to\n"
+	.string "Your Berry Pocket seems to\n"
 	.string "be stuffed.$"
 
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:

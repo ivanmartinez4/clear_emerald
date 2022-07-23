@@ -350,9 +350,9 @@ const u8 gBattleBackgroundNames[][30] =
     [MAP_BATTLE_SCENE_FRONTIER] = _("FRONTIER                "),
     [MAP_BATTLE_SCENE_LEADER]   = _("Leader                  "),
     [MAP_BATTLE_SCENE_WALLACE]  = _("WALLACE                 "),
-    [MAP_BATTLE_SCENE_GROUDON]  = _("GROUDON                 "),
+    [MAP_BATTLE_SCENE_GROUDON]  = _("Groudon                 "),
     [MAP_BATTLE_SCENE_KYOGRE]   = _("KYOGRE                  "),
-    [MAP_BATTLE_SCENE_RAYQUAZA] = _("RAYQUAZA                "),
+    [MAP_BATTLE_SCENE_RAYQUAZA] = _("Rayquaza                "),
 };
 const u8 gBattleBackgroundTerrainNames[][26] = 
 {

@@ -465,9 +465,9 @@ Route116_Text_TrainerTipsBToStopEvolution:
 
 Route116_Text_TrainerTipsBagHasPockets:
 	.string "Trainer Tips\p"
-	.string "Your Bag has several POCKETS.\p"
+	.string "Your Bag has several Pockets.\p"
 	.string "Items you obtain are automatically\n"
-	.string "placed in the appropriate POCKETS.\p"
+	.string "placed in the appropriate Pockets.\p"
 	.string "No Trainer can afford to be without\n"
 	.string "a Bag of their own.$"
 

@@ -541,7 +541,7 @@ LilycoveCity_Text_BrendanYouGoingToBattleFrontier:
 	.string "consider the Battle Frontier.\p"
 	.string "Heh, if I train my Pokémon a bit more,\n"
 	.string "I'll get stronger than you, {PLAYER}.\p"
-	.string "Maybe I should go to the BATTLE\n"
+	.string "Maybe I should go to the Battle\n"
 	.string "FRONTIER.\p"
 	.string "Well, anyway, hang in there!$"
 
@@ -594,12 +594,12 @@ LilycoveCity_Text_StrangeCaveInCove:
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
 	.string "I'm going to teach my Pokémon some new\n"
 	.string "moves for entering a CONTEST.\p"
-	.string "So, I'm going to see the MOVE DELETER\n"
+	.string "So, I'm going to see the Move Deleter\n"
 	.string "and make it forget HM moves.$"
 
 LilycoveCity_Text_ImFromKanto:
-	.string "I came from KANTO.\p"
-	.string "The Hoennregion is beautiful with\n"
+	.string "I came from Kanto.\p"
+	.string "The Hoenn region is beautiful with\n"
 	.string "all its water and verdant nature.\p"
 	.string "Hunh? Wait a second…\p"
 	.string "Could there be rare Pokémon that live\n"
@@ -607,15 +607,15 @@ LilycoveCity_Text_ImFromKanto:
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 	.string "Team Aqua's been training their\n"
-	.string "WAILMER in the cove.\p"
-	.string "We SAILORS can't get our boats out\n"
+	.string "Wailmer in the cove.\p"
+	.string "We Sailors can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
 	.string "Someone punted Team Aqua out of\n"
 	.string "the way for us!\p"
-	.string "That got the WAILMER out of the cove,\n"
+	.string "That got the Wailmer out of the cove,\n"
 	.string "so we can get our boats out again.$"
 
 LilycoveCity_Text_SomeoneStoleMyPokemon:
@@ -630,10 +630,10 @@ LilycoveCity_Text_MissingPokemonCameBack:
 	.string "It came back without me noticing!$"
 
 LilycoveCity_Text_ImArtDealer:
-	.string "I'm an ART DEALER.\p"
+	.string "I'm an Art Dealer.\p"
 	.string "I am a buyer and seller of fine art,\n"
 	.string "especially paintings.\p"
-	.string "I've heard that the MUSEUM here has\n"
+	.string "I've heard that the Museum here has\n"
 	.string "magnificent works on exhibit…$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
@@ -747,10 +747,10 @@ LilycoveCity_Text_SawTallTowerOnRoute131:
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
 	.string "We just arrived here on our\n"
 	.string "honeymoon vacation.\p"
-	.string "We happened to see a DRAGON-type\n"
+	.string "We happened to see a Dragon-type\n"
 	.string "Pokémon flying way up in the sky.\p"
 	.string "Do cool Pokémon like that live in\n"
-	.string "the Hoennregion?$"
+	.string "the Hoenn region?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
 	.string "On our honeymoon, we vowed to see as\n"

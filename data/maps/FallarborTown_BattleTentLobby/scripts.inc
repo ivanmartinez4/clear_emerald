@@ -312,7 +312,7 @@ FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid:
 FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
 	.string "You know how Battle TentS offer\n"
 	.string "different events in different towns?\p"
-	.string "My favorite is definitely the BATTLE\n"
+	.string "My favorite is definitely the Battle\n"
 	.string "TENT in Fallarbor Town.\p"
 	.string "I think it's fantastic how trainers\n"
 	.string "try to win with all their faith in\l"

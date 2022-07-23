@@ -77,7 +77,7 @@ SSTidalRooms_Text_ColtonDefeat:
 SSTidalRooms_Text_ColtonPostBattle:
 	.string "I get so excited imagining what kinds\n"
 	.string "of Pokémon I'll get to see in the next\l"
-	.string "CONTEST. The anticipation of it thrills!$"
+	.string "Contest. The anticipation of it thrills!$"
 
 SSTidalRooms_Text_MicahIntro:
 	.string "Are your friends strong?$"
@@ -159,17 +159,17 @@ SSTidalRooms_Text_NaomiPostBattle:
 	.string "A world cruise on a luxury liner has its\n"
 	.string "charms, I must say…\p"
 	.string "But, I will admit there is an appealing\n"
-	.string "side to touring Hoennby ferry.$"
+	.string "side to touring Hoenn by ferry.$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
 	.string "Uh… Hi! I… I'm not acting suspicious!\n"
 	.string "Uh… You can have this! For free!\p"
-	.string "It… Honestly, I didn't SNATCH it from\n"
+	.string "It… Honestly, I didn't Snatch it from\n"
 	.string "someone! I'd never do such a thing!\l"
 	.string "It's clean! You can use it!$"
 
 SSTidalRooms_Text_ExplainSnatch:
-	.string "SNATCH steals the beneficial effects\n"
+	.string "Snatch steals the beneficial effects\n"
 	.string "of certain moves before they can be\l"
 	.string "used by a foe or ally.$"
 

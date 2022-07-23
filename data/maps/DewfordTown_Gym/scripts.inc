@@ -287,7 +287,7 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "bound {PLAYER}?\p"
 	.string "DEWFORD's Gym Leader Brawly commands\n"
 	.string "Fighting-type Pokémon.\p"
-	.string "Going against him with NORMAL-type\n"
+	.string "Going against him with Normal-type\n"
 	.string "Pokémon is asking for trouble.\p"
 	.string "Fighting Pokémon will lay a serious\n"
 	.string "smack down on NORMAL Pokémon,\l"

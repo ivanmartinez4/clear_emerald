@@ -974,9 +974,9 @@ RustboroCity_Text_YoureNewAroundHere:
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "I challenged the Gym Leader, but…\p"
 	.string "It's not going to be easy winning with\n"
-	.string "my FIRE-type Pokémon…\p"
-	.string "FIRE-type Pokémon don't match up\n"
-	.string "well against ROCK-type Pokémon…$"
+	.string "my Fire-type Pokémon…\p"
+	.string "Fire-type Pokémon don't match up\n"
+	.string "well against Rock-type Pokémon…$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
 	.string "The old sailor Mr. Briney lives in\n"
@@ -1163,7 +1163,7 @@ RustboroCity_Text_DevonCorpSign:
 RustboroCity_Text_GymSign:
 	.string "Rustboro City Pokémon Gym\n"
 	.string "Leader: Roxanne\p"
-	.string "“The ROCK-loving honors student!”$"
+	.string "“The Rock-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
 	.string "DevonCORP. BRANCH OFFICE\p"

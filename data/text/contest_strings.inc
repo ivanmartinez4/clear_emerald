@@ -13,7 +13,7 @@ gText_GreatAppealButNoMoreToEnd::
 
 gText_UsedRepeatedlyWithoutBoringJudge::
 	.string "Can be repeatedly used\n"
-	.string "without boring the JUDGE.$"
+	.string "without boring the Judge.$"
 
 gText_AvoidStartledByOthersOnce::
 	.string "Can avoid being startled\n"
@@ -64,12 +64,12 @@ gText_StartleAllAppealed2::
 	.string "have done their appeals.$"
 
 gText_ShiftJudgesAttentionFromOthers::
-	.string "Shifts the JUDGE's\n"
+	.string "Shifts the Judge's\n"
 	.string "attention from others.$"
 
 gText_StartleMonHasJudgesAttention::
 	.string "Startles the Pokémon that\n"
-	.string "has the JUDGE's attention.$"
+	.string "has the Judge's attention.$"
 
 gText_JamOthersMissesTurn::
 	.string "Jams the others, and misses\n"
@@ -81,23 +81,23 @@ gText_StartleMonsMadeSameTypeAppeal::
 
 gText_BadlyStartleCoolAppeals::
 	.string "Badly startles Pokémon\n"
-	.string "that made COOL appeals.$"
+	.string "that made Cool appeals.$"
 
 gText_BadlyStartleBeautyAppeals::
 	.string "Badly startles Pokémon\n"
-	.string "that made BEAUTY appeals.$"
+	.string "that made Beauty appeals.$"
 
 gText_BadlyStartleCuteAppeals::
 	.string "Badly startles Pokémon\n"
-	.string "that made CUTE appeals.$"
+	.string "that made Cute appeals.$"
 
 gText_BadlyStartleSmartAppeals::
 	.string "Badly startles Pokémon\n"
-	.string "that made SMART appeals.$"
+	.string "that made Smart appeals.$"
 
 gText_BadlyStartleToughAppeals::
 	.string "Badly startles Pokémon\n"
-	.string "that made TOUGH appeals.$"
+	.string "that made Tough appeals.$"
 
 gText_MakeMonAfterUserNervous::
 	.string "Makes one Pokémon after\n"
@@ -177,7 +177,7 @@ gText_ScrambleOrderOfNextAppeals::
 
 gText_AppealExcitesAudienceInAnyContest::
 	.string "An appeal that excites the\n"
-	.string "audience in any CONTEST.$"
+	.string "audience in any Contest.$"
 
 gText_BadlyStartlesMonsGoodAppeals::
 	.string "Badly startles all Pokémon\n"
@@ -194,19 +194,19 @@ gText_TemporarilyStopCrowdExcited::
 @ Contest type names
 
 gContestMoveTypeCoolText::
-	.string "COOL$"
+	.string "Cool$"
 
 gContestMoveTypeBeautyText::
-	.string "BEAUTY$"
+	.string "Beauty$"
 
 gContestMoveTypeCuteText::
-	.string "CUTE$"
+	.string "Cute$"
 
 gContestMoveTypeSmartText::
-	.string "SMART$"
+	.string "Smart$"
 
 gContestMoveTypeToughText::
-	.string "TOUGH$"
+	.string "Tough$"
 
 gText_AppealNumWhichMoveWillBePlayed::
 	.string "Appeal no. {STR_VAR_1}!\n"
@@ -306,7 +306,7 @@ gText_CheapenedAppealOfThoseAhead2::
 	.string "of those ahead.$"
 
 gText_CheapenedJudgesFavoriteAppeal::
-	.string "It cheapened the JUDGE's\n"
+	.string "It cheapened the Judge's\n"
 	.string "favorite appeal.$"
 
 gText_AppealsOfOthersCheapenedByHalf::
@@ -322,7 +322,7 @@ gText_CantParticipateInAppealsAnyMore::
 	.string "appeals any more.$"
 
 gText_TouchedJudgeForFantasticAppeal::
-	.string "It touched the Judgefor\n"
+	.string "It touched the Judge for\n"
 	.string "a fantastic appeal.$"
 
 gText_AnticipationRoseForUpcomingAppeals::
@@ -380,7 +380,7 @@ gText_TriedToDazzleOthers::
 	.string "others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAwayFromMon::
-	.string "The Judgelooked away\n"
+	.string "The Judge looked away\n"
 	.string "from {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToUnnerveNextMon::
@@ -508,7 +508,7 @@ gText_ScrambledUpOrderForNextTurn::
 	.string "order for the next turn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAtMonExpectantly::
-	.string "The Judgelooked at\n"
+	.string "The Judge looked at\n"
 	.string "{STR_VAR_1} expectantly.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AppealComboWentOverWell::
@@ -659,16 +659,16 @@ gText_CoolMove::
 	.string "COOL Move$"
 
 gText_BeautyMove::
-	.string "BEAUTY Move$"
+	.string "Beauty Move$"
 
 gText_CuteMove::
-	.string "CUTE Move$"
+	.string "Cute Move$"
 
 gText_SmartMove::
-	.string "SMART Move$"
+	.string "Smart Move$"
 
 gText_ToughMove::
-	.string "TOUGH Move$"
+	.string "Tough Move$"
 
 gText_3QuestionMarks::
 	.string "???$"

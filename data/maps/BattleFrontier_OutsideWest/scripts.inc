@@ -384,7 +384,7 @@ BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
 	.string "Who's raising those rental Pokémon?$"
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
-	.string "I'm scared of going into the BATTLE\n"
+	.string "I'm scared of going into the Battle\n"
 	.string "PIKE because of SEVIPER…\p"
 	.string "B-but I came all the way here, so I will\n"
 	.string "try to conquer everything!\l"
@@ -441,7 +441,7 @@ BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
 	.string "I'll bring my mother out to see this.$"
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
-	.string "I've finally arrived at the BATTLE\n"
+	.string "I've finally arrived at the Battle\n"
 	.string "FRONTIER!\p"
 	.string "I'm sure to grab attention with\n"
 	.string "my looks and ability!$"

@@ -6,7 +6,7 @@
 .set LOCALID_OPPONENT, 15
 
 .set NO_DRAW,       0
-.set DRAW_TRAINER,  1
+.set DRAW_Trainer,  1
 .set DRAW_TUCKER,   2
 
 BattleFrontier_BattleDomeBattleRoom_MapScripts::
@@ -83,7 +83,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_BattleOpponent::
 	case B_OUTCOME_WON, BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent
 	case B_OUTCOME_LOST, BattleFrontier_BattleDomeBattleRoom_EventScript_LostToOpponent
 	case B_OUTCOME_FORFEITED, BattleFrontier_BattleDomeBattleRoom_EventScript_LostToOpponent
-	setvar VAR_TEMP_2, DRAW_TRAINER
+	setvar VAR_TEMP_2, DRAW_Trainer
 BattleFrontier_BattleDomeBattleRoom_EventScript_Draw::
 	msgbox BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait, MSGBOX_DEFAULT
 	closemessage
@@ -106,7 +106,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_LostToOpponent::
 	waitmovement 0
 	dome_getopponentname
 	call_if_eq VAR_TEMP_2, NO_DRAW, BattleFrontier_BattleDomeBattleRoom_EventScript_OpponentWon
-	call_if_eq VAR_TEMP_2, DRAW_TRAINER, BattleFrontier_BattleDomeBattleRoom_EventScript_OpponentWonDraw
+	call_if_eq VAR_TEMP_2, DRAW_Trainer, BattleFrontier_BattleDomeBattleRoom_EventScript_OpponentWonDraw
 	call_if_eq VAR_TEMP_2, DRAW_TUCKER, BattleFrontier_BattleDomeBattleRoom_EventScript_TuckerWonDraw
 	playse SE_M_ENCORE2
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceLookAround
@@ -138,7 +138,7 @@ BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent::
 	applymovement LOCALID_ANNOUNCER, Common_Movement_WalkInPlaceDown
 	waitmovement 0
 	call_if_eq VAR_TEMP_2, NO_DRAW, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWon
-	call_if_eq VAR_TEMP_2, DRAW_TRAINER, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWonDraw
+	call_if_eq VAR_TEMP_2, DRAW_Trainer, BattleFrontier_BattleDomeBattleRoom_EventScript_PlayerWonDraw
 	playse SE_M_ENCORE2
 	call BattleFrontier_BattleDomeBattleRoom_EventScript_AudienceLookAround
 	delay 60
@@ -1005,7 +1005,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-	.string "A win here means this TRAINER\n"
+	.string "A win here means this Trainer\n"
 	.string "advances to the final!\p"
 	.string "$"
 
@@ -1020,12 +1020,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 	.string "Can anyone hope to beat this\n"
-	.string "TRAINER?\p"
+	.string "Trainer?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
 	.string "Do battles exist solely for\n"
-	.string "this TRAINER?\p"
+	.string "this Trainer?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
@@ -1058,13 +1058,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 	.string "And now… The Trainer standing in\n"
 	.string "{PLAYER}'s record-setting path…\p"
 	.string "Yes! The one and only!\n"
-	.string "The Battle Dome COMMISSIONER!\l"
+	.string "The Battle Dome Commissioner!\l"
 	.string "Our very own Dome Ace!\l"
-	.string "Make way for TUCKER!$"
+	.string "Make way for TTucker!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
-	.string "Spectators: TUCKER! TUCKER!\n"
-	.string "TUCKER! TUCKER! TUCKER!$"
+	.string "Spectators: Tucker! Tucker!\n"
+	.string "Tucker! Tucker! Tucker!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "Tucker: Ahahah!\p"
@@ -1075,7 +1075,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "the tension of getting to battle me!\p"
 	.string "But don't you worry about a thing!\p"
 	.string "I'm the no. 1 star of the Battle Dome!\n"
-	.string "I, TUCKER the Dome Ace, will bathe you\l"
+	.string "I, Tucker the Dome Ace, will bathe you\l"
 	.string "in my brilliant glow!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
@@ -1087,9 +1087,9 @@ BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
 	.string "The victor is {PLAYER}!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
-	.string "The winner is TUCKER!\n"
+	.string "The winner is Tucker!\n"
 	.string "The Dome Ace has prevailed!\p"
-	.string "Congratulations, TUCKER!$"
+	.string "Congratulations, Tucker!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
 	.string "Tucker: Rules are rules!\n"
@@ -1115,7 +1115,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "Finally, the legend has returned!\p"
 	.string "Yes, the name of that legend!\n"
 	.string "Our very own Dome Ace!\l"
-	.string "It's none other than TUCKER!$"
+	.string "It's none other than Tucker!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "Tucker: Ah…\n"
@@ -1154,7 +1154,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 	.string "The final match!\p"
-	.string "{PLAYER} versus the Dome Ace, TUCKER!\p"
+	.string "{PLAYER} versus the Dome Ace, Tucker!\p"
 	.string "Let the battle begin!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
@@ -1163,6 +1163,6 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
 	.string "The winner is…\n"
 	.string "Oh, my goodness!\l"
 	.string "The winner is our very own Dome Ace!\l"
-	.string "It's TUCKER!\p"
+	.string "It's Tucker!\p"
 	.string "Congratulations! And thank you!\n"
-	.string "Let's hear it for the Dome Ace, TUCKER!$"
+	.string "Let's hear it for the Dome Ace, Tucker!$"

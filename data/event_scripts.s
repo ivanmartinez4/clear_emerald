@@ -888,7 +888,7 @@ gText_BigHoleInTheWall::
 
 gText_SorryWirelessClubAdjustments::
 	.string "I'm terribly sorry.\n"
-	.string "The Pokémon WIRELESS CLUB is\l"
+	.string "The Pokémon Wireless Club is\l"
 	.string "undergoing adjustments now.$"
 
 gText_UndergoingAdjustments::
@@ -901,7 +901,7 @@ gText_PlayerHandedOverTheItem::
 
 gText_ThankYouForAccessingMysteryGift::
 	.string "Thank you for accessing the\n"
-	.string "MYSTERY GIFT System.$"
+	.string "Mystery Gift System.$"
 
 gText_PlayerFoundOneTMHM::
 	.string "{PLAYER} found one {STR_VAR_1}\n"

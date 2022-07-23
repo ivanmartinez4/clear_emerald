@@ -382,7 +382,7 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
 	.string "are put to the test.\p"
 	.string "I welcome you to the Battle Palace.\p"
 	.string "I accept challenges to the SINGLE\n"
-	.string "BATTLE HALLS.$"
+	.string "Battle Halls.$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 	.string "Do you wish to take\n"
@@ -391,7 +391,7 @@ BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "In the Battle Palace, there are\n"
 	.string "several auditoriums for Single Battles\l"
-	.string "that are named Single Battle HALLS.\p"
+	.string "that are named Single Battle Halls.\p"
 	.string "The Single Battles are conducted in\n"
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
@@ -416,7 +416,7 @@ BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
 	.string "and Pokémon, you must return.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
-	.string "There are two BATTLE HALLS,\n"
+	.string "There are two Battle Halls,\n"
 	.string "Level 50 and Open Level.\l"
 	.string "Which is your choice of a challenge?$"
 
@@ -542,7 +542,7 @@ BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
 	.string "are put to the test.\p"
 	.string "I welcome you to the Battle Palace.\p"
 	.string "I accept challenges to the DOUBLE\n"
-	.string "BATTLE HALLS.$"
+	.string "Battle Halls.$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 	.string "Do you wish to take\n"
@@ -551,7 +551,7 @@ BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "In the Battle Palace, there are\n"
 	.string "several auditoriums for Double Battles\l"
-	.string "that are named Double Battle HALLS.\p"
+	.string "that are named Double Battle Halls.\p"
 	.string "The Double Battles are conducted in\n"
 	.string "the usual way, except with one crucial\l"
 	.string "rule that must be obeyed.\p"
@@ -625,7 +625,7 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
 	.string "these three categories.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
-	.string "When not under command by its TRAINER,\n"
+	.string "When not under command by its Trainer,\n"
 	.string "a Pokémon may be unable to effectively\l"
 	.string "use certain moves.\p"
 	.string "A Pokémon is not good at using any\n"

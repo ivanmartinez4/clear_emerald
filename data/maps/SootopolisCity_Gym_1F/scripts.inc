@@ -179,7 +179,7 @@ SootopolisCity_Gym_1F_Text_GymGuideAdvice:
 	.string "Yo! How's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "SOOTOPOLIS's Gym Leader JUAN is\n"
-	.string "a master of WATER-type Pokémon.\p"
+	.string "a master of Water-type Pokémon.\p"
 	.string "And, to get to JUAN, an icy floor\n"
 	.string "will hamper your progress…\p"
 	.string "Listen, I'm sorry, but that's all the\n"
@@ -259,7 +259,7 @@ SootopolisCity_Gym_1F_Text_RegisteredJuan:
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The trainers who have gathered all\n"
-	.string "the Gym Badges of Hoennshould make\l"
+	.string "the Gym Badges of Hoenn should make\l"
 	.string "way to the ultimate destination.\p"
 	.string "The Pokémon League.\p"
 	.string "Travel to the easternmost reaches\n"

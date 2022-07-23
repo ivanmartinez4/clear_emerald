@@ -168,10 +168,10 @@ LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
 	.string "featuring Pokémon.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ImCuratorHaveYouViewedOurPaintings:
-	.string "I'm the CURATOR of this MUSEUM of\n"
+	.string "I'm the Curator of this Museum of\n"
 	.string "fine arts.\p"
 	.string "It's heartening to see someone so\n"
-	.string "young as you in our MUSEUM.\p"
+	.string "young as you in our Museum.\p"
 	.string "Have you viewed our collection of\n"
 	.string "paintings already?$"
 
@@ -251,10 +251,10 @@ LilycoveCity_LilycoveMuseum_1F_Text_MustntForgetLoveForFineArts:
 	.string "the fine arts.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisMuseumIsInspiration:
-	.string "This ART MUSEUM… Well, you could\n"
+	.string "This Art Museum… Well, you could\n"
 	.string "see many fantastic paintings.\p"
-	.string "And the CURATOR is a wonderful person.\p"
-	.string "Among artists like myself, this MUSEUM\n"
+	.string "And the Curator is a wonderful person.\p"
+	.string "Among artists like myself, this Museum\n"
 	.string "is an inspiration.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_ThisLadyIsPretty:
@@ -266,14 +266,14 @@ LilycoveCity_LilycoveMuseum_1F_Text_ThisPokemonIsAdorable:
 	.string "Just like our little boy!$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_HeardMuseumGotNewPaintings:
-	.string "I'd heard that this ART MUSEUM got\n"
+	.string "I'd heard that this Art Museum got\n"
 	.string "in some new paintings.\p"
 	.string "So, naturally I hurried over.\p"
 	.string "Are the new paintings up on\n"
 	.string "the second floor?$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_CuratorHasBeenCheerful:
-	.string "Lately, the CURATOR has been\n"
+	.string "Lately, the Curator has been\n"
 	.string "unusually cheerful.\p"
 	.string "I bet something good happened for him.\n"
 	.string "Definitely.$"
@@ -285,10 +285,10 @@ LilycoveCity_LilycoveMuseum_1F_Text_AimToSeeGreatPaintings:
 	.string "my artwork exhibited here.$"
 
 LilycoveCity_LilycoveMuseum_1F_Text_MuseumTouristDestination:
-	.string "The ART MUSEUM has become a favorite\n"
+	.string "The Art Museum has become a favorite\n"
 	.string "tourist destination.\p"
-	.string "It's great for LILYCOVE…\n"
-	.string "No, great for the Hoennregion!\p"
-	.string "This is what I've heard--a lone TRAINER\n"
+	.string "It's great for Lilycove…\n"
+	.string "No, great for the Hoenn region!\p"
+	.string "This is what I've heard--a lone Trainer\n"
 	.string "procured all the paintings upstairs.$"
 

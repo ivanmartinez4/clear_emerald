@@ -128,10 +128,10 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "And this is important.\p"
 	.string "If you want to make smooth {POKEBLOCK}s,\n"
 	.string "use different kinds of Berries\p"
-	.string "Don't be stingy--the kinds of BERRIES\n"
+	.string "Don't be stingy--the kinds of Berries\n"
 	.string "affect the smoothness of {POKEBLOCK}s.\p"
 	.string "And another thing.\p"
-	.string "The more people blending BERRIES,\n"
+	.string "The more people blending Berries,\n"
 	.string "the smoother the {POKEBLOCK}s.\p"
 	.string "That's why you should talk to other\n"
 	.string "people and make {POKEBLOCK}s together.\p"
@@ -164,5 +164,5 @@ LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
 LilycoveCity_House3_Text_GoingToEnterContest:
 	.string "I want to brag about how tough my\n"
 	.string "Pokémon is, so we're going to enter\l"
-	.string "a CONTEST together.$"
+	.string "a Contest together.$"
 
