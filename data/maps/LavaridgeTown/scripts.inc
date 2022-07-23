@@ -400,7 +400,7 @@ LavaridgeTown_Text_TownSign:
 
 LavaridgeTown_Text_GymSign:
 	.string "LAVARIDGE TOWN Pokémon Gym\n"
-	.string "LEADER: FLANNERY\l"
+	.string "Leader: FLANNERY\l"
 	.string "“One with a fiery passion that burns!”$"
 
 LavaridgeTown_Text_HerbShopSign:

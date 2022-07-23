@@ -555,7 +555,7 @@ LilycoveCity_Text_MovedLootIntoHideoutToday:
 LilycoveCity_Text_ChanceToDoBigThings:
 	.string "I'm just a GRUNT, so I don't know what\n"
 	.string "the BOSS is thinking…\p"
-	.string "But being on TEAM AQUA, I know I'll get\n"
+	.string "But being on Team Aqua, I know I'll get\n"
 	.string "the chance to do big things!\p"
 	.string "Wh-who are you?!\n"
 	.string "I was just talking to myself!$"
@@ -568,7 +568,7 @@ LilycoveCity_Text_DontGoNearCaveInCove:
 
 LilycoveCity_Text_IfWorldBecomesOurs:
 	.string "If this whole wide world becomes ours,\n"
-	.string "TEAM AQUA's, it will be a happier\l"
+	.string "Team Aqua's, it will be a happier\l"
 	.string "place for Pokémon, too.$"
 
 LilycoveCity_Text_WailmerLeapOutOfWater:
@@ -581,7 +581,7 @@ LilycoveCity_Text_GetLostMessingUpTraining:
 	.string "so can you, like, get lost?$"
 
 LilycoveCity_Text_ContestHallInTown:
-	.string "There's a Pokémon CONTEST HALL\n"
+	.string "There's a Pokémon Contest Hall\n"
 	.string "right in this here town. \p"
 	.string "That means well-raised Pokémon will\n"
 	.string "come from all over the country.\p"
@@ -606,14 +606,14 @@ LilycoveCity_Text_ImFromKanto:
 	.string "only in this area?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
-	.string "TEAM AQUA's been training their\n"
+	.string "Team Aqua's been training their\n"
 	.string "WAILMER in the cove.\p"
 	.string "We SAILORS can't get our boats out\n"
 	.string "to sea with them in the way!$"
 
 LilycoveCity_Text_SomeonePuntedTeamAquaOut:
 	.string "Ahoy, did you know?\p"
-	.string "Someone punted TEAM AQUA out of\n"
+	.string "Someone punted Team Aqua out of\n"
 	.string "the way for us!\p"
 	.string "That got the WAILMER out of the cove,\n"
 	.string "so we can get our boats out again.$"
@@ -623,7 +623,7 @@ LilycoveCity_Text_SomeoneStoleMyPokemon:
 	.string "seaside inn to the sound of waves…\p"
 	.string "When someone stole my Pokémon!\p"
 	.string "Who's the abductor?\n"
-	.string "TEAM AQUA? Is it TEAM AQUA?$"
+	.string "Team Aqua? Is it Team Aqua?$"
 
 LilycoveCity_Text_MissingPokemonCameBack:
 	.string "My missing Pokémon…\n"
@@ -652,10 +652,10 @@ LilycoveCity_Text_TeamAquaRenovatedCavern:
 	.string "Hm, you know of the peculiar cavern\n"
 	.string "in this cove?\p"
 	.string "That had been a natural formation,\n"
-	.string "but then that TEAM AQUA lot came\l"
+	.string "but then that Team Aqua lot came\l"
 	.string "along and made their renovations.\p"
 	.string "They call themselves\n"
-	.string "the “nature-loving TEAM AQUA”!\p"
+	.string "the “nature-loving Team Aqua”!\p"
 	.string "But what they do and what they say\n"
 	.string "don't match at all!$"
 
@@ -663,16 +663,16 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "That cave in the cove…\p"
 	.string "I didn't notice it right away,\n"
 	.string "but it's completely empty now.\p"
-	.string "That TEAM AQUA lot, they must\n"
+	.string "That Team Aqua lot, they must\n"
 	.string "have gone away for good.$"
 
 LilycoveCity_Text_CitySign:
-	.string "LILYCOVE CITY\p"
+	.string "Lilycove City\p"
 	.string "“Where the land ends and the\n"
 	.string "sea begins.”$"
 
 LilycoveCity_Text_ContestHallSign:
-	.string "Pokémon CONTEST HALL\n"
+	.string "Pokémon Contest Hall\n"
 	.string "“The gathering place for trainers!”$"
 
 LilycoveCity_Text_MotelSign:
@@ -681,24 +681,24 @@ LilycoveCity_Text_MotelSign:
 	.string "LILYCOVE.”$"
 
 LilycoveCity_Text_MuseumSign:
-	.string "LILYCOVE MUSEUM\p"
+	.string "Lilycove Museum\p"
 	.string "“Pokémon Masterpiece Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
-	.string "LILYCOVE MUSEUM\p"
+	.string "Lilycove Museum\p"
 	.string "“{PLAYER}'s Pokémon Collection\n"
 	.string "on exhibit!”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
-	.string "LILYCOVE CITY HARBOR\p"
+	.string "Lilycove City HARBOR\p"
 	.string "“The ferry S.S. Tidal is under\n"
 	.string "construction in Slateport City.\p"
 	.string "“Service is scheduled to begin\n"
 	.string "shortly.”$"
 
 LilycoveCity_Text_HarborSign:
-	.string "LILYCOVE CITY HARBOR\p"
+	.string "Lilycove City HARBOR\p"
 	.string "“Enjoy a delightful cruise on\n"
 	.string "the ferry S.S. Tidal.”$"
 

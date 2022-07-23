@@ -1355,7 +1355,7 @@ SootopolisCity_EventScript_MaxieArchieLeave::
 
 SootopolisCity_Text_GymSign:
 	.string "Sootopolis City Pokémon Gym\n"
-	.string "LEADER: JUAN\p"
+	.string "Leader: JUAN\p"
 	.string "“The Gym Leader with the beauty\n"
 	.string "of pure water!”$"
 
@@ -1467,7 +1467,7 @@ SootopolisCity_Text_SootopolisDidntGetWrecked:
 
 SootopolisCity_Text_NoOrdinaryTourist:
 	.string "Hm!\n"
-	.string "You've come all the way to SOOTOPOLIS?\l"
+	.string "You've come all the way to Sootopolis?\l"
 	.string "You're no ordinary tourist.\p"
 	.string "But I suppose that doesn't make you\n"
 	.string "an extraordinary tourist, either.$"
@@ -1545,14 +1545,14 @@ SootopolisCity_Text_YouBroughtFlyingMon:
 	.string "Well, aren't you amazing!$"
 
 SootopolisCity_Text_GroudonPleaseStop:
-	.string "MAXIE: G… GROUDON…\n"
+	.string "Maxie: G… GROUDON…\n"
 	.string "Please! Stop what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all HOENN, not just\n"
 	.string "SOOTOPOLIS, will be utterly ruined!$"
 
 SootopolisCity_Text_AfterAllOurScheming:
-	.string "MAXIE: So the super-ancient Pokémon\n"
+	.string "Maxie: So the super-ancient Pokémon\n"
 	.string "weren't only GROUDON and KYOGRE…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one Pokémon's\l"
@@ -1562,7 +1562,7 @@ SootopolisCity_Text_AfterAllOurScheming:
 	.string "Fuhahaha…$"
 
 SootopolisCity_Text_KyogreCalmDown:
-	.string "ARCHIE: KYOGRE! What's wrong?!\n"
+	.string "Archie: KYOGRE! What's wrong?!\n"
 	.string "Look over here! It's the Red Orb!\l"
 	.string "Calm down! KYOGRE!\p"
 	.string "… … … … … …\n"
@@ -1571,7 +1571,7 @@ SootopolisCity_Text_KyogreCalmDown:
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon:
-	.string "ARCHIE: KYOGRE and GROUDON both\n"
+	.string "Archie: KYOGRE and GROUDON both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in Hoennhas returned\n"
 	.string "to its normal state…\p"
@@ -1642,7 +1642,7 @@ SootopolisCity_Text_HaventYouScaledSkyPillar:
 
 SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 	.string "Wallace: {PLAYER}{KUN}…\p"
-	.string "The leaders of TEAM MAGMA and AQUA,\n"
+	.string "The leaders of Team Magma and AQUA,\n"
 	.string "I don't think they meant harm.\p"
 	.string "It wouldn't hurt to hear what they\n"
 	.string "have to say for themselves.$"
@@ -1650,7 +1650,7 @@ SootopolisCity_Text_AquaMagmaDidntMeanHarm:
 SootopolisCity_Text_ThankYouForHelpAcceptThis:
 	.string "Wallace: {PLAYER}{KUN}…\n"
 	.string "My eyes didn't deceive me.\p"
-	.string "Thanks to your help, SOOTOPOLIS…\n"
+	.string "Thanks to your help, Sootopolis…\n"
 	.string "No, all of Hoennwas saved.\p"
 	.string "On behalf of the people, I thank you.\p"
 	.string "This is a gift from me.\n"
@@ -1665,7 +1665,7 @@ SootopolisCity_Text_ExplainWaterfallGoToGym:
 	.string "And where does one get the RAIN Badge?\n"
 	.string "You know, don't you?\p"
 	.string "That's right! You have to beat\n"
-	.string "the SOOTOPOLIS Gym Leader.\p"
+	.string "the Sootopolis Gym Leader.\p"
 	.string "When you're all set to go, step through\n"
 	.string "that door.$"
 

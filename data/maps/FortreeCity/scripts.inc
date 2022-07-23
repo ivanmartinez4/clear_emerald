@@ -135,10 +135,10 @@ FortreeCity_Text_SomethingUnseeable:
 
 FortreeCity_Text_UnseeableUseDevonScope:
 	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Want to use the Devon Scope?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
+	.string "{PLAYER} used the Devon Scope.\p"
 	.string "An invisible Pokémon became completely\n"
 	.string "visible!\p"
 	.string "The startled Pokémon fled!$"
@@ -150,7 +150,7 @@ FortreeCity_Text_CitySign:
 
 FortreeCity_Text_GymSign:
 	.string "Fortree CityY Pokémon Gym\n"
-	.string "LEADER: WINONA\p"
+	.string "Leader: WINONA\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
 

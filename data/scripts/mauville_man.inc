@@ -547,10 +547,10 @@ MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsStory::
 	.string "on the SLOTS!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle::
-	.string "The ROULETTE Champ$"
+	.string "The Roulette Champ$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction::
-	.string "Had consecutive ROULETTE wins of$"
+	.string "Had consecutive Roulette wins of$"
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 	.string "This is a tale of a TRAINER\n"

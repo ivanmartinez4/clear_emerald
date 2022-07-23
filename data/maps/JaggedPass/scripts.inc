@@ -202,7 +202,7 @@ JaggedPass_Text_EthanDefeat:
 	.string "trying to find a good footing…$"
 
 JaggedPass_Text_EthanPostBattle:
-	.string "If I had an ACRO BIKE, I'd be able to\n"
+	.string "If I had an Acro Bike, I'd be able to\n"
 	.string "jump ledges.$"
 
 JaggedPass_Text_EthanRegister:
@@ -219,7 +219,7 @@ JaggedPass_Text_EthanRematchDefeat:
 	.string "bumpy ground…$"
 
 JaggedPass_Text_EthanPostRematch:
-	.string "I should get an ACRO BIKE from RYDEL\n"
+	.string "I should get an Acro Bike from RYDEL\n"
 	.string "in Mauville City…$"
 
 JaggedPass_Text_GruntIntro:
@@ -241,7 +241,7 @@ JaggedPass_Text_GoWhereverYouWant:
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 	.string "Oh! This boulder is shaking in response\n"
-	.string "to the MAGMA EMBLEM!$"
+	.string "to the Magma Emblem!$"
 
 JaggedPass_Text_JulioIntro:
 	.string "Aiyeeh! It's awfully scary to shoot\n"

@@ -714,7 +714,7 @@ MauvilleCity_GameCorner_Text_MauvilleSomethingForEveryone:
 	.string "For me, it's the Game Corner.$"
 
 MauvilleCity_GameCorner_Text_RouletteTablesDifferentRates:
-	.string "The ROULETTE tables have different\n"
+	.string "The Roulette tables have different\n"
 	.string "rates.\p"
 	.string "Check your COINS if you're going to\n"
 	.string "pick a table.$"
@@ -728,7 +728,7 @@ MauvilleCity_GameCorner_Text_CoinsAreNeededToPlay:
 	.string "in the Game Corner.$"
 
 MauvilleCity_GameCorner_Text_RouletteOnlyLuck:
-	.string "This ROULETTE thing…\n"
+	.string "This Roulette thing…\n"
 	.string "It's rather demanding.\p"
 	.string "Win or lose, it's only by luck.$"
 

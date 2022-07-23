@@ -943,7 +943,7 @@ RustboroCity_EventScript_Boy1::
 	end
 
 RustboroCity_Text_WeShortenItToDevon:
-	.string "The DEVON CORPORATION…\n"
+	.string "The Devon Corporation…\n"
 	.string "We all just shorten it to DEVON.\p"
 	.string "That company makes all sorts of\n"
 	.string "convenient products.$"
@@ -1029,8 +1029,8 @@ RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, it's you!\p"
 	.string "You're that fantastic Trainer who\n"
 	.string "helped me in PetalburgWOODS!\p"
-	.string "Help me! I was robbed by TEAM AQUA!\n"
-	.string "I have to get the DEVON GOODS back!\p"
+	.string "Help me! I was robbed by Team Aqua!\n"
+	.string "I have to get the Devon Goods back!\p"
 	.string "If I don't…\n"
 	.string "I'm going to be in serious trouble.$"
 
@@ -1040,7 +1040,7 @@ RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 
 RustboroCity_Text_YouGotItThankYou:
 	.string "Oh! How did it go?\n"
-	.string "The DEVON GOODS?\p"
+	.string "The Devon Goods?\p"
 	.string "You did!\n"
 	.string "You got them back!\p"
 	.string "You really are a great Trainer!\p"
@@ -1057,14 +1057,14 @@ RustboroCity_Text_PleaseComeWithMe:
 
 RustboroCity_Text_MayHiLetsRegister:
 	.string "May: Oh, hi, {PLAYER}{KUN}!\p"
-	.string "You had a MATCH CALL feature put\n"
+	.string "You had a Match Call feature put\n"
 	.string "on your PokéNav!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredMay:
-	.string "Registered MAY\n"
+	.string "Registered May\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
@@ -1104,14 +1104,14 @@ RustboroCity_Text_MayMrBrineyHint:
 
 RustboroCity_Text_BrendanHiLetsRegister:
 	.string "Brendan: Oh, hey, {PLAYER}!\p"
-	.string "You had a MATCH CALL feature put\n"
+	.string "You had a Match Call feature put\n"
 	.string "on your PokéNav! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan:
-	.string "Registered BRENDAN\n"
+	.string "Registered Brendan\n"
 	.string "in the PokéNav.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
@@ -1156,18 +1156,18 @@ RustboroCity_Text_TunnelNearingCompletion:
 	.string "across it in red paint…$"
 
 RustboroCity_Text_DevonCorpSign:
-	.string "DEVON CORPORATION\p"
+	.string "Devon Corporation\p"
 	.string "“For all your living needs, we make\n"
 	.string "it all.”$"
 
 RustboroCity_Text_GymSign:
 	.string "Rustboro City Pokémon Gym\n"
-	.string "LEADER: Roxanne\p"
+	.string "Leader: Roxanne\p"
 	.string "“The ROCK-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
-	.string "DEVON CORP. BRANCH OFFICE\p"
-	.string "“Access limited to DEVON employees\n"
+	.string "DevonCORP. BRANCH OFFICE\p"
+	.string "“Access limited to Devonemployees\n"
 	.string "and authorized personnel.”$"
 
 RustboroCity_Text_CitySign:
@@ -1193,8 +1193,8 @@ RustboroCity_Text_DevelopedNewPokenavFeature:
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 	.string "There you go, {PLAYER}!\p"
 	.string "I added a new feature named\n"
-	.string "MATCH CALL to your PokéNav.\p"
-	.string "Using the MATCH CALL feature,\n"
+	.string "Match Call to your PokéNav.\p"
+	.string "Using the Match Call feature,\n"
 	.string "you can chat with people who have\l"
 	.string "been registered in your PokéNav.\p"
 	.string "{PLAYER}, our PRESIDENT STONE should\n"

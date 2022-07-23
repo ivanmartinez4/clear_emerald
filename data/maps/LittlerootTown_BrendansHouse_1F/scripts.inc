@@ -356,7 +356,7 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
 
 PlayersHouse_1F_Text_IsThatAPokenav:
 	.string "Mom: What is that, honey? A PokéNav?\n"
-	.string "Someone from DEVON gave it to you?\p"
+	.string "Someone from Devongave it to you?\p"
 	.string "Well, honey, how about registering\n"
 	.string "your mom?\p"
 	.string "… … …$"

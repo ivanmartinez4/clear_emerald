@@ -288,7 +288,7 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "The TIMER BALL gets better at catching\n"
 	.string "Pokémon the longer a battle runs.\p"
 	.string "Both are proudly developed by\n"
-	.string "the DEVON CORPORATION.\p"
+	.string "the Devon Corporation.\p"
 	.string "Please give them a try!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
@@ -343,7 +343,7 @@ RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 	.string "Excellent!\n"
 	.string "Let's do this right away.\p"
 	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "the Devon Researcher.$"
 
 RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
 	.string "The FOSSIL REGENERATOR, which I made,\n"
@@ -362,7 +362,7 @@ RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
 	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the DEVON RESEARCHER.$"
+	.string "the Devon Researcher.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 	.string "I'm trying to develop a new feature\n"

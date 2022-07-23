@@ -741,19 +741,19 @@ Route110_Movement_BirchExit4:
 	step_end
 
 Route110_Text_WeCantTalkAboutAquaActivities:
-	.string "TEAM AQUA's activities…\n"
+	.string "Team Aqua's activities…\n"
 	.string "We can't talk about them yet.$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to SLATEPORT and\n"
+	.string "I want to get going to Slateport and\n"
 	.string "kick up a ruckus!$"
 
 Route110_Text_MyFirstJobInAqua:
 	.string "This is my first job after joining\n"
-	.string "TEAM AQUA. It's a little scary.$"
+	.string "Team Aqua. It's a little scary.$"
 
 Route110_Text_AquaActionsBringSmiles:
-	.string "TEAM AQUA's actions should bring\n"
+	.string "Team Aqua's actions should bring\n"
 	.string "smiles to people's faces!$"
 
 Route110_Text_MayLetsBattle:
@@ -894,7 +894,7 @@ Route110_Text_ChallengeReactionWorst:
 Route110_Text_RatedForNumberOfCollisions:
 	.string "This is Cycling Road.\p"
 	.string "If you were to ride from MAUVILLE to\n"
-	.string "Slateport on a MACH BIKE, you would\l"
+	.string "Slateport on a Mach Bike, you would\l"
 	.string "be rated for the number of collisions\l"
 	.string "and your total time.$"
 
@@ -905,9 +905,9 @@ Route110_Text_AlwaysAimHigher:
 
 Route110_Text_AcroBikesDoNotQualify:
 	.string "On this Cycling Road, those riding\n"
-	.string "MACH BIKES are rated for their number\l"
+	.string "Mach BikeS are rated for their number\l"
 	.string "of collisions and their total times.\p"
-	.string "ACRO BIKES do not qualify for rating.\n"
+	.string "Acro BikeS do not qualify for rating.\n"
 	.string "They are easy to turn, so it's not fair.$"
 
 Route110_Text_SlateportCitySign:
@@ -918,10 +918,10 @@ Route110_Text_CyclingRoadSign:
 	.string "SEASIDE Cycling Road$"
 
 Route110_Text_AquaWasHere:
-	.string "“TEAM AQUA was here!”\p"
+	.string "“Team Aqua was here!”\p"
 	.string "Someone painted that onto this sign,\n"
 	.string "but then someone else painted over it.\p"
-	.string "“TEAM MAGMA rules!” is what it\n"
+	.string "“Team Magma rules!” is what it\n"
 	.string "says now.$"
 
 Route110_Text_Route103Sign:
@@ -971,7 +971,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "You two are running separately.\l"
 	.string "Well, that's fine.\p"
 	.string "Oh, yes, I heard that your PokéNav\n"
-	.string "had the MATCH CALL system installed.\p"
+	.string "had the Match Call system installed.\p"
 	.string "Well, then, I should register you in\n"
 	.string "my PokéNav as well.\p"
 	.string "That way, even when we're apart,\n"

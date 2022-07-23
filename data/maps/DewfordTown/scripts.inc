@@ -649,7 +649,7 @@ DewfordTown_Text_TownSign:
 
 DewfordTown_Text_GymSign:
 	.string "Dewford Town Pokémon Gym\n"
-	.string "LEADER: Brawly\l"
+	.string "Leader: Brawly\l"
 	.string "“A big wave in fighting!”$"
 
 DewfordTown_Text_HallSign:
@@ -694,7 +694,7 @@ DewfordTown_Text_PetalburgWereSettingSail:
 	.string "PEEKO, we're setting sail, my darling!$"
 
 DewfordTown_Text_SlateportWereSettingSail:
-	.string "Mr. Briney: SLATEPORT, is it?\p"
+	.string "Mr. Briney:Energy Guru, is it?\p"
 	.string "Anchors aweigh!\n"
 	.string "PEEKO, we're setting sail, my darling!$"
 

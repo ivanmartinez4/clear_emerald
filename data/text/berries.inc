@@ -10,7 +10,7 @@ Route104_Text_PlantBerriesInSoilTakeThis:
 	.string "same spot. That's common courtesy.\p"
 	.string "Here, I'll share this with you.$"
 
-Route104_Text_TRAINERSOftenMakeMonHoldBerries:
+Route104_Text_TrainersOftenMakeMonHoldBerries:
 	.string "The way you look, you must be a\n"
 	.string "Trainer, no?\p"
 	.string "Trainers often make Pokémon hold\n"

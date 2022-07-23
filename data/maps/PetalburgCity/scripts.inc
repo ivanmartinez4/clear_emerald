@@ -732,7 +732,7 @@ PetalburgCity_Text_FullPartyExplanation:
 
 PetalburgCity_Text_GymSign:
 	.string "Petalburg City Pokémon Gym\n"
-	.string "LEADER: NORMAN\l"
+	.string "Leader: NORMAN\l"
 	.string "“A man in pursuit of power!”$"
 
 PetalburgCity_Text_CitySign:

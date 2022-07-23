@@ -43,7 +43,7 @@ BerryBlender_Text_DontHaveAnyBerries:
 BerryBlender_Text_CanHaveOneOfMyBerries:
 	.string "Well, that won't do at all now, will it?\p"
 	.string "If you don't mind leftovers, you can\n"
-	.string "have one of my BERRIES.\p"
+	.string "have one of my Berries\p"
 	.string "That way, we could make some {POKEBLOCK}s\n"
 	.string "together using the Berry Blender.$"
 
@@ -101,7 +101,7 @@ BerryBlender_Text_ExplainBerryBlending2:
 
 BerryBlender_Text_DontHaveAnyBerries2:
 	.string "Oh, but wait a second here…\n"
-	.string "You don't have any BERRIES.\p"
+	.string "You don't have any Berries\p"
 	.string "You can't make any {POKEBLOCK}s without\n"
 	.string "BERRIES…\p"
 	.string "We'll always be around whenever you\n"
@@ -198,7 +198,7 @@ BerryBlender_Text_AllPlayersArrived:
 	.string "{STR_VAR_3} arrived.$"
 
 BerryBlender_Text_NoBerriesLink:
-	.string "You have no BERRIES.\n"
+	.string "You have no Berries\n"
 	.string "The Berry Blender can't be used.$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink:
@@ -223,7 +223,7 @@ BerryBlender_Text_DontHaveAnyBerriesHaveOne:
 	.string "You don't have any BERRIES?\p"
 	.string "Well, that won't do at all now, will it?\p"
 	.string "If you don't mind leftovers, you can\n"
-	.string "have one of my BERRIES.$"
+	.string "have one of my Berries$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
 	.string "We'll use it to make {POKEBLOCK}s together\n"

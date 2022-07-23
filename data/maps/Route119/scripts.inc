@@ -538,7 +538,7 @@ Route119_Text_BrendanExplainFly:
 	.string "Anyway, I have to move along.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "SCOTT: Hahahah!\n"
+	.string "Scott:Hahahah!\n"
 	.string "Way to go, {PLAYER}{KUN}!\p"
 	.string "I just passed by a Trainer riding\n"
 	.string "a BIKE.\p"
@@ -555,7 +555,7 @@ Route119_Text_ScottWayToGoBeSeeingYou:
 Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hiya, {PLAYER}{KUN}, it's me!\p"
+	.string "Scott:Hiya, {PLAYER}{KUN}, it's me!\p"
 	.string "Just as I thought, you won at\n"
 	.string "the FORTREE Gym.\p"
 	.string "Your strength…\n"

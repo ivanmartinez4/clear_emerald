@@ -35,7 +35,7 @@ gBirchDexRatingText_LessThan50::
 	.string "Keep up the effort.$"
 
 gBirchDexRatingText_LessThan60::
-	.string "Are you using any RODS?\n"
+	.string "Are you using any Rods?\n"
 	.string "There are many Pokémon in the sea.$"
 
 gBirchDexRatingText_LessThan70::

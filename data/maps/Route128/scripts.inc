@@ -227,7 +227,7 @@ Route128_EventScript_Carlee::
 	end
 
 Route128_Text_ArchieWhatHappened:
-	.string "ARCHIE: What happened…\n"
+	.string "Archie: What happened…\n"
 	.string "What is this wretched scene…\p"
 	.string "Did I…make a horrible mistake?$"
 
@@ -236,7 +236,7 @@ Route128_Text_ArchieIOnlyWanted:
 	.string "I only wanted…$"
 
 Route128_Text_MaxieDoYouUnderstandNow:
-	.string "MAXIE: Do you understand now,\n"
+	.string "Maxie: Do you understand now,\n"
 	.string "ARCHIE?\p"
 	.string "Do you finally see how disastrous\n"
 	.string "your dream turned out to be?\p"
@@ -245,7 +245,7 @@ Route128_Text_MaxieDoYouUnderstandNow:
 	.string "completely out of control!$"
 
 Route128_Text_MaxieResposibilityFallsToArchieAndMe:
-	.string "MAXIE: {PLAYER}, don't say anything.\p"
+	.string "Maxie: {PLAYER}, don't say anything.\p"
 	.string "I know that I have no right to be\n"
 	.string "critical of ARCHIE…\p"
 	.string "But the way things are now, I doubt\n"
@@ -257,7 +257,7 @@ Route128_Text_MaxieResposibilityFallsToArchieAndMe:
 	.string "to this falls to ARCHIE and me…$"
 
 Route128_Text_MaxieThisDefiesBelief:
-	.string "MAXIE: This defies belief…\p"
+	.string "Maxie: This defies belief…\p"
 	.string "Those super-ancient Pokémon…\p"
 	.string "Their power is unbelievable.\n"
 	.string "They've upset the balance of nature…$"
@@ -273,7 +273,7 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "If this doesn't stop, all of HOENN…\n"
 	.string "No, the whole world will drown.\p"
 	.string "This huge rain cloud is spreading\n"
-	.string "from above SOOTOPOLIS…\p"
+	.string "from above Sootopolis…\p"
 	.string "What in the world is taking place there?\p"
 	.string "There's no point arguing here…\n"
 	.string "SOOTOPOLIS might provide answers…$"
@@ -283,5 +283,5 @@ Route128_Text_StevenImGoingToSootopolis:
 	.string "I don't know what you intend to do,\l"
 	.string "but don't do anything reckless.\p"
 	.string "Okay.\n"
-	.string "I'm going to SOOTOPOLIS.$"
+	.string "I'm going to Sootopolis.$"
 

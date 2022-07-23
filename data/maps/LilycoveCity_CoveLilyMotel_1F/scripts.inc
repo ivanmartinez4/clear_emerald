@@ -86,7 +86,7 @@ LilycoveCity_CoveLilyMotel_1F_Text_GuestsDoubledByMascot:
 LilycoveCity_CoveLilyMotel_1F_Text_NoGuestsWithTeamAqua:
 	.string "Oh, sorry, sorry!\n"
 	.string "I was too involved in watching TV!\p"
-	.string "Since that TEAM AQUA came to town,\n"
+	.string "Since that Team Aqua came to town,\n"
 	.string "the tourists have been staying away.$"
 
 LilycoveCity_CoveLilyMotel_1F_Text_CantSeeTheTV:

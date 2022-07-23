@@ -388,7 +388,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "me in PetalburgWOODS, but also got\l"
 	.string "back my stolen package and then even\l"
 	.string "graciously delivered it to SLATEPORT!\p"
-	.string "CAPT. STERN informed us that the\n"
+	.string "Capt. Stern informed us that the\n"
 	.string "package arrived, too!\p"
 	.string "I thank you very, very much!\p"
 	.string "Why, if I were a rain cloud, I would\n"

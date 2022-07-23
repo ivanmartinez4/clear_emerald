@@ -665,19 +665,19 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ScottAboardSSTidalCall::
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "Hunh? Prof. Birch?\p"
-	.string "The PROF's away on fieldwork.\n"
+	.string "The Prof's away on fieldwork.\n"
 	.string "Ergo, he isn't here.\p"
 	.string "Oh, let me explain what fieldwork is.\p"
 	.string "It is to study things in the natural\n"
 	.string "environment, like fields and mountains,\l"
 	.string "instead of a laboratory.\p"
-	.string "The PROF isn't one for doing desk work.\n"
+	.string "The Prof isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
 	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
-	.string "The PROF isn't one for doing desk work.\n"
+	.string "The Prof isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
 	.string "things than read about them here.$"
@@ -685,7 +685,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "Prof. Birch is studying the habitats\n"
 	.string "and distribution of Pokémon.\p"
-	.string "The PROF enjoys {RIVAL}'s help, too.\n"
+	.string "The Prof enjoys {RIVAL}'s help, too.\n"
 	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
@@ -810,7 +810,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
 	.string "It's a serious-looking machine.\n"
-	.string "The PROF must use this for research.$"
+	.string "The Prof must use this for research.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PCUsedForResearch:
 	.string "It's a PC used for research.\n"
@@ -872,13 +872,13 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "May: I think I'll take a short break\n"
 	.string "from fieldwork.\p"
-	.string "I think I'll help the PROF here for\n"
+	.string "I think I'll help the Prof here for\n"
 	.string "a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 	.string "Brendan: For the time being,\n"
 	.string "I'm taking a break from fieldwork.\p"
-	.string "I'll be helping out the PROF here\n"
+	.string "I'll be helping out the Prof here\n"
 	.string "for a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
@@ -951,7 +951,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 	.string "and sharpening your skills?\p"
 	.string "Or are you going to try filling\n"
 	.string "the National Pokédex?\p"
-	.string "I'm staying here to help the PROF.$"
+	.string "I'm staying here to help the Prof.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 	.string "Brendan: Rather than collecting\n"
@@ -971,15 +971,15 @@ LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "SCOTT: Hi, hi, {PLAYER}!\n"
-	.string "It's me, SCOTT.\p"
+	.string "Scott:Hi, hi, {PLAYER}!\n"
+	.string "It's me, Scott.\p"
 	.string "I'm aboard the S.S. Tidal now.\n"
 	.string "It feels great to be on the sea!\p"
 	.string "By the way…\p"
 	.string "There's this place that I'd like to\n"
 	.string "invite you to for a visit.\p"
 	.string "If you're interested, board a ferry\n"
-	.string "at either SLATEPORT or LILYCOVE.\p"
+	.string "at either Slateport or Lilycove.\p"
 	.string "I'll fill you in on the details when\n"
 	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"

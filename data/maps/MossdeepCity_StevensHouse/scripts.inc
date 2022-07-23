@@ -85,8 +85,8 @@ MossdeepCity_StevensHouse_EventScript_LeaveBeldum::
 	end
 
 MossdeepCity_StevensHouse_EventScript_GiveBeldum::
-	setvar VAR_TEMP_1, SPECIES_BELDUM
-	givemon SPECIES_BELDUM, 5
+	setvar VAR_TEMP_1, SPECIES_Beldum
+	givemon SPECIES_Beldum, 5
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PARTY, MossdeepCity_StevensHouse_EventScript_SendBeldumParty
 	goto_if_eq VAR_RESULT, MON_GIVEN_TO_PC, MossdeepCity_StevensHouse_EventScript_SendBeldumPC
 	goto Common_EventScript_NoMoreRoomForPokemon
@@ -115,18 +115,18 @@ MossdeepCity_StevensHouse_EventScript_BeldumTransferredToPC::
 	end
 
 MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare::
-	bufferspeciesname STR_VAR_2, SPECIES_BELDUM
+	bufferspeciesname STR_VAR_2, SPECIES_Beldum
 	removeobject LOCALID_BELDUM_BALL
 	playfanfare MUS_OBTAIN_ITEM
 	message MossdeepCity_StevensHouse_Text_ObtainedBeldum
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
+	bufferspeciesname STR_VAR_1, SPECIES_Beldum
 	return
 
 MossdeepCity_StevensHouse_EventScript_ReceivedBeldum::
 	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL
-	setflag FLAG_RECEIVED_BELDUM
+	setflag FLAG_RECEIVED_Beldum
 	releaseall
 	end
 
@@ -167,18 +167,18 @@ MossdeepCity_StevensHouse_Text_ExplainDive:
 MossdeepCity_StevensHouse_Text_UnderwateCavernBetweenMossdeepSootopolis:
 	.string "Steven: Apparently, there's an\n"
 	.string "underwater cavern between\l"
-	.string "MOSSDEEP and SOOTOPOLIS.\p"
-	.string "You know, the one that CAPT. STERN\n"
+	.string "MOSSDEEP and Sootopolis.\p"
+	.string "You know, the one that Capt. Stern\n"
 	.string "found in his submarine.$"
 
 MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 	.string "{PLAYER} checked the Poké Ball.\p"
 	.string "It contained the Pokémon\n"
-	.string "BELDUM.\p"
+	.string "Beldum.\p"
 	.string "Take the Poké Ball?$"
 
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
-	.string "{PLAYER} obtained a BELDUM.$"
+	.string "{PLAYER} obtained a Beldum.$"
 
 MossdeepCity_StevensHouse_Text_LeftPokeBallWhereItWas:
 	.string "{PLAYER} left the Poké Ball where\n"
@@ -195,13 +195,13 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 	.string "I have a favor to ask of you.\p"
 	.string "I want you to take the Poké Ball on\n"
 	.string "the desk.\p"
-	.string "Inside it is a BELDUM, my favorite\n"
+	.string "Inside it is a Beldum, my favorite\n"
 	.string "Pokémon.\p"
 	.string "I'm counting on you.\p"
 	.string "May our paths cross someday.\p"
-	.string "STEVEN STONE$"
+	.string "Steven Stone$"
 
 MossdeepCity_StevensHouse_Text_CollectionOfRareRocks:
 	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by STEVEN.$"
+	.string "stones assembled by Steven.$"
 

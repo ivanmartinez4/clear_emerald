@@ -192,7 +192,7 @@ RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay::
 
 RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "I'm MR. STONE, the PRESIDENT of\n"
-	.string "the DEVON CORPORATION.\p"
+	.string "the Devon Corporation.\p"
 	.string "I'd just got word about you!\p"
 	.string "You saved our staff not just once,\n"
 	.string "but twice!\p"
@@ -206,7 +206,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "LETTER to STEVEN in Dewford.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
-	.string "MR. STONE: Now, you should know that\n"
+	.string "Mr. Stone: Now, you should know that\n"
 	.string "I am a great PRESIDENT.\p"
 	.string "So, I'd never be so cheap as to ask\n"
 	.string "a favor for nothing in return.\p"
@@ -216,14 +216,14 @@ RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 	.string "{PLAYER} received a PokéNav.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
-	.string "MR. STONE: That device…\p"
+	.string "Mr. Stone: That device…\p"
 	.string "It's a Pokémon NAVIGATOR, or PokéNav\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "TRAINER on an adventure.\p"
 	.string "It has a map of the Hoennregion.\p"
 	.string "You can check the locations of\n"
-	.string "DEWFORD and SLATEPORT easily!\p"
+	.string "DEWFORD and Slateport easily!\p"
 	.string "By the way, I've heard that sinister\n"
 	.string "criminals--MAGMA and AQUA, I believe--\l"
 	.string "have been making trouble far and wide.\p"
@@ -231,29 +231,29 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "up before you go on your way.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
-	.string "MR. STONE: Well, then, {PLAYER}{KUN},\n"
+	.string "Mr. Stone: Well, then, {PLAYER}{KUN},\n"
 	.string "go with caution and care!$"
 
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
-	.string "MR. STONE: I'm counting on you!$"
+	.string "Mr. Stone: I'm counting on you!$"
 
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
-	.string "MR. STONE: You delivered my LETTER?\n"
+	.string "Mr. Stone: You delivered my LETTER?\n"
 	.string "Thank you kindly!\p"
 	.string "This is my way of thanking you.\n"
 	.string "It should help you, a Trainer.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
-	.string "MR. STONE: A Pokémon holding that\n"
+	.string "Mr. Stone: A Pokémon holding that\n"
 	.string "EXP. SHARE will be given some of the\l"
-	.string "EXP Points from battle.\p"
-	.string "It will get EXP Points even if it didn't\n"
+	.string "Exp. Points from battle.\p"
+	.string "It will get Exp. Points even if it didn't\n"
 	.string "actually battle.\p"
 	.string "I would say EXP. SHARE is quite useful\n"
 	.string "for raising weak Pokémon.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
-	.string "MR. STONE: Since my youth, I've immersed\n"
+	.string "Mr. Stone: Since my youth, I've immersed\n"
 	.string "myself in work.\p"
 	.string "Consequently, I'm not familiar with\n"
 	.string "trends and that sort of thing.\p"
@@ -261,7 +261,7 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "Trainers in the Pokémon League?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-	.string "This is the DEVON CORPORATION's\n"
+	.string "This is the Devon Corporation's\n"
 	.string "third floor.\p"
 	.string "Our PRESIDENT's OFFICE is on\n"
 	.string "this floor.\p"
@@ -270,7 +270,7 @@ RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 	.string "Um… By the way, that parcel\n"
 	.string "you got back for us…\p"
 	.string "Could I get you to deliver that to\n"
-	.string "the SHIPYARD in SLATEPORT?\p"
+	.string "the Shipyard in SLATEPORT?\p"
 	.string "It would be awful if those robbers\n"
 	.string "tried to take it again.\p"
 	.string "Uh… Hehehe, so, uh, could I count\n"
@@ -287,8 +287,8 @@ RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
 	.string "Please, go ahead.$"
 
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
-	.string "If you visit the SHIPYARD in SLATEPORT,\n"
-	.string "you should go see CAPT. STERN.$"
+	.string "If you visit the Shipyard in SLATEPORT,\n"
+	.string "you should go see Capt. Stern.$"
 
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
 	.string "DEVON's new products, the REPEAT BALL\n"

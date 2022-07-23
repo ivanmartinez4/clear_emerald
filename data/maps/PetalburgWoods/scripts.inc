@@ -324,28 +324,28 @@ PetalburgWoods_Text_NotAOneToBeFound:
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "Hello, have you seen any Pokémon\n"
-	.string "called SHROOMISH around here?\p"
+	.string "called Shroomish around here?\p"
 	.string "I really love that Pokémon.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
 	.string "I was going to ambush you, but you\n"
-	.string "had to dawdle in PetalburgWOODS\l"
+	.string "had to dawdle in Petalburg Woods\l"
 	.string "forever, didn't you?\p"
 	.string "I got sick of waiting, so here I am!$"
 
 PetalburgWoods_Text_HandOverThosePapers:
-	.string "You! DEVON RESEARCHER!\p"
+	.string "You! Devon Researcher!\p"
 	.string "Hand over those papers!$"
 
 PetalburgWoods_Text_YouHaveToHelpMe:
 	.string "Aiyeeeh!\p"
-	.string "You're a Pokémon TRAINER, aren't you?\n"
+	.string "You're a Pokémon Trainer, aren't you?\n"
 	.string "You've got to help me, please!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
 	.string "Hunh? What do you think you're doing?\n"
 	.string "What, you're going to protect him?\p"
-	.string "No one who crosses TEAM AQUA\n"
+	.string "No one who crosses Team Aqua\n"
 	.string "gets any mercy, not even a kid!\p"
 	.string "Come on and battle me!$"
 
@@ -354,12 +354,12 @@ PetalburgWoods_Text_YoureKiddingMe:
 
 PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "Grrr… You've got some nerve\n"
-	.string "meddling with TEAM AQUA!\l"
+	.string "meddling with Team Aqua!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but I'm out of\n"
 	.string "Pokémon…\p"
-	.string "And, hey, we of TEAM AQUA are also\n"
-	.string "after something in RUSTBORO.\p"
+	.string "And, hey, we of Team Aqua are also\n"
+	.string "after something in Rustboro.\p"
 	.string "I'll let you go today!$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
@@ -371,9 +371,9 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "my thanks!$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
+	.string "Didn't that Team Aqua thug say\n"
 	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "Rustboro, too?$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
 	.string "Uh-oh! It's a crisis!\n"
@@ -444,26 +444,26 @@ PetalburgWoods_Text_HiddenItemsExplanation:
 
 PetalburgWoods_Text_TryUsingThisItem:
 	.string "Oh, neat!\n"
-	.string "That's the Badge from RUSTBORO Gym!\p"
+	.string "That's the Badge from Rustboro Gym!\p"
 	.string "You must be a Trainer.\n"
 	.string "You should try using this item.$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
-	.string "It's a MIRACLE SEED.\n"
+	.string "It's a Miracle Seed.\n"
 	.string "If a Pokémon holds that item, its\l"
-	.string "GRASS-type moves become stronger.\p"
-	.string "Besides MIRACLE SEED, I think there are\n"
+	.string "Grass-type moves become stronger.\p"
+	.string "Besides Miracle Seed, I think there are\n"
 	.string "other convenient items for Pokémon\l"
 	.string "to hold.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
 	.string "Trainer Tips\p"
 	.string "Any Pokémon that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
+	.string "in a battle is awarded Exp. Points.\p"
 	.string "To raise a weak Pokémon, put it at the\n"
 	.string "left of the team list.\p"
 	.string "As soon as a battle starts, switch it\n"
-	.string "out. It will earn EXP Points without\l"
+	.string "out. It will earn Exp. Points without\l"
 	.string "being exposed to any harm.$"
 
 PetalburgWoods_Text_TrainerTipsPP:

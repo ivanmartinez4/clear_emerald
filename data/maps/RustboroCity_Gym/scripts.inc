@@ -234,7 +234,7 @@ RustboroCity_Gym_Text_GymStatueCertified:
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Oh, hello, {PLAYER}?\n"
+	.string "Roxanne: Oh, hello, {PLAYER}?\n"
 	.string "This is Roxanne of Rustboro City.\p"
 	.string "I heard from Brawly that you're\n"
 	.string "moving up through the ranks of\l"
@@ -253,7 +253,7 @@ RustboroCity_Gym_Text_RegisteredRoxanne:
 	.string "in the PokéNav.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-	.string "ROXANNE: I'm so glad to see you again.\n"
+	.string "Roxanne: I'm so glad to see you again.\n"
 	.string "I'm Roxanne, the Gym Leader here.\p"
 	.string "I'm sure we've both experienced many\n"
 	.string "battles since we last met.\p"
@@ -265,13 +265,13 @@ RustboroCity_Gym_Text_RoxanneRematchDefeat:
 	.string "Again, I have lost…$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
-	.string "ROXANNE: I still have much to learn\n"
+	.string "Roxanne: I still have much to learn\n"
 	.string "when it comes to battling Pokémon.\p"
 	.string "That awareness makes me love battling\n"
 	.string "all that much more!$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-	.string "ROXANNE: I'm so glad to see you again.\n"
+	.string "Roxanne: I'm so glad to see you again.\n"
 	.string "I'm Roxanne, the Gym Leader here.\p"
 	.string "I'm sure we've both experienced many\n"
 	.string "battles since we last met.\p"

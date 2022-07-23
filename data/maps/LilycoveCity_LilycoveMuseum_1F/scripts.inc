@@ -162,7 +162,7 @@ LilycoveCity_LilycoveMuseum_1F_EventScript_FatMan::
 	end
 
 LilycoveCity_LilycoveMuseum_1F_Text_WelcomeToLilycoveMuseum:
-	.string "Welcome to LILYCOVE MUSEUM.\p"
+	.string "Welcome to Lilycove Museum.\p"
 	.string "Please take the time to enjoy our\n"
 	.string "collection of fantastic artwork\l"
 	.string "featuring Pokémon.$"
@@ -221,7 +221,7 @@ LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfGrassPokemon:
 
 LilycoveCity_LilycoveMuseum_1F_Text_PaintingOfBerries:
 	.string "It's a delicious-looking painting\n"
-	.string "of BERRIES.\p"
+	.string "of Berries\p"
 	.string "This painting could make you hungry!$"
 
 LilycoveCity_LilycoveMuseum_Text_BirdPokemonSculptureReplica:

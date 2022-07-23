@@ -743,7 +743,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
 	.string "I hope you didn't use it all up here…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyShowMeFrontierPass:
-	.string "LUCY: … … … … … …\n"
+	.string "Lucy: … … … … … …\n"
 	.string "Show me your Frontier Pass…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
@@ -755,7 +755,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
 	.string "Disappear already…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
-	.string "LUCY: …You again…\p"
+	.string "Lucy: …You again…\p"
 	.string "… … … … … …\p"
 	.string "…I've trampled flowers and braved\n"
 	.string "storms to get to where I am…\p"
@@ -769,7 +769,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_NowComeOn:
 	.string "Come on!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyFrontierPass:
-	.string "LUCY: … … … … … …\p"
+	.string "Lucy: … … … … … …\p"
 	.string "…Frontier Pass…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LuckSymbolTookGoldenShine:
