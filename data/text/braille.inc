@@ -4,7 +4,7 @@
 @       section by editing ScrCmd_braillemessage.
 Underwater_SealedChamber_Braille_GoUpHere:
 	brailleformat 4, 6, 26, 13, 7, 9
-	.braille "Go up here.$"
+	.braille "GO UP HERE.$"
 
 SealedChamber_OuterRoom_Braille_ABC:
 	brailleformat 7, 6, 21, 13, 10, 9
@@ -48,70 +48,71 @@ SealedChamber_OuterRoom_Braille_Comma:
 
 SealedChamber_OuterRoom_Braille_DigHere:
 	brailleformat 7, 4, 23, 15, 10, 7
-	.braille "Dig here.$"
+	.braille "DIG HERE.$"
 
 SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth:
 	brailleformat 0, 0, 29, 19, 3, 3
-	.braille "First comes\n"
-	.braille "Wailord.\n"
-	.braille "Last comes\n"
-	.braille "Relicanth.$"
+	.braille "FIRST COMES\n"
+	.braille "WAILORD.\n"
+	.braille "LAST COMES\n"
+	.braille "RELICANTH.$"
 
 SealedChamber_InnerRoom_Braille_InThisCaveWeHaveLived:
 	brailleformat 2, 0, 26, 19, 5, 3
-	.braille "In this\n"
-	.braille "Cave we\n"
-	.braille "Have\n"
-	.braille "Lived.$"
+	.braille "IN THIS\n"
+	.braille "CAVE WE\n"
+	.braille "HAVE\n"
+	.braille "LIVED.$"
 
 SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon:
 	brailleformat 7, 2, 23, 17, 10, 5
-	.braille "We owe all\n"
-	.braille "To the\n"
-	.braille "Pokémon.$"
+	.braille "WE OWE ALL\n"
+	.braille "TO THE\n"
+	.braille "POKEMON.$"
 
 SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway:
 	brailleformat 3, 0, 25, 19, 6, 3
-	.braille "But, we\n"
-	.braille "Sealed the\n"
-	.braille "Pokémon\n"
-	.braille "Away.$"
+	.braille "BUT, WE\n"
+	.braille "SEALED THE\n"
+	.braille "POKEMON\n"
+	.braille "AWAY.$"
 
 SealedChamber_InnerRoom_Braille_WeFearedIt:
 	brailleformat 5, 6, 25, 13, 8, 9
-	.braille "We feared it.$"
+	.braille "WE FEARED IT.$"
 
 SealedChamber_InnerRoom_Braille_ThoseWithCourageHope:
 	brailleformat 6, 0, 24, 19, 9, 3
-	.braille "Those with\n"
-	.braille "Courage,\n"
-	.braille "Those with\n"
-	.braille "Hope.$"
+	.braille "THOSE WITH\n"
+	.braille "COURAGE,\n"
+	.braille "THOSE WITH\n"
+	.braille "HOPE.$"
 
 SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits:
 	brailleformat 3, 2, 27, 17, 6, 5
-	.braille "Open a door.\n"
-	.braille "An eternal\n"
-	.braille "Pokémon\n"
-	.braille "Waits.$"
+	.braille "OPEN A DOOR.\n"
+	.braille "AN ETERNAL\n"
+	.braille "POKEMON\n"
+	.braille "WAITS.$"
 
 DesertRuins_Braille_UseRockSmash:
 	brailleformat 1, 0, 27, 19, 4, 3
-	.braille "Left, left,\n"
-	.braille "Down, down.\n"
-	.braille "Then, use\n"
-	.braille "Rock Smash.$"
+	.braille "LEFT, LEFT,\n"
+	.braille "DOWN, DOWN.\n"
+	.braille "THEN, USE\n"
+	.braille "ROCK SMASH.$"
 
 IslandCave_Braille_RunLapAroundWall:
 	brailleformat 5, 0, 25, 19, 8, 3
-	.braille "Stay close\n"
-	.braille "To the wall.\n"
-	.braille "Run around\n"
-	.braille "One lap.$"
+	.braille "STAY CLOSE\n"
+	.braille "TO THE WALL.\n"
+	.braille "RUN AROUND\n"
+	.braille "ONE LAP.$"
 
 AncientTomb_Braille_ShineInTheMiddle:
 	brailleformat 3, 0, 25, 19, 6, 3
-	.braille "Those who\n"
-	.braille "Inherit our\n"
-	.braille "Will, shine\n"
-	.braille "In the middle.$"
+	.braille "THOSE WHO\n"
+	.braille "INHERIT OUR\n"
+	.braille "WILL, SHINE\n"
+	.braille "IN THE MIDDLE.$"
+	

@@ -89,7 +89,7 @@ PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "{PLAYER}{KUN}! Please excuse us for\n"
 	.string "dragging you here this way.\p"
-	.string "But our WALLY's become very healthy\n"
+	.string "But our Wally's become very healthy\n"
 	.string "since he went to Verdanturf Town.\p"
 	.string "We owe it all to you!\p"
 	.string "When WALLY left town, you helped\n"
@@ -108,7 +108,7 @@ PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
 	.string "able to go to all sorts of places.$"
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
-	.string "WALLY's coming home soon.\n"
+	.string "Wally's coming home soon.\n"
 	.string "I'm looking forward to that.$"
 
 PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:

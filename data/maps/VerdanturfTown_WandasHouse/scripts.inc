@@ -101,23 +101,23 @@ VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
 	.string "to another battle.$"
 
 VerdanturfTown_WandasHouse_Text_WallysNextDoor:
-	.string "UNCLE: Oh! {PLAYER}{KUN}!\n"
-	.string "WALLY's next door.\p"
+	.string "Uncle: Oh! {PLAYER}{KUN}!\n"
+	.string "Wally's next door.\p"
 	.string "But, boy, there's something I have to\n"
 	.string "tell you.\p"
 	.string "This natural environment is doing\n"
-	.string "wonders for WALLY's health.\p"
+	.string "wonders for Wally's health.\p"
 	.string "Maybe it's not just the environment.\n"
 	.string "It could be Pokémon that are giving\l"
 	.string "the boy hope.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
-	.string "WALLY's gone away…\n"
+	.string "Wally's gone away…\n"
 	.string "He slipped off on his own…$"
 
 VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
-	.string "UNCLE: Is that right?\n"
-	.string "WALLY's gone away that far all by\l"
+	.string "Uncle: Is that right?\n"
+	.string "Wally's gone away that far all by\l"
 	.string "himself…\p"
 	.string "Well, I have to give him credit--he is\n"
 	.string "my little brother's son.$"
@@ -127,9 +127,9 @@ VerdanturfTown_WandasHouse_Text_MeetWanda:
 	.string "Oh, right, I get it!\p"
 	.string "You're the {PLAYER} who WALLY was\n"
 	.string "telling me about.\p"
-	.string "I'm WALLY's cousin.\n"
+	.string "I'm Wally's cousin.\n"
 	.string "Glad to meet you!\p"
-	.string "I think WALLY's become a lot more lively\n"
+	.string "I think Wally's become a lot more lively\n"
 	.string "and healthy since he came here.$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
